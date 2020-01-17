@@ -1,3 +1,48 @@
+@keyframes mymove {
+    0% {
+        transform: translateX(-80%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(-60%);
+        opacity: 1;
+    }
+}
+
+@keyframes mymove2 {
+    0% {
+        transform: translateX(0%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(-40%);
+        opacity: 1;
+    }
+}
+
+@keyframes img-surabaya-animasi {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@font-face {
+    font-family: 'Philosopher-Bold';
+    src: url('src/font/Philosopher-Bold.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('src/font/Montserrat.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     font-size: 10px;
 }
@@ -35,7 +80,7 @@ html {
 
 .header>ul>li>a {
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat;
 }
 
 .header>ul>li>a:hover {
@@ -104,42 +149,6 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-@keyframes mymove {
-    0% {
-        transform: translateX(-80%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(-60%);
-        opacity: 1;
-    }
-}
-
-@keyframes mymove2 {
-    0% {
-        transform: translateX(0%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(-40%);
-        opacity: 1;
-    }
-}
-
-@font-face {
-    font-family: 'Philosopher-Bold';
-    src: url('Philosopher-Bold.woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('Montserrat.woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .img-surabaya img {
     width: 100%;
     height: auto;
@@ -150,15 +159,6 @@ html {
     animation-timing-function: ease-out;
     animation-direction: alternate;
     animation-fill-mode: forwards;
-}
-
-@keyframes img-surabaya-animasi {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
 }
 
 .intro {
