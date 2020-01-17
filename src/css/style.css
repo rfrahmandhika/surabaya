@@ -183,7 +183,7 @@ html {
     border: 0 solid black;
     margin: 0;
     padding: 0;
-    max-width: 1920px;
+    max-width: 192rem;
 }
 
 .info>h1 {
@@ -211,8 +211,8 @@ html {
 .carousel-cell {
     width: 26%;
     height: 25rem;
-    margin-right: 10px;
-    border-radius: 5px;
+    margin-right: 1rem;
+    border-radius: .5rem;
     counter-increment: carousel-cell;
 }
 
@@ -243,8 +243,8 @@ html {
 
 .berita {
     border: 0 solid black;
-    max-width: 1920px;
-    padding-top: 100px;
+    max-width: 192rem;
+    padding-top: 10rem;
 }
 
 .berita>h1 {
@@ -252,21 +252,21 @@ html {
     color: darkcyan;
     font-family: Montserrat;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .berita-isi {
-    height: 500px;
+    height: 50rem;
 }
 
 .img-berita {
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-top: 5rem;
+    padding-left: 5rem;
 }
 
 .img-berita img {
     width: 65%;
-    height: 200px;
+    height: 50%;
     -webkit-transition: all 1s ease;
     /* Safari and Chrome */
     -moz-transition: all 1s ease;
@@ -291,12 +291,12 @@ html {
 }
 
 .judul-berita {
-    border-right: 2px solid darkgray;
+    border-right: .2rem solid darkgray;
 }
 
 .judul-berita h2 {
     border: 0 solid black;
-    margin-top: 50px;
+    margin-top: 5rem;
     color: saddlebrown;
     font-family: 'Montserrat', sans-serif;
 }
@@ -354,7 +354,7 @@ html {
 .viewmore>a {
     display: block;
     color: #fff;
-    padding: 10px;
+    padding: 1rem;
 }
 
 @media (max-width: 1200px) {
@@ -406,7 +406,7 @@ html {
     position: absolute;
     z-index: 10;
     background-color: white;
-    margin-top: 20px;
-    height: 15px;
-    max-width: 1920px;
+    margin-top: 2rem;
+    height: 1.5rem;
+    max-width: 192rem;
 }
