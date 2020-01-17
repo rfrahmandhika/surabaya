@@ -21,22 +21,21 @@ html {
 .header>ul {
     width: 70%;
     border: 0 solid black;
-    background-color: aliceblue;
 }
 
 .header>ul>li {
-    margin-right: 80px;
+    margin-right: 8rem;
     list-style-type: none;
     border: 0 solid black;
     width: 20%;
-    font-size: 15px;
-    font-family: Montserrat;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
 }
 
 .header>ul>li>a {
     color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header>ul>li>a:hover {
@@ -102,7 +101,7 @@ html {
     animation-fill-mode: forwards;
     animation-delay: 1s;
     opacity: 0;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @keyframes mymove {
@@ -167,8 +166,8 @@ html {
 }
 
 .lanjut {
-    height: 50px;
-    width: 50px;
+    height: 5rem;
+    width: 5rem;
     top: 50%;
     background-color: darkorange;
     transform: translateY(-50%);
@@ -189,12 +188,12 @@ html {
 
 .info>h1 {
     line-height: 100%;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
     color: saddlebrown;
     font-weight: bold;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .judul-info>a {
@@ -211,7 +210,7 @@ html {
 
 .carousel-cell {
     width: 26%;
-    height: 250px;
+    height: 25rem;
     margin-right: 10px;
     border-radius: 5px;
     counter-increment: carousel-cell;
@@ -299,7 +298,7 @@ html {
     border: 0 solid black;
     margin-top: 50px;
     color: saddlebrown;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .img-each {
