@@ -31,14 +31,14 @@
 
 @font-face {
     font-family: 'Philosopher-Bold';
-    src: url('src/font/Philosopher-Bold.woff');
+    src: url('../../src/font/Philosopher-Bold.woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('src/font/Montserrat.woff');
+    src: url('../../src/font/Montserrat.woff');
     font-weight: normal;
     font-style: normal;
 }
