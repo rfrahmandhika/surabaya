@@ -89,8 +89,7 @@ html {
 }
 
 .header>ul>li>a:hover {
-    text-decoration: line-through;
-    text-decoration-color: #00818e;
+    border-bottom: 3px solid #00818e ;
 }
 
 .header>ul>li>a.active{
@@ -123,7 +122,7 @@ html {
     top: 40%;
     left: 50%;
     font-size: 6vw;
-    color: darkorange;
+    color: #ea5f00;
     animation-name: mymove;
     animation-duration: .9s;
     animation-iteration-count: 1;
@@ -174,7 +173,7 @@ html {
     height: 5rem;
     width: 5rem;
     top: 50%;
-    background-color: darkorange;
+    background-color: #ea5f00;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     opacity: 1 !important;
@@ -397,7 +396,7 @@ html {
 .judul-berita h2 {
     border: 0 solid black;
     margin-top: 5rem;
-    color: saddlebrown;
+    color: #562f00;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -494,7 +493,7 @@ html {
         max-width: 1920px;
         line-height: 100%;
         text-align: center;
-        color: saddlebrown;
+        color: #562f00;
         font-weight: bold;
     }
 }
