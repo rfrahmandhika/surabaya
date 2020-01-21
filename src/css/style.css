@@ -223,6 +223,34 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
+.pelayanan>.row>.col-lg-6>p {
+    font-size: 1.6rem;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profil>.row>.col-lg-6>p {
+    font-size: 1.6rem;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.informasi>.row>.col-lg-6>p {
+    font-size: 1.6rem;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.komik>.row>.col-lg-6>p {
+    font-size: 1.6rem;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .info>.row>.col-lg-6>button{
     font-size: 1.5rem;
     width: 32rem;
@@ -252,7 +280,32 @@ html {
 }
 
 .btn-info-penting>button {
-    right: 0;
+    float: right;
+    margin-right: 3rem
+}
+
+.komik>.row>.col-lg-6>button:hover{
+    background-color:  #11aa89;
+}
+
+.komik>.row>.col-lg-6>button{
+    font-size: 1.5rem;
+    width: 32rem;
+    height: 5rem;
+    border-radius: .6rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00818e;
+    border: none;
+}
+
+.btn-berita>button {
+    float: right;
+    margin-right: 3rem
+}
+
+.btn-komik>button {
+    float: right;
+    margin-right: 3rem
 }
 
 .judul-info>a {
@@ -403,6 +456,102 @@ html {
 }
 
 .berita>hr {
+    width: 3%;
+    border: 3px solid #ea5f00;
+    float: left;
+    margin-left: 5rem;
+}
+
+.profil {
+    border: 0 solid black;
+    max-width: 192rem;
+    padding-top: 2rem;
+}
+
+.profil>h1 {
+    margin-left: 5rem;
+    font-weight: bold;
+    color: #00818e;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.8rem;
+    letter-spacing:.5rem;
+    text-shadow: 2px 0 #00818e;
+}
+
+.profil>hr {
+    width: 3%;
+    border: 3px solid #ea5f00;
+    float: left;
+    margin-left: 5rem;
+}
+
+.pelayanan {
+    border: 0 solid black;
+    max-width: 192rem;
+    padding-top: 2rem;
+}
+
+.pelayanan>h1 {
+    margin-left: 5rem;
+    font-weight: bold;
+    color: #00818e;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.8rem;
+    letter-spacing:.5rem;
+    text-shadow: 2px 0 #00818e;
+}
+
+.pelayanan>hr {
+    width: 3%;
+    border: 3px solid #ea5f00;
+    float: left;
+    margin-left: 5rem;
+}
+
+.informasi {
+    border: 0 solid black;
+    max-width: 192rem;
+    padding-top: 2rem;
+}
+
+.informasi>h1 {
+    margin-left: 5rem;
+    font-weight: bold;
+    color: #00818e;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.8rem;
+    letter-spacing:.5rem;
+    text-shadow: 2px 0 #00818e;
+}
+
+.informasi>hr {
+    width: 3%;
+    border: 3px solid #ea5f00;
+    float: left;
+    margin-left: 5rem;
+}
+
+.komik {
+    border: 0 solid black;
+    max-width: 192rem;
+    padding-top: 2rem;
+}
+
+.komik>h1 {
+    margin-left: 5rem;
+    font-weight: bold;
+    color: #00818e;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.8rem;
+    letter-spacing:.5rem;
+    text-shadow: 2px 0 #00818e;
+}
+
+.komik>hr {
     width: 3%;
     border: 3px solid #ea5f00;
     float: left;
