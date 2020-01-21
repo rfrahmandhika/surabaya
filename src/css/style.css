@@ -197,7 +197,7 @@ html {
     color: #00818e;
     font-weight: bold;
     font-size: 3.8rem;
-    letter-spacing:1px;
+    letter-spacing:.5rem;
     text-shadow: 2px 0 #00818e;
     font-family: 'Montserrat', sans-serif;
 }
@@ -207,7 +207,52 @@ html {
     border: 3px solid #ea5f00;
     float: left;
     margin-left: 5rem;
-    margin-bottom: 10rem;
+}
+
+.info>.row>.col-lg-6>p {
+    font-size: 1.6rem;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.berita>.row>.col-lg-6>p {
+    font-size: 1.6rem;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info>.row>.col-lg-6>button{
+    font-size: 1.5rem;
+    width: 32rem;
+    height: 5rem;
+    border-radius: .6rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00818e;
+    border: none;
+}
+
+.info>.row>.col-lg-6>button:hover {
+    background-color: #11aa89;
+}
+
+.berita>.row>.col-lg-6>button{
+    font-size: 1.5rem;
+    width: 32rem;
+    height: 5rem;
+    border-radius: .6rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00818e;
+    border: none;
+}
+
+.berita>.row>.col-lg-6>button:hover{
+    background-color:  #11aa89;
+}
+
+.btn-info-penting>button {
+    right: 0;
 }
 
 .judul-info>a {
@@ -343,15 +388,25 @@ html {
 .berita {
     border: 0 solid black;
     max-width: 192rem;
-    padding-top: 10rem;
+    padding-top: 2rem;
 }
 
 .berita>h1 {
+    margin-left: 5rem;
     font-weight: bold;
-    color: darkcyan;
-    font-family: Montserrat;
-    text-align: center;
-    margin-bottom: 3rem;
+    color: #00818e;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.8rem;
+    letter-spacing:.5rem;
+    text-shadow: 2px 0 #00818e;
+}
+
+.berita>hr {
+    width: 3%;
+    border: 3px solid #ea5f00;
+    float: left;
+    margin-left: 5rem;
 }
 
 .berita-isi {
