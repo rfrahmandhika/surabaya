@@ -635,11 +635,6 @@ html {
     transition: opacity .2s, visibility .2s, all .2s;
 }
 
-.img-each:hover .overlay {
-    visibility: visible;
-    opacity: 2;
-}
-
 .viewmore {
     transition: all .3s;
     transform: translateY(1em);
@@ -658,6 +653,10 @@ html {
     display: block;
     color: #fff;
     padding: 1rem;
+}
+
+.list-komik {
+    padding: 5.8rem;
 }
 
 @media (max-width: 1200px) {
