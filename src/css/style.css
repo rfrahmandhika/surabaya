@@ -863,6 +863,7 @@ html {
     background-color: #00818e;
     bottom: 0;
     position: relative;
+    margin-top: 4rem;
 }
 
 .flex-center {
@@ -963,6 +964,14 @@ html {
     /*align-items: center;*/
     padding: 2rem;
     font-size: small;
+}
+
+.btn-selengkapnya {
+    background-color:  #fd7e14;
+    color: white;
+    width: 40%;
+    height: 20%;
+    font-size: 1vw;
 }
 
 .berita-isi-konten>.berita-kanan {
