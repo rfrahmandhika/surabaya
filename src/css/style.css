@@ -69,7 +69,6 @@ html {
     margin-top: 3rem;
     margin-left: 5rem;
     height: 8rem;
-    width: 100%;
 }
 
 .header>ul {
@@ -239,12 +238,12 @@ html {
 
 .info>h1 {
     line-height: 100%;
-    margin-left: 5rem;
+    padding-left: 5rem;
     margin-top: 5rem;
     color: #00818e;
     font-weight: bold;
-    font-size: 2.2vw;
-    letter-spacing:.5rem;
+    font-size: 2.3vw;
+    letter-spacing: .5rem;
     text-shadow: 2px 0 #00818e;
     font-family: 'Montserrat', sans-serif;
 }
@@ -257,51 +256,51 @@ html {
 }
 
 .info>.row>.col-lg-6>p {
-    font-size: 1vw;
+    font-size: 1.1vw;
     text-align: justify;
-    padding-left: 5rem;
+    margin-left: 5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .berita>.row>.col-lg-6>p {
-    font-size: 1vw;
+    font-size: 1.1vw;
     text-align: justify;
-    padding-left: 5rem;
+    margin-left: 5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .pelayanan>.row>.col-lg-6>p {
-    font-size: 1vw;
+    font-size: 1.1vw;
     text-align: justify;
-    padding-left: 5rem;
+    margin-left: 5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .profil>.row>.col-lg-6>p {
-    font-size: 1vw;
+    font-size: 1.1vw;
     text-align: justify;
-    padding-left: 5rem;
+    margin-left: 5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .informasi>.row>.col-lg-6>p {
-    font-size: 1vw;
+    font-size: 1.1vw;
     text-align: justify;
-    padding-left: 5rem;
+    margin-left: 5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .komik>.row>.col-lg-6>p {
-    font-size: 1vw;
+    font-size: 1.1vw;
     text-align: justify;
-    padding-left: 5rem;
+    margin-left: 5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
-.info>.row>.col-lg-6>button{
-    font-size: 1vw;
+.info>.row>.col-lg-6>button {
+    font-size: 1.1vw;
     width: 40%;
-    height: 95%;
+    height: 90%;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #00818e;
@@ -312,10 +311,10 @@ html {
     background-color: #11aa89;
 }
 
-.berita>.row>.col-lg-6>button{
-    font-size: 1vw;
+.berita>.row>.col-lg-6>button {
+    font-size: 1.1vw;
     width: 40%;
-    height: 150%;
+    height: 145%;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #00818e;
@@ -328,16 +327,17 @@ html {
 
 .btn-info-penting>button {
     float: right;
+    margin-right: 3rem;
 }
 
 .komik>.row>.col-lg-6>button:hover {
     background-color: #11aa89;
 }
 
-.komik>.row>.col-lg-6>button{
-    font-size: 1vw;
+.komik>.row>.col-lg-6>button {
+    font-size: 1.1vw;
     width: 40%;
-    height: 95%;
+    height: 90%;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #00818e;
@@ -346,10 +346,12 @@ html {
 
 .btn-berita>button {
     float: right;
+    padding-right: 3rem;
 }
 
 .btn-komik>button {
     float: right;
+    margin-right: 3rem;
 }
 
 .judul-info>a {
@@ -387,7 +389,7 @@ html {
     transition: 450ms all;
     -webkit-transform-origin: center left;
     transform-origin: center left;
-    box-shadow: 5px 5px 5px 1px grey;
+    /* box-shadow: 5px 5px 5px 1px grey; */
 }
 
 .tile__img {
@@ -563,8 +565,8 @@ html {
     color: #00818e;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 2.2vw;
-    letter-spacing:.5rem;
+    font-size: 2.3vw;
+    letter-spacing: .5rem;
     text-shadow: 2px 0 #00818e;
 }
 
@@ -582,13 +584,13 @@ html {
 }
 
 .profil>h1 {
-    padding-left: 4.7rem;
+    margin-left: 5rem;
     font-weight: bold;
     color: #00818e;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 2.2vw;
-    letter-spacing:.5rem;
+    font-size: 2.3vw;
+    letter-spacing: .5rem;
     text-shadow: 2px 0 #00818e;
 }
 
@@ -611,8 +613,8 @@ html {
     color: #00818e;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 2.2vw;
-    letter-spacing:.5rem;
+    font-size: 2.3vw;
+    letter-spacing: .5rem;
     text-shadow: 2px 0 #00818e;
 }
 
@@ -635,8 +637,8 @@ html {
     color: #00818e;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 2.2vw;
-    letter-spacing:.5rem;
+    font-size: 2.3vw;
+    letter-spacing: .5rem;
     text-shadow: 2px 0 #00818e;
 }
 
@@ -653,14 +655,18 @@ html {
     padding-top: 2rem;
 }
 
+.komik_detail {
+    padding: 5rem;
+}
+
 .komik>h1 {
     margin-left: 5rem;
     font-weight: bold;
     color: #00818e;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 2.2vw;
-    letter-spacing:.5rem;
+    font-size: 2.3vw;
+    letter-spacing: .5rem;
     text-shadow: 2px 0 #00818e;
 }
 
@@ -717,87 +723,6 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-.img-each {
-    position: relative;
-    overflow: hidden;
-    border-radius: 0;
-    transition: transform .2s;
-}
-
-.img-each>img {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* transition effect. not necessary */
-    transition: opacity .2s, visibility .2s, all .2s;
-}
-
-.viewmore {
-    transition: all .3s;
-    transform: translateY(1em);
-    width: 100%;
-}
-
-.viewmore>a:hover {
-    text-decoration: none;
-}
-
-.img-each:hover .viewmore {
-    transform: translateY(1);
-}
-
-.viewmore>a {
-    display: block;
-    color: #fff;
-    padding: 1rem;
-}
-
-.list-komik {
-    padding: 5.8rem;
-}
-
-.image_desc {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(29, 106, 154, 0.72);
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
-  
-    /* transition effect. not necessary */
-    transition: opacity .2s, visibility .2s;
-}
-
-.img-komik>img:hover .image_desc {
-    visibility: visible;
-    opacity: 1;
-}
-
-.navigation {
-    width:40%;
-    height: 30%;
-    background-color: grey;
-}
-
 @media (max-width: 1200px) {
     .header {
         display: none;
@@ -839,7 +764,6 @@ html {
         font-weight: bold;
     }
 }
-
 
 /* isi-berita */
 
@@ -978,7 +902,7 @@ html {
 
 .berita-intro {
     /*border:1px solid #000000;*/
-    margin-top: 5rem;
+    padding: 3.4rem;
 }
 
 .berita-intro>.berita-konten {
