@@ -182,24 +182,6 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-.teks-surabaya-2 {
-    position: absolute;
-    width: 45%;
-    top: 62%;
-    left: 70%;
-    font-size: 1.5rem;
-    color: #562f00;
-    animation-name: mymove2;
-    animation-duration: 1.3s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-out;
-    animation-direction: alternate;
-    animation-fill-mode: forwards;
-    animation-delay: 1s;
-    opacity: 0;
-    font-family: 'Montserrat', sans-serif;
-}
-
 .img-surabaya img {
     width: 100%;
     height: auto;
@@ -734,23 +716,6 @@ html {
     height: 100%;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* transition effect. not necessary */
-    transition: opacity .2s, visibility .2s, all .2s;
-}
-
 .viewmore {
     transition: all .3s;
     transform: translateY(1em);
@@ -981,7 +946,7 @@ html {
 
 .berita-intro {
     /*border:1px solid #000000;*/
-    margin-top: 5rem;
+    padding: 3.3rem;
 }
 
 .berita-intro>.berita-konten {
