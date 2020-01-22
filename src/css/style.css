@@ -343,10 +343,7 @@ html {
 }
 
 #row {
-    scroll-snap-type: x mandatory;
-    display: flex;
-    -webkit-overflow-scrolling: touch;
-    overflow-x: scroll;
+    overflow-x: hidden;
     width: 100%;
 }
 
@@ -1034,4 +1031,67 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+}
+
+
+/* KOMIK */
+
+.overlay-komik {
+    /*border:1px solid red;*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: rgba(3, 205, 202, 0.9);
+    /* transition effect. not necessary */
+    transition: opacity .1s, visibility .4s, all .2s;
+}
+
+.img-each:hover .overlay-komik {
+    visibility: visible;
+    opacity: 1;
+}
+
+.viewmore-komik {
+    transition: all .3s;
+    transform: translateY(.1em);
+    width: 100%;
+    height: 4rem;
+    /*border:1px solid red;*/
+    white-space: normal !important;
+}
+
+.viewmore-komik>a:hover {
+    text-decoration: none;
+}
+
+.img-each:hover .viewmore-komik {
+    transform: translateY(.1);
+}
+
+.viewmore-komik>a {
+    display: block;
+    color: #fff;
+    position: relative;
+    height: 100%;
+    /*border:1px solid red;*/
+}
+
+.viewmore-komik>a>.judul-komik {
+    position: absolute;
+    font-size: 20px;
+}
+
+.overlay-komik>.judul-komik {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

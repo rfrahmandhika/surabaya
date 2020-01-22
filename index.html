@@ -439,7 +439,6 @@
                 </div>
             </div>
         </div>
-
         <div class="container profil">
             <h1>PROFIL</h1>
             <hr>
@@ -511,6 +510,58 @@
                         <a href="#" class="d-block mb-4 h-100">
                             <img class="img-fluid" src="src/images/comic1.png" />
                         </a>
+                    </div>
+                </div>
+                <div class="row list-komik">
+                    <div class="row komik_detail">
+                        <div class="col-lg-3 col-md-4 col-6 mx-auto">
+                            <div class="img-each">
+                                <a href="#">
+                                    <img class="img-fluid" src="src/images/comic1.png" />
+                                    <div class="overlay-komik">
+                                        <div class="viewmore-komik judul-komik">
+                                            <span>Tips Berkendara Saat Musim Hujan</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6 mx-auto">
+                            <div class="img-each">
+                                <a href="#">
+                                    <img class="img-fluid" src="src/images/comic1.png" />
+                                    <div class="overlay-komik">
+                                        <div class="viewmore-komik judul-komik">
+                                            <span>Tips Berkendara Saat Musim Hujan</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6 mx-auto">
+                            <div class="img-each">
+                                <a href="#">
+                                    <img class="img-fluid" src="src/images/comic1.png" />
+                                    <div class="overlay-komik">
+                                        <div class="viewmore-komik judul-komik">
+                                            <span>Tips Berkendara Saat Musim Hujan</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6 mx-auto">
+                            <div class="img-each">
+                                <a href="#">
+                                    <img class="img-fluid" src="src/images/comic1.png" />
+                                    <div class="overlay-komik">
+                                        <div class="viewmore-komik judul-komik">
+                                            <span>Tips Berkendara Saat Musim Hujan</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -600,6 +651,7 @@
                     if (scroll > max_scroll) scroll = max_scroll;
                     $('#row').scrollLeft(scroll);
                 }
+                window.requestAnimationFrame(updatescroll);
             }
             $("#speed").html('Speed: ' + speed);
             $("#scroll").html('Scroll: ' + scroll);
@@ -642,7 +694,7 @@
             }
 
             const init = function() {
-                let items = document.querySelectorAll('section');
+                let items = document.querySelectorAll('#row');
                 for (let i = 0; i < items.length; i++) {
                     items[i].style.background = randomColor({
                         luminosity: 'light'
