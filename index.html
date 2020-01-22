@@ -2,11 +2,10 @@
 <html lang="en">
 
 <head>
-    <title>Desain</title>
+    <title>Pemerintah Kota Surabaya</title>
     <link rel="stylesheet" type="text/css" href="src/css/sidr.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.sidr/2.2.1/stylesheets/jquery.sidr.light.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="src/css/style.css">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -17,17 +16,20 @@
 
 <body>
     <div class="container-fluid intro">
-        <div class="container header">
+        <div class="container header" id="menu">
             <img src="src/images/logo.jpg" class="mr-5" alt="" width="220" height="50">
-            <ul class="nav">
+            <ul class="nav" id="myMenu">
                 <li class="nav-item" align="center">
-                    <a class="nav-link align-middle" href="#" align="center">Profil</a>
+                    <a class="nav-link active" href="#">Profil</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" align="center">
                     <a class="nav-link" href="#">Pelayanan</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" align="center">
                     <a class="nav-link" href="#">Informasi</a>
+                </li>
+                <li class="nav-item" align="center">
+                    <a class="nav-link" href="#">Komik</a>
                 </li>
             </ul>
         </div>
@@ -72,6 +74,7 @@
             <div class="col-md-6 img-surabaya">
                 <img src="src/images/bg_sby_polos.png">
                 <div class="teks-surabaya">Surabaya</div>
+                <div class="teks-surabaya-shadow">Surabaya</div>
                 <div class="teks-surabaya-2">Kota Sentosa, Berkarakter,<br> Berdaya Saing Global, Berbasis Ekologi</div>
             </div>
         </div>
@@ -82,215 +85,459 @@
             <h1>INFO PENTING</h1>
         </div>
         <h1>INFO<br>PENTING</h1>
+        <hr>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+            <div class="col-lg-6 text-right">
+                <button type="button" class="btn btn-secondary">Melihat semua info penting</button>
+            </div>
+        </div>
+
         <div id="row">
             <div class="row__inner">
                 <div class="tile">
                     <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-1.jpg" alt="" />
-                    </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                <div class="tile">
-                    <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-2.jpg" alt="" />
-                    </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
+        <div class="container berita ">
+            <h1>BERITA</h1>
+            <hr>
+            </br>
+            </br>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+                <div class="col-lg-6 btn-info-penting">
+                    <button type="button" class="btn btn-secondary">Melihat semua berita</button>
+                </div>
+            </div>
+            <div class="container-fluid berita-intro">
+                <div class="container berita-konten">
+                    <div class="row berita-isi-konten">
+                        <div class="col-md-8 berita-slider-intro">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row berita-slide-konten">
+                                            <div class="col-md-5 slide-konten-img">
+                                                <img src="src/images/img2.jpg" class="img-fluid" height="500px" alt="Responsive image">
+                                            </div>
+                                            <div class="col-md-7 slide-konten-desc">
+                                                <div class="col-md-12 slide-judul-desc">
+                                                    <h1>
+                                                        <p>Antisipasi Menghadapi Cuaca Ekstrem</p>
+                                                    </h1>
+                                                </div>
+                                                <div class="col-md-12 slide-isi-desc">
+                                                    <p>
+                                                        Lorem Isum is Simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standart dummy text ever sine the 1500s, when an unknown printer took a gallery of type and scrambled it to make a type specimen book
+                                                    </p>
+                                                    <span class="align-text-bottom">23.12.19 | 22 menit yang lalu | Oleh : John Lennon</span>
+                                                </div>
+                                            </div>
+                                            < </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="row berita-slide-konten">
+                                                <div class="col-md-5 slide-konten-img">
+                                                    <img src="src/images/img3.jpg" class="img-fluid" height="500px" alt="Responsive image">
+                                                </div>
+                                                <div class="col-md-7 slide-konten-desc">
+                                                    <div class="col-md-12 slide-judul-desc">
+                                                        <h1>
+                                                            <p>Antisipasi Menghadapi Cuaca Ekstrem</p>
+                                                        </h1>
+                                                    </div>
+                                                    <div class="col-md-12 slide-isi-desc">
+                                                        <p>
+                                                            Lorem Isum is Simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standart dummy text ever sine the 1500s, when an unknown printer took a gallery of type and scrambled it to make a type specimen book
+                                                        </p>
+                                                        <br>
+                                                        <span class="align-text-bottom">23.12.19 | 22 menit yang lalu | Oleh : John Lennon</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="row berita-slide-konten">
+                                                <div class="col-md-5 slide-konten-img">
+                                                    <img src="src/images/img1.jpg" class="img-fluid" height="500px" alt="Responsive image">
+                                                </div>
+                                                <div class="col-md-7 slide-konten-desc">
+                                                    <div class="col-md-12 slide-judul-desc">
+                                                        <h1>
+                                                            <p>Antisipasi Menghadapi Cuaca Ekstrem</p>
+                                                        </h1>
+                                                    </div>
+                                                    <div class="col-md-12 slide-isi-desc">
+                                                        <p>
+                                                            Lorem Isum is Simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standart dummy text ever sine the 1500s, when an unknown printer took a gallery of type and scrambled it to make a type specimen book
+                                                        </p>
+                                                        <span class="align-text-bottom">23.12.19 | 22 menit yang lalu | Oleh : John Lennon</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4" style="border-left:2px solid grey;">
+                                <img src="src/images/kanan.PNG">
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="tile">
-                    <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-3.jpg" alt="" />
-                    </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
-                        </div>
+            <div class="container profil">
+                <h1>PROFIL</h1>
+                <hr>
+                </br>
+                </br>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     </div>
                 </div>
+            </div>
 
-                <div class="tile">
-                    <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-4.jpg" alt="" />
-                    </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
-                        </div>
+            <div class="container pelayanan">
+                <h1>PELAYANAN</h1>
+                <hr>
+                </br>
+                </br>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     </div>
                 </div>
+            </div>
 
-                <div class="tile">
-                    <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-5.jpg" alt="" />
-                    </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
-                        </div>
+            <div class="container informasi">
+                <h1>INFORMASI</h1>
+                <hr>
+                </br>
+                </br>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     </div>
                 </div>
+            </div>
 
-                <div class="tile">
-                    <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-6.jpg" alt="" />
+            <div class="container komik">
+                <h1>KOMIK</h1>
+                <hr>
+                </br>
+                </br>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
-                        </div>
+                    <div class="col-lg-6 btn-komik">
+                        <button type="button" class="btn btn-secondary">Melihat semua komik</button>
                     </div>
                 </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="page-footer font-small indigo">
 
-                <div class="tile">
-                    <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-7.jpg" alt="" />
-                    </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
-                        </div>
-                    </div>
-                </div>
+            <!-- Footer Links -->
+            <div class="container">
 
-                <div class="tile">
-                    <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-8.jpg" alt="" />
-                    </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
-                        </div>
-                    </div>
-                </div>
-                <div class="tile">
-                    <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-9.jpg" alt="" />
-                    </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
-                        </div>
-                    </div>
-                </div>
+                <!-- Grid row-->
+                <div class="row logo-center d-flex justify-content-center pt-5 mb-3">
+                    <img src="src/images/info7.jpg" alt="">
 
-                <div class="tile">
-                    <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-10.jpg" alt="" />
-                    </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
-                        </div>
-                    </div>
-                </div>
 
-                <div class="tile">
-                    <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-11.jpg" alt="" />
-                    </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
-                        </div>
-                    </div>
                 </div>
+                <!-- Grid row-->
 
-                <div class="tile">
-                    <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-12.jpg" alt="" />
-                    </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
-                        </div>
-                    </div>
-                </div>
 
-                <div class="tile">
-                    <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-13.jpg" alt="" />
-                    </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
-                        </div>
-                    </div>
-                </div>
+                <!-- Grid row-->
+                <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
 
-                <div class="tile">
-                    <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-14.jpg" alt="" />
-                    </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
-                        </div>
-                    </div>
-                </div>
 
-                <div class="tile">
-                    <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-15.jpg" alt="" />
-                    </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
-                        </div>
-                    </div>
-                </div>
 
-                <div class="tile">
-                    <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-16.jpg" alt="" />
-                    </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
-                        </div>
-                    </div>
                 </div>
+                <!-- Grid row-->
+                <hr style="border: 1px solid white; background-color: white; width: 60rem;"></hr>
+                <p style="line-height: 3rem"></p>
 
-                <div class="tile">
-                    <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-17.jpg" alt="" />
-                    </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
-                        </div>
-                    </div>
-                </div>
+                <!-- Grid row-->
+                <div class="row pb-3">
 
-                <div class="tile">
-                    <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-18.jpg" alt="" />
-                    </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
-                        </div>
-                    </div>
-                </div>
+                    <!-- Grid column -->
+                    <div class="col-md-12 flex">
 
-                <div class="tile">
-                    <div class="tile__media">
-                        <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-19.jpg" alt="" />
-                    </div>
-                    <div class="tile__details">
-                        <div class="tile__title">
-                            Top Gear
+                        <div class="mb-5 flex-center">
+
+                            <!-- Facebook -->
+                            <a class="fb-ic">
+                                <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
+                                <img src="src/images/facebook-white.png" alt="">
+                            </a>
+                            <!-- Twitter -->
+                            <a class="tw-ic">
+                                <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
+                                <img src="src/images/twitter-white.png" alt="">
+                            </a>
+                            <!--Instagram-->
+                            <a class="ins-ic">
+                                <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
+                                <img src="src/images/instagram-white.png" alt="">
+                            </a>
+                            <!--Youtube-->
+                            <a class="ytb-ic">
+                                <i class="fab fa-youtube fa-lg white-text mr-4"> </i>
+                                <img src="src/images/youtube-white.png" alt="">
+                            </a>
+
                         </div>
+
                     </div>
+                    <!-- Grid column -->
+
                 </div>
+                <!-- Grid row-->
+
             </div>
             <script type="text/javascript">
                 var speed = 0;
@@ -299,47 +546,73 @@
                 var container_w = container.width();
                 var max_scroll = container[0].scrollWidth - container.outerWidth();
 
-                container.on('mousemove', function(e) {
-                    var mouse_x = e.pageX - container.offset().left;
-                    var mouseperc = 100 * mouse_x / container_w;
-                    speed = mouseperc - 66;
-                }).on('mouseleave', function() {
-                    speed = 0;
-                });
+            container.on('mousemove', function(e) {
+                var mouse_x = e.pageX - container.offset().left;
+                var mouseperc = 100 * mouse_x / container_w;
+                speed = mouseperc - 50;
+            }).on('mouseleave', function() {
+                speed = 0;
+            });
 
-                function updatescroll() {
-                    if (speed !== 0) {
-                        scroll += speed / 5;
-                        if (scroll < 0) scroll = 0;
-                        if (scroll > max_scroll) scroll = max_scroll;
-                        $('#row').scrollLeft(scroll);
-                    }
-                    $("#speed").html('Speed: ' + speed);
-                    $("#scroll").html('Scroll: ' + scroll);
-                    window.requestAnimationFrame(updatescroll);
+            function updatescroll() {
+                if (speed !== 0) {
+                    scroll += speed / 5;
+                    if (scroll < 0) scroll = 0;
+                    if (scroll > max_scroll) scroll = max_scroll;
+                    $('#row').scrollLeft(scroll);
                 }
-                window.requestAnimationFrame(updatescroll);
-            </script>
-        </div>
+            }
+            window.requestAnimationFrame(updatescroll);
 
-        <div class="container berita ">
-            <h1>BERITA</h1>
-            <div class="row berita-isi ">
-                <div class="col-md-4 img-berita ">
-                    <img src="src/images/img.jpg " />
-                </div>
-                <div class="col-md-4 judul-berita ">
-                    <h2>Judul Berita</h2>
-                </div>
-                <div class="col-md-4 ">
+            function getScrollTop() {
+                if (typeof window.pageYOffset !== "undefined") {
+                    // Most browsers
+                    return window.pageYOffset;
+                }
 
-                </div>
-            </div>
-        </div>
-        <div class="container footer ">
+                var d = document.documentElement;
+                if (typeof d.clientHeight !== "undefined") {
+                    // IE in standards mode
+                    return d.scrollTop;
+                }
 
-        </div>
-    </div>
+                // IE in quirks mode
+                return document.body.scrollTop;
+            }
+
+            window.onscroll = function() {
+                var box = document.getElementById("menu");
+                var scroll = getScrollTop();
+
+                if (scroll <= 28) {
+                    box.style.top = "10px";
+                    box.style.width = "100%"
+                } else {
+                    box.style.top = (scroll + 2) + "px";
+                }
+            };
+
+            var header = document.getElementById("myMenu");
+            var btns = header.getElementsByClassName("nav-link");
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function() {
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";
+                });
+            }
+
+            const init = function() {
+                let items = document.querySelectorAll('section');
+                for (let i = 0; i < items.length; i++) {
+                    items[i].style.background = randomColor({
+                        luminosity: 'light'
+                    });
+                }
+                cssScrollSnapPolyfill()
+            }
+            init();
+        </script>
 </body>
 
 </html>
