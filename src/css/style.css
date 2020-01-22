@@ -61,6 +61,7 @@ html {
     margin-top: 3rem;
     margin-left: 5rem;
     height: 8rem;
+    width: 100%;
 }
 
 .header>ul {
@@ -196,7 +197,7 @@ html {
     margin-top: 5rem;
     color: #00818e;
     font-weight: bold;
-    font-size: 3.8rem;
+    font-size: 2.2vw;
     letter-spacing:.5rem;
     text-shadow: 2px 0 #00818e;
     font-family: 'Montserrat', sans-serif;
@@ -210,51 +211,51 @@ html {
 }
 
 .info>.row>.col-lg-6>p {
-    font-size: 1.6rem;
+    font-size: 1vw;
     text-align: justify;
-    margin-left: 5rem;
+    padding-left: 5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .berita>.row>.col-lg-6>p {
-    font-size: 1.6rem;
+    font-size: 1vw;
     text-align: justify;
-    margin-left: 5rem;
+    padding-left: 5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .pelayanan>.row>.col-lg-6>p {
-    font-size: 1.6rem;
+    font-size: 1vw;
     text-align: justify;
-    margin-left: 5rem;
+    padding-left: 5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .profil>.row>.col-lg-6>p {
-    font-size: 1.6rem;
+    font-size: 1vw;
     text-align: justify;
-    margin-left: 5rem;
+    padding-left: 5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .informasi>.row>.col-lg-6>p {
-    font-size: 1.6rem;
+    font-size: 1vw;
     text-align: justify;
-    margin-left: 5rem;
+    padding-left: 5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .komik>.row>.col-lg-6>p {
-    font-size: 1.6rem;
+    font-size: 1vw;
     text-align: justify;
-    margin-left: 5rem;
+    padding-left: 5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .info>.row>.col-lg-6>button{
-    font-size: 1.5rem;
-    width: 32rem;
-    height: 5rem;
+    font-size: 1vw;
+    width: 40%;
+    height: 95%;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #00818e;
@@ -266,9 +267,9 @@ html {
 }
 
 .berita>.row>.col-lg-6>button{
-    font-size: 1.5rem;
-    width: 32rem;
-    height: 5rem;
+    font-size: 1vw;
+    width: 40%;
+    height: 150%;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #00818e;
@@ -281,7 +282,6 @@ html {
 
 .btn-info-penting>button {
     float: right;
-    margin-right: 3rem
 }
 
 .komik>.row>.col-lg-6>button:hover{
@@ -289,9 +289,9 @@ html {
 }
 
 .komik>.row>.col-lg-6>button{
-    font-size: 1.5rem;
-    width: 32rem;
-    height: 5rem;
+    font-size: 1vw;
+    width: 40%;
+    height: 95%;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #00818e;
@@ -300,12 +300,10 @@ html {
 
 .btn-berita>button {
     float: right;
-    margin-right: 3rem
 }
 
 .btn-komik>button {
     float: right;
-    margin-right: 3rem
 }
 
 .judul-info>a {
@@ -450,7 +448,7 @@ html {
     color: #00818e;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 3.8rem;
+    font-size: 2.2vw;
     letter-spacing:.5rem;
     text-shadow: 2px 0 #00818e;
 }
@@ -469,12 +467,12 @@ html {
 }
 
 .profil>h1 {
-    margin-left: 5rem;
+    padding-left: 4.7rem;
     font-weight: bold;
     color: #00818e;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 3.8rem;
+    font-size: 2.2vw;
     letter-spacing:.5rem;
     text-shadow: 2px 0 #00818e;
 }
@@ -498,7 +496,7 @@ html {
     color: #00818e;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 3.8rem;
+    font-size: 2.2vw;
     letter-spacing:.5rem;
     text-shadow: 2px 0 #00818e;
 }
@@ -522,7 +520,7 @@ html {
     color: #00818e;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 3.8rem;
+    font-size: 2.2vw;
     letter-spacing:.5rem;
     text-shadow: 2px 0 #00818e;
 }
@@ -546,7 +544,7 @@ html {
     color: #00818e;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 3.8rem;
+    font-size: 2.2vw;
     letter-spacing:.5rem;
     text-shadow: 2px 0 #00818e;
 }
@@ -657,6 +655,32 @@ html {
 
 .list-komik {
     padding: 5.8rem;
+}
+
+.image_desc {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+
+.img-komik>img:hover .image_desc {
+    visibility: visible;
+    opacity: 1;
+}
+
+.navigation {
+    width:40%;
+    height: 30%;
+    background-color: grey;
 }
 
 @media (max-width: 1200px) {
