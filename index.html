@@ -425,14 +425,17 @@
                 </div>
             </div>
         </div>
-        <div class="container profil">
-            <h1>PROFIL</h1>
-            <hr>
-            </br>
-            </br>
-            <div class="row">
-                <div class="col-lg-6">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+
+        <div class="container-fluid">
+            <div class="container profil">
+                <h1>PROFIL</h1>
+                <hr>
+                </br>
+                </br>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -599,74 +602,74 @@
                 var container_w = container.width();
                 var max_scroll = container[0].scrollWidth - container.outerWidth();
 
-            container.on('mousemove', function(e) {
-                var mouse_x = e.pageX - container.offset().left;
-                var mouseperc = 100 * mouse_x / container_w;
-                speed = mouseperc - 50;
-            }).on('mouseleave', function() {
-                speed = 0;
-            });
+                container.on('mousemove', function(e) {
+                    var mouse_x = e.pageX - container.offset().left;
+                    var mouseperc = 100 * mouse_x / container_w;
+                    speed = mouseperc - 50;
+                }).on('mouseleave', function() {
+                    speed = 0;
+                });
 
-            function updatescroll() {
-                if (speed !== 0) {
-                    scroll += speed / 5;
-                    if (scroll < 0) scroll = 0;
-                    if (scroll > max_scroll) scroll = max_scroll;
-                    $('#row').scrollLeft(scroll);
+                function updatescroll() {
+                    if (speed !== 0) {
+                        scroll += speed / 5;
+                        if (scroll < 0) scroll = 0;
+                        if (scroll > max_scroll) scroll = max_scroll;
+                        $('#row').scrollLeft(scroll);
+                    }
+                    window.requestAnimationFrame(updatescroll);
                 }
                 window.requestAnimationFrame(updatescroll);
-            }
-            window.requestAnimationFrame(updatescroll);
 
-            function getScrollTop() {
-                if (typeof window.pageYOffset !== "undefined") {
-                    // Most browsers
-                    return window.pageYOffset;
+                function getScrollTop() {
+                    if (typeof window.pageYOffset !== "undefined") {
+                        // Most browsers
+                        return window.pageYOffset;
+                    }
+
+                    var d = document.documentElement;
+                    if (typeof d.clientHeight !== "undefined") {
+                        // IE in standards mode
+                        return d.scrollTop;
+                    }
+
+                    // IE in quirks mode
+                    return document.body.scrollTop;
                 }
 
-                var d = document.documentElement;
-                if (typeof d.clientHeight !== "undefined") {
-                    // IE in standards mode
-                    return d.scrollTop;
-                }
+                window.onscroll = function() {
+                    var box = document.getElementById("menu");
+                    var scroll = getScrollTop();
 
-                // IE in quirks mode
-                return document.body.scrollTop;
-            }
+                    if (scroll <= 28) {
+                        box.style.top = "10px";
+                        box.style.width = "100%"
+                    } else {
+                        box.style.top = (scroll + 2) + "px";
+                    }
+                };
 
-            window.onscroll = function() {
-                var box = document.getElementById("menu");
-                var scroll = getScrollTop();
-
-                if (scroll <= 28) {
-                    box.style.top = "10px";
-                    box.style.width = "100%"
-                } else {
-                    box.style.top = (scroll + 2) + "px";
-                }
-            };
-
-            var header = document.getElementById("myMenu");
-            var btns = header.getElementsByClassName("nav-link");
-            for (var i = 0; i < btns.length; i++) {
-                btns[i].addEventListener("click", function() {
-                    var current = document.getElementsByClassName("active");
-                    current[0].className = current[0].className.replace(" active", "");
-                    this.className += " active";
-                });
-            }
-
-            const init = function() {
-                let items = document.querySelectorAll('#row');
-                for (let i = 0; i < items.length; i++) {
-                    items[i].style.background = randomColor({
-                        luminosity: 'light'
+                var header = document.getElementById("myMenu");
+                var btns = header.getElementsByClassName("nav-link");
+                for (var i = 0; i < btns.length; i++) {
+                    btns[i].addEventListener("click", function() {
+                        var current = document.getElementsByClassName("active");
+                        current[0].className = current[0].className.replace(" active", "");
+                        this.className += " active";
                     });
                 }
-                cssScrollSnapPolyfill()
-            }
-            init();
-        </script>
+
+                const init = function() {
+                    let items = document.querySelectorAll('#row');
+                    for (let i = 0; i < items.length; i++) {
+                        items[i].style.background = randomColor({
+                            luminosity: 'light'
+                        });
+                    }
+                    cssScrollSnapPolyfill()
+                }
+                init();
+            </script>
 </body>
 
 </html>
