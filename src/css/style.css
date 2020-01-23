@@ -53,30 +53,31 @@
 html {
     font-size: 10px;
     overflow-x: hidden;
+    
 }
 
 .smartphone {
     display: none !important;
 }
 
-.header {
+.menu-atas {
     border: 0 solid black;
     display: flex;
     align-items: center;
     position: absolute;
-    z-index: 2;
+    z-index: 5;
     background-color: white;
     margin-top: 3rem;
     margin-left: 5rem;
     height: 8rem;
 }
 
-.header>ul {
+.menu-atas>ul {
     width: 90%;
     border: 0 solid black;
 }
 
-.header>ul>li {
+.menu-atas>ul>li {
     margin-left: 10rem;
     list-style-type: none;
     border: 0 solid black;
@@ -85,7 +86,7 @@ html {
     align-items: center;
 }
 
-.header>ul>li>a {
+.menu-atas>ul>li>a {
     color: #562f00;
     font-family: Montserrat;
     text-transform: uppercase;
@@ -95,18 +96,22 @@ html {
     text-shadow: .6px 0 #562f00;
 }
 
-.header>ul>li>a:hover {
+.menu-atas>ul>li>a:hover {
     border-bottom: 3px solid #00818e;
 }
 
-.header>ul>li>a.active {
+.menu-atas>ul>li>a.active {
     background-color: #00818e;
     border-top-left-radius: 1.3rem;
     border-bottom-right-radius: 1.3rem;
     color: white;
 }
 
-.header>img {
+.menu-atas>a>img.active {
+
+}
+
+.menu-atas>img {
     height: auto;
     width: auto;
 }
@@ -118,7 +123,6 @@ html {
 
 .slider-head {
     padding: 0;
-    border: 0 solid red;
 }
 
 .animasi-surabaya {
@@ -228,7 +232,6 @@ html {
 
 .slide-back {
     border: 0 solid black;
-    background-repeat: no-repeat;
 }
 
 .info {
@@ -582,7 +585,7 @@ html {
 .profil {
     border: 0 solid black;
     max-width: 192rem;
-    padding-top: 2rem;
+    padding-top: 14rem;
 }
 
 .profil>h1 {
@@ -606,7 +609,7 @@ html {
 .pelayanan {
     border: 0 solid black;
     max-width: 192rem;
-    padding-top: 2rem;
+    padding-top: 14rem;
 }
 
 .pelayanan>h1 {
@@ -630,7 +633,7 @@ html {
 .informasi {
     border: 0 solid black;
     max-width: 192rem;
-    padding-top: 2rem;
+    padding-top: 14rem;
 }
 
 .informasi>h1 {
@@ -654,7 +657,7 @@ html {
 .komik {
     border: 0 solid black;
     max-width: 192rem;
-    padding-top: 2rem;
+    padding-top: 14rem;
 }
 
 .komik_detail {
@@ -726,7 +729,7 @@ html {
 }
 
 @media (max-width: 1200px) {
-    .header {
+    .menu-atas {
         display: none;
     }
     .smartphone {
@@ -740,7 +743,7 @@ html {
         margin-left: 80%;
         margin-top: -2px;
     }
-    .header-menu-mobile>img {
+    .menu-atas-menu-mobile>img {
         width: auto;
         height: auto;
         margin-left: 340px;
@@ -766,7 +769,6 @@ html {
         font-weight: bold;
     }
 }
-
 
 /* isi-berita */
 
@@ -970,7 +972,7 @@ html {
 }
 
 .btn-selengkapnya {
-    background-color: #fd7e14;
+    background-color:  #fd7e14;
     color: white;
     width: 40%;
     height: 20%;
