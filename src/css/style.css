@@ -1105,15 +1105,14 @@ div.desc {
 .vertical-menu-informasi>ul>li:hover {
     border-bottom: 2px solid #fd7e14;
     font-weight: 900;
-    width: 80%;
-    margin-left: 10%;
+    width: 100%;
 }
 
 .vertical-menu-informasi>ul {
     width: 40%;
     background-color: #bdc3c7;
     border-top-left-radius: 3rem;
-    border-bottom-right-radius: 3rem;
+    /* border-bottom-right-radius: 3rem; */
     z-index: 900 !important;
 }
 
@@ -1151,15 +1150,59 @@ div.desc {
 .vertical-menu>ul>li:hover {
     border-bottom: 2px solid #fd7e14;
     font-weight: 900;
-    width: 80%;
-    margin-left: 10%;
+    width: 100%;
 }
 
 .vertical-menu>ul {
     width: 40%;
     background-color: #bdc3c7;
     border-top-left-radius: 3rem;
+    /* border-bottom-right-radius: 3rem; */
+    z-index: 900 !important;
+}
+
+/*  */
+
+.vertical-menu-pelayanan{
+    margin-top: 3rem;
+    padding-left: 20vw;
+    height: 65rem;
+}
+
+.vertical-menu-pelayanan>ul {
+    width: 40%;
+    background-color: #bdc3c7;
+    border-top-left-radius: 3rem;
     border-bottom-right-radius: 3rem;
+    z-index: 900 !important;
+}
+
+.vertical-menu-pelayanan>ul>li {
+    list-style-type: none;
+}
+
+.vertical-menu-pelayanan>ul>li>a {
+    display: block;
+    color: #562f00;
+    padding: 2rem 2rem;
+    text-decoration: none;
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.vertical-menu-pelayanan>ul>li:hover {
+    border-bottom: 2px solid #fd7e14;
+    font-weight: 900;
+    width: 100%;
+}
+
+.vertical-menu-pelayanan>ul {
+    width: 40%;
+    background-color: #bdc3c7;
+    border-top-left-radius: 3rem;
+    /* border-bottom-right-radius: 3rem; */
     z-index: 900 !important;
 }
 
@@ -1196,7 +1239,7 @@ div.desc {
 .flyout-right>ul
 {
 	top: 0px;
-	min-width: 150%;
+	min-width: 95%;
 	display: none;
 }
 
