@@ -1219,7 +1219,7 @@ div.desc {
 }
 
 
-.li.flyout-right>ul:hover, li.flyout-right a:hover +ul 
+.flyout-right>ul:hover, li.flyout-right a:hover +ul 
 {
 	display: block;
 }
