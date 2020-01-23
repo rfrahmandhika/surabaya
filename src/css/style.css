@@ -118,6 +118,7 @@ html {
 
 .slider-head {
     padding: 0;
+    border: 0 solid red;
 }
 
 .animasi-surabaya {
@@ -227,6 +228,7 @@ html {
 
 .slide-back {
     border: 0 solid black;
+    background-repeat: no-repeat;
 }
 
 .info {
@@ -765,6 +767,7 @@ html {
     }
 }
 
+
 /* isi-berita */
 
 .gambar-berita {
@@ -967,7 +970,7 @@ html {
 }
 
 .btn-selengkapnya {
-    background-color:  #fd7e14;
+    background-color: #fd7e14;
     color: white;
     width: 40%;
     height: 20%;
