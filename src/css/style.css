@@ -1068,3 +1068,227 @@ div.desc {
     align-items: center;
     justify-content: center;
 }
+
+.vertical-menu-informasi{
+    margin-top: 3rem;
+    padding-left: 20vw;
+    height: 60rem;
+}
+
+.vertical-menu-informasi{
+    margin-top: 3rem;
+    padding-left: 20vw;
+    height: 55rem;
+}
+
+.vertical-menu-informasi>ul {
+    width: 40%;
+    background-color: #bdc3c7;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    z-index: 900 !important;
+}
+
+.vertical-menu-informasi>ul>li {
+    list-style-type: none;
+}
+
+.vertical-menu-informasi>ul>li>a {
+    display: block;
+    color: #562f00;
+    padding: 2rem 2rem;
+    text-decoration: none;
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.vertical-menu-informasi>ul>li:hover {
+    border-bottom: 2px solid #fd7e14;
+    font-weight: 900;
+    width: 100%;
+}
+
+.vertical-menu-informasi>ul {
+    width: 40%;
+    background-color: #bdc3c7;
+    border-top-left-radius: 3rem;
+    /* border-bottom-right-radius: 3rem; */
+    z-index: 900 !important;
+}
+
+ /*  */
+
+.vertical-menu{
+    margin-top: 3rem;
+    padding-left: 20vw;
+    height: 40rem;
+}
+
+.vertical-menu>ul {
+    width: 40%;
+    background-color: #bdc3c7;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    z-index: 900 !important;
+}
+
+.vertical-menu>ul>li {
+    list-style-type: none;
+}
+
+.vertical-menu>ul>li>a {
+    display: block;
+    color: #562f00;
+    padding: 2rem 2rem;
+    text-decoration: none;
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.vertical-menu>ul>li:hover {
+    border-bottom: 2px solid #fd7e14;
+    font-weight: 900;
+    width: 100%;
+}
+
+.vertical-menu>ul {
+    width: 40%;
+    background-color: #bdc3c7;
+    border-top-left-radius: 3rem;
+    /* border-bottom-right-radius: 3rem; */
+    z-index: 900 !important;
+}
+
+/*  */
+
+.vertical-menu-pelayanan{
+    margin-top: 3rem;
+    padding-left: 20vw;
+    height: 65rem;
+}
+
+.vertical-menu-pelayanan>ul {
+    width: 40%;
+    background-color: #bdc3c7;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    z-index: 900 !important;
+}
+
+.vertical-menu-pelayanan>ul>li {
+    list-style-type: none;
+}
+
+.vertical-menu-pelayanan>ul>li>a {
+    display: block;
+    color: #562f00;
+    padding: 2rem 2rem;
+    text-decoration: none;
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.vertical-menu-pelayanan>ul>li:hover {
+    border-bottom: 2px solid #fd7e14;
+    font-weight: 900;
+    width: 100%;
+}
+
+.vertical-menu-pelayanan>ul {
+    width: 40%;
+    background-color: #bdc3c7;
+    border-top-left-radius: 3rem;
+    /* border-bottom-right-radius: 3rem; */
+    z-index: 900 !important;
+}
+
+.submenu {
+    background-color: #fd7e14;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.submenu>li {
+    list-style-type: none;
+}
+
+
+.square {
+    width: 100%;
+    transform: translate(18%, -55%);
+    z-index: -999 !important;
+    
+}
+
+.jero{
+    background: #00818e;
+    width: 70%;
+    height: 40rem;
+    border-bottom-right-radius: 5rem;
+}
+
+.flyout-right
+{
+	position:relative;
+}
+
+.flyout-right>ul
+{
+	top: 0px;
+	min-width: 95%;
+	display: none;
+}
+
+.flyout-right ul>li>a
+{
+	color: #fff;
+	display: block;
+	padding: 1vw;
+	text-decoration: none;
+    background-color: #fd7e14;
+    border-bottom: 2px solid #fd7e14;
+    border-top-left-radius: 3rem;
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom-right-radius: 3rem;
+	-webkit-transition: color 0.2s linear, background 0.2s linear;
+	-moz-transition: color 0.2s linear, background 0.2s linear;
+	-o-transition: color 0.2s linear, background 0.2s linear;
+	transition: color 0.2s linear, background 0.2s linear;
+}
+
+
+.flyout-right>ul:hover, li.flyout-right a:hover +ul 
+{
+	display: block;
+}
+
+@media ( min-width: 767px )
+ {
+
+	.flyout-right>ul
+	{
+			position:absolute;
+	}
+
+	.flyout-right>ul
+	{
+		left: 100%;
+	}
+
+}
+
+@media ( max-width: 767px )
+{
+	
+	.flyout-right>ul, .flyout-left>ul, li.drop-down>ul
+	{
+		position:relative;
+	}
+}
