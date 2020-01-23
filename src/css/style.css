@@ -1069,16 +1069,11 @@ div.desc {
     justify-content: center;
 }
 
-.vertical-menu-informasi{
-    margin-top: 3rem;
-    padding-left: 20vw;
-    height: 60rem;
-}
 
 .vertical-menu-informasi{
     margin-top: 3rem;
     padding-left: 20vw;
-    height: 55rem;
+    height: 43rem;
 }
 
 .vertical-menu-informasi>ul {
@@ -1123,7 +1118,7 @@ div.desc {
 .vertical-menu{
     margin-top: 3rem;
     padding-left: 20vw;
-    height: 40rem;
+    height: 27rem;
 }
 
 .vertical-menu>ul {
@@ -1168,7 +1163,7 @@ div.desc {
 .vertical-menu-pelayanan{
     margin-top: 3rem;
     padding-left: 20vw;
-    height: 65rem;
+    height: 50rem;
 }
 
 .vertical-menu-pelayanan>ul {
