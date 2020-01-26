@@ -417,7 +417,7 @@
             </div>
         </div>
     </div>
-    </div>
+
     <div class="container profil" id="goProfil">
         <h1>PROFIL</h1>
         <hr>
@@ -431,29 +431,23 @@
         <div class="vertical-menu">
             <ul>
                 <li><a href="halaman_baru/tentang-surabaya.html">Tentang Surabaya</a></li>
-                <li class="flyout-right"><a href="#news">Instansi</a>
+                <li class="flyout-right"><a href="#instansi">Instansi</a>
                     <ul class="animated fadeIn submenu">
-                        <li><a href="#">OPD</a></li>
+                        <li><a href="halaman_baru/opd.html">ORGANISASI PERANGKAT DAERAH (OPD)</a></li>
                         <li><a href="https://surabaya.go.id/id/page/0/8063/daftar-nama-pejabat">DAFTAR NAMA PEJABAT</a></li>
-                        <li><a href="#">DAFTAR ALAMAT KECAMATAN DAN KELURAHAN</a></li>
+                        <li><a href="halaman_baru/daftar-alamat-kecamatan-dan-kelurahan.html">DAFTAR ALAMAT KECAMATAN DAN KELURAHAN</a></li>
                     </ul>
                 </li>
-                <li class="flyout-right"><a href="#contact">Organisasi</a>
+                <li class="flyout-right"><a href="#organisasi">Organisasi</a>
                     <ul class="submenu">
-                        <li><a href="#">DARMA WANITA</a></li>
-                        <li><a href="#">KORPRI</a></li>
-                        <li><a href="#">PMI</a></li>
-                        <li><a href="#">PKK</a></li>
+                        <li><a href="http://dharmawanita.surabaya.go.id/">DARMA WANITA</a></li>
+                        <li><a href="https://surabaya.go.id/id/page/0/8232/korpri">KORPS PEGAWAI REPUBLIK INDONESIA (KORPRI)</a></li>
+                        <li><a href="http://www.sby.uddpmikotasby.com/">PALANG MERAH INDONESIA (PMI) KOTA SURABAYA</a></li>
+                        <li><a href="http://pkk.surabaya.go.id/pkk/index.php">PEMBERDAYAAN KESEJAHTERAAN KELUARGA (PKK) KOTA SURABAYA</a></li>
                     </ul>
                 </li>
-                <li><a href="">Link site OPD</a></li>
-                <li class="flyout-right"><a href="#Profil">Profil Kota SUrabaya</a>
-                    <ul class="submenu">
-                        <li><a href="#">DARMA WANITA</a></li>
-                        <li><a href="#">KORPRI</a></li>
-                        <li><a href="#">PKK</a></li>
-                    </ul>
-                </li>
+                <li><a href="halaman_baru/link-site-otd.html">Link site OPD</a></li>
+                <li class="flyout-right"><a href="halaman_baru/profil-kota-surabaya.html">Profil Kota SUrabaya</a></li>
             </ul>
 
         </div>
@@ -502,15 +496,17 @@
         </div>
         <div class="vertical-menu-informasi">
             <ul>
-                <li><a href="#home">Informasi harga pokok</a></li>
-                <li><a href="#home">Transportasi</a></li>
-                <li><a href="#news">Statistik surabaya</a>
-                    <li><a href="#news">Taman kota</a>
+                <li><a href="https://surabaya.go.id/id/berita/49454/informasi-harga-kebutuhan-pokok">Informasi harga pokok</a></li>
+                <li><a href="https://surabaya.go.id/page/0/8263/transportasi">Transportasi</a></li>
+                <li><a href="halaman_baru/statistik-surabaya.html">Statistik surabaya</a>
+                    <li><a href="halaman_baru/taman-taman-di-kota-surabaya.html">Taman kota</a>
                     </li>
-                    <li class="flyout-right"><a href="#contact">Informasi perdagangan</a>
+                    <li class="flyout-right"><a href="#info-perdagangan">Informasi perdagangan</a>
                         <ul class="submenu">
-                            <li><a href="#">DATA INVESTASI</a></li>
-                            <li><a href="#">DUP</a></li>
+                            <li>
+                                <a href="https://surabaya.go.id/id/page/0/8177/sosial-ekonomi">KAWASAN BISNIS</a></li>
+                            <li><a href="http://dpm-ptsp.surabaya.go.id/v3/pages/data-investasi-kota-surabaya">DATA INVESTASI</a></li>
+                            <li><a href="https://surabaya.go.id/id/page/0/11327/daftar-usaha-pariwisata--dup-">DAFTAR USAHA PARIWISATA (DUP)</a></li>
                         </ul>
                     </li>
                     <li class="flyout-right"><a href="#about">tempat ibadah</a>
@@ -733,85 +729,86 @@
             <!-- Grid row-->
 
         </div>
-        <script type="text/javascript">
-            function getScrollTop() {
-                if (typeof window.pageYOffset !== "undefined") {
-                    // Most browsers
-                    return window.pageYOffset;
-                }
-
-                var d = document.documentElement;
-                if (typeof d.clientHeight !== "undefined") {
-                    // IE in standards mode
-                    return d.scrollTop;
-                }
-
-                // IE in quirks mode
-                return document.body.scrollTop;
+    </footer>
+    <script type="text/javascript">
+        function getScrollTop() {
+            if (typeof window.pageYOffset !== "undefined") {
+                // Most browsers
+                return window.pageYOffset;
             }
 
-            window.onscroll = function() {
-                var box = document.getElementById("menu");
-                var scroll = getScrollTop();
-
-                if (scroll <= 28) {
-                    box.style.top = "10px";
-                    box.style.width = "100%"
-                } else {
-                    box.style.top = (scroll + 2) + "px";
-                }
-            };
-
-            var header = document.getElementById("myMenu");
-            var btns = header.getElementsByClassName("nav-link");
-            for (var i = 0; i < btns.length; i++) {
-                btns[i].addEventListener("click", function() {
-                    var current = document.getElementsByClassName("active");
-                    current[0].className = current[0].className.replace(" active", "");
-                    this.className += " active";
-                });
+            var d = document.documentElement;
+            if (typeof d.clientHeight !== "undefined") {
+                // IE in standards mode
+                return d.scrollTop;
             }
 
-            const init = function() {
-                let items = document.querySelectorAll('#row');
-                for (let i = 0; i < items.length; i++) {
-                    items[i].style.background = randomColor({
-                        luminosity: 'light'
-                    });
-                }
-                cssScrollSnapPolyfill();
+            // IE in quirks mode
+            return document.body.scrollTop;
+        }
+
+        window.onscroll = function() {
+            var box = document.getElementById("menu");
+            var scroll = getScrollTop();
+
+            if (scroll <= 28) {
+                box.style.top = "10px";
+                box.style.width = "100%"
+            } else {
+                box.style.top = (scroll + 2) + "px";
             }
+        };
 
-            jQuery(document).ready(function($) {
-                var images = [{
-                    url: "src/images/img3.jpg"
-                }, {
-                    url: "src/images/img2.jpg"
-                }, {
-                    url: "src/images/img1.jpg"
-                }];
+        var header = document.getElementById("myMenu");
+        var btns = header.getElementsByClassName("nav-link");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
 
-                images.sort(function() {
-                    return 0.5 - Math.random();
+        const init = function() {
+            let items = document.querySelectorAll('#row');
+            for (let i = 0; i < items.length; i++) {
+                items[i].style.background = randomColor({
+                    luminosity: 'light'
                 });
+            }
+            cssScrollSnapPolyfill();
+        }
 
-                $.each(images, function(index, image) {
-                    var element = $('<div class="carousel-item"><img src="' + image.url + '" class="d-block w-100"/></div>')
+        jQuery(document).ready(function($) {
+            var images = [{
+                url: "src/images/img3.jpg"
+            }, {
+                url: "src/images/img2.jpg"
+            }, {
+                url: "src/images/img1.jpg"
+            }];
 
-                    if (index === 0) {
-                        element.addClass("active");
-                    }
-
-                    element.appendTo("div.slide-back");
-                });
-
-                $('.carousel').carousel({
-                    interval: 3000,
-                })
+            images.sort(function() {
+                return 0.5 - Math.random();
             });
 
-            init();
-        </script>
+            $.each(images, function(index, image) {
+                var element = $('<div class="carousel-item"><img src="' + image.url + '" class="d-block w-100"/></div>')
+
+                if (index === 0) {
+                    element.addClass("active");
+                }
+
+                element.appendTo("div.slide-back");
+            });
+
+            $('.carousel').carousel({
+                interval: 3000,
+            })
+        });
+
+        init();
+    </script>
 </body>
 
 </html>
