@@ -582,7 +582,7 @@ html {
 .profil {
     border: 0 solid black;
     max-width: 192rem;
-    padding-top: 14rem;
+    padding-top: 2rem;
 }
 
 .profil>h1 {
@@ -606,7 +606,7 @@ html {
 .pelayanan {
     border: 0 solid black;
     max-width: 192rem;
-    padding-top: 14rem;
+    padding-top: 8rem;
 }
 
 .pelayanan>h1 {
@@ -654,7 +654,7 @@ html {
 .komik {
     border: 0 solid black;
     max-width: 192rem;
-    padding-top: 14rem;
+    padding-top: 10rem;
 }
 
 .komik_detail {
@@ -924,6 +924,7 @@ html {
     height: 30rem;
     padding: 0 auto;
     /*margin-top: 5rem;*/
+    margin: 0 auto;
 }
 
 .berita-slide-konten>.slide-konten-img {
