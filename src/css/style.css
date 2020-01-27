@@ -59,8 +59,16 @@ html {
     display: none !important;
 }
 
+.dropdown-menu>li {
+    list-style-type: none;
+}
+
+.dropdown-menu {
+    opacity: 0.89;
+}
+
 .nav li:hover>ul.dropdown-menu {
-    width: 30rem;
+    width: auto;
     height: auto;
     /* border: 1px solid green; */
     display: block;
@@ -87,6 +95,7 @@ html {
     top: 0;
     left: 100%;
     margin-top: 0px;
+    list-style-type: none;
 }
 
 .dropdown-item:hover {
@@ -94,7 +103,7 @@ html {
 }
 
 .dropdown-menu>li>a {
-    font-family: Montserrat;
+    font-family: Montserrat-bold;
     text-transform: uppercase;
     font-size: 1.4rem;
     font-weight: bold;
@@ -128,7 +137,7 @@ html {
 }
 
 .menu-atas>ul>li {
-    margin-left: 10rem;
+    margin-left: 8rem;
     list-style-type: none;
     border: 0 solid black;
     width: 10%;
@@ -1527,7 +1536,7 @@ li.flyout-right a:hover+ul {
 .tentang-surabaya-judul {
     border: 0 solid black;
     text-align: center;
-    margin-top: 4rem;
+    padding-top: 15rem;
     text-transform: uppercase;
     font-family: 'Montserrat-Bold';
     font-size: 3vw;
@@ -1557,7 +1566,7 @@ li.flyout-right a:hover+ul {
 
 .item {
     width: 100%;
-    height: 60%;
+    height: 75%;
 }
 
 .content {
@@ -1612,8 +1621,3 @@ li.flyout-right a:hover+ul {
 .navbar-brand {
     margin-bottom: 3px;
 }
-
-
-/* .dropdown-menu {
-    top: 45px;
-} */
