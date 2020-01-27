@@ -521,6 +521,11 @@ html {
 .video>.row>.col-lg-6>button:hover {
     background-color: #11aa89;
 }
+
+#row1 {
+    overflow-x: hidden;
+    width: 100%;
+}
 /* end of video section */
 
 
@@ -571,6 +576,12 @@ html {
 .audio>.row>.col-lg-6>button:hover {
     background-color: #11aa89;
 }
+
+#row3 {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 /* end of audio section */
 
 
@@ -622,7 +633,12 @@ html {
     background-color: #11aa89;
 }
 
-/* end of audio section */
+#row2 {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* end of foto section */
 
 /* berita section */
 
