@@ -1317,16 +1317,16 @@ li.flyout-right a:hover+ul {
 
 .item {
     width: 100%;
-    height: 100%;
+    height: 60%;
 }
 
 .content {
-    background-color: #e67e22;
-    color: white;
-    padding: 20px;
+    background-color: #bdc3c7;
+    color: #562f00;
+    padding: 40px;
     border-radius: .6rem;
     font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-bold', sans-serif;
     height: 100%;
     display: flex;
     align-items: center;
@@ -1334,8 +1334,13 @@ li.flyout-right a:hover+ul {
     justify-content: center;
 }
 
+.content:hover {
+    border: .5rem solid #00818e;
+    color: #00818e;
+}
+
 .col-centered>a {
-    color: white;
+    color: #562f00;
     text-decoration: none;
 }
 
