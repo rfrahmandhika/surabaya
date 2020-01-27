@@ -231,6 +231,8 @@ html {
     border: 0 solid black;
 }
 
+/* info section */
+
 .info {
     border: 0 solid black;
     margin: 0;
@@ -264,41 +266,6 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-.berita>.row>.col-lg-6>p {
-    font-size: 1.1vw;
-    text-align: justify;
-    margin-left: 5rem;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.pelayanan>.row>.col-lg-6>p {
-    font-size: 1.1vw;
-    text-align: justify;
-    margin-left: 5rem;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.profil>.row>.col-lg-6>p {
-    font-size: 1.1vw;
-    text-align: justify;
-    margin-left: 5rem;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.informasi>.row>.col-lg-6>p {
-    font-size: 1.1vw;
-    text-align: justify;
-    margin-left: 5rem;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.komik>.row>.col-lg-6>p {
-    font-size: 1.1vw;
-    text-align: justify;
-    margin-left: 5rem;
-    font-family: 'Montserrat', sans-serif;
-}
-
 .info>.row>.col-lg-6>button {
     font-size: 1.1vw;
     width: 40%;
@@ -311,57 +278,6 @@ html {
 
 .info>.row>.col-lg-6>button:hover {
     background-color: #11aa89;
-}
-
-.berita>.row>.col-lg-6>button {
-    font-size: 1.1vw;
-    width: 40%;
-    height: 145%;
-    border-radius: .6rem;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #00818e;
-    border: none;
-}
-
-.berita>.row>.col-lg-6>button:hover {
-    background-color: #11aa89;
-}
-
-.btn-info-penting>button {
-    float: right;
-    margin-right: 3rem;
-}
-
-.komik>.row>.col-lg-6>button:hover {
-    background-color: #11aa89;
-}
-
-.komik>.row>.col-lg-6>button {
-    font-size: 1.1vw;
-    width: 40%;
-    height: 90%;
-    border-radius: .6rem;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #00818e;
-    border: none;
-}
-
-.btn-berita>button {
-    float: right;
-    padding-right: 3rem;
-}
-
-.btn-komik>button {
-    float: right;
-    margin-right: 3rem;
-}
-
-.judul-info>a {
-    text-decoration: none;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 #row {
@@ -555,6 +471,187 @@ html {
     -webkit-transform: translateX(-50%);
 }
 
+/* end of info section */
+
+
+/* video section */
+.video {
+    border: 0 solid black;
+    margin: 0;
+    padding: 0;
+    max-width: 192rem;
+}
+
+.video>h1 {
+    line-height: 100%;
+    padding-left: 5rem;
+    margin-top: 5rem;
+    color: #00818e;
+    font-weight: bold;
+    font-size: 2.3vw;
+    letter-spacing: .5rem;
+    text-shadow: 2px 0 #00818e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.video>hr {
+    width: 3%;
+    border: 3px solid #ea5f00;
+    float: left;
+    margin-left: 5rem;
+}
+
+.video>.row>.col-lg-6>p {
+    font-size: 1.1vw;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.video>.row>.col-lg-6>button {
+    font-size: 1.1vw;
+    width: 40%;
+    height: 90%;
+    border-radius: .6rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00818e;
+    border: none;
+}
+
+.video>.row>.col-lg-6>button:hover {
+    background-color: #11aa89;
+}
+/* end of video section */
+
+
+/* audio section */
+.audio {
+    border: 0 solid black;
+    margin: 0;
+    padding: 0;
+    max-width: 192rem;
+}
+
+.audio>h1 {
+    line-height: 100%;
+    padding-left: 5rem;
+    margin-top: 5rem;
+    color: #00818e;
+    font-weight: bold;
+    font-size: 2.3vw;
+    letter-spacing: .5rem;
+    text-shadow: 2px 0 #00818e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.audio>hr {
+    width: 3%;
+    border: 3px solid #ea5f00;
+    float: left;
+    margin-left: 5rem;
+}
+
+.audio>.row>.col-lg-6>p {
+    font-size: 1.1vw;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.audio>.row>.col-lg-6>button {
+    font-size: 1.1vw;
+    width: 40%;
+    height: 90%;
+    border-radius: .6rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00818e;
+    border: none;
+}
+
+.audio>.row>.col-lg-6>button:hover {
+    background-color: #11aa89;
+}
+/* end of audio section */
+
+
+/* foto section */
+.foto {
+    border: 0 solid black;
+    margin: 0;
+    padding: 0;
+    max-width: 192rem;
+}
+
+.foto>h1 {
+    line-height: 100%;
+    padding-left: 5rem;
+    margin-top: 5rem;
+    color: #00818e;
+    font-weight: bold;
+    font-size: 2.3vw;
+    letter-spacing: .5rem;
+    text-shadow: 2px 0 #00818e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.foto>hr {
+    width: 3%;
+    border: 3px solid #ea5f00;
+    float: left;
+    margin-left: 5rem;
+}
+
+.foto>.row>.col-lg-6>p {
+    font-size: 1.1vw;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.foto>.row>.col-lg-6>button {
+    font-size: 1.1vw;
+    width: 40%;
+    height: 90%;
+    border-radius: .6rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00818e;
+    border: none;
+}
+
+.foto>.row>.col-lg-6>button:hover {
+    background-color: #11aa89;
+}
+
+/* end of audio section */
+
+/* berita section */
+
+.berita>.row>.col-lg-6>p {
+    font-size: 1.1vw;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.berita>.row>.col-lg-6>button {
+    font-size: 1.1vw;
+    width: 40%;
+    height: 145%;
+    border-radius: .6rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00818e;
+    border: none;
+}
+
+.berita>.row>.col-lg-6>button:hover {
+    background-color: #11aa89;
+}
+
+.btn-berita>button {
+    float: right;
+    padding-right: 3rem;
+}
+
 .berita {
     border: 0 solid black;
     max-width: 192rem;
@@ -579,28 +676,16 @@ html {
     margin-left: 5rem;
 }
 
-.profil {
-    border: 0 solid black;
-    max-width: 192rem;
-    padding-top: 2rem;
-}
+/* end of berita section */
 
-.profil>h1 {
+
+/* pelayanan section */
+
+.pelayanan>.row>.col-lg-6>p {
+    font-size: 1.1vw;
+    text-align: justify;
     margin-left: 5rem;
-    font-weight: bold;
-    color: #00818e;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 2.3vw;
-    letter-spacing: .5rem;
-    text-shadow: 2px 0 #00818e;
-}
-
-.profil>hr {
-    width: 3%;
-    border: 3px solid #ea5f00;
-    float: left;
-    margin-left: 5rem;
 }
 
 .pelayanan {
@@ -621,6 +706,90 @@ html {
 }
 
 .pelayanan>hr {
+    width: 3%;
+    border: 3px solid #ea5f00;
+    float: left;
+    margin-left: 5rem;
+}
+
+/* end of pelayanan section */
+
+
+
+.profil>.row>.col-lg-6>p {
+    font-size: 1.1vw;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.informasi>.row>.col-lg-6>p {
+    font-size: 1.1vw;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.komik>.row>.col-lg-6>p {
+    font-size: 1.1vw;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.btn-info-penting>button {
+    float: right;
+    margin-right: 3rem;
+}
+
+.komik>.row>.col-lg-6>button:hover {
+    background-color: #11aa89;
+}
+
+.komik>.row>.col-lg-6>button {
+    font-size: 1.1vw;
+    width: 40%;
+    height: 90%;
+    border-radius: .6rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00818e;
+    border: none;
+}
+
+
+
+.btn-komik>button {
+    float: right;
+    margin-right: 3rem;
+}
+
+.judul-info>a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.profil {
+    border: 0 solid black;
+    max-width: 192rem;
+    padding-top: 2rem;
+}
+
+.profil>h1 {
+    margin-left: 5rem;
+    font-weight: bold;
+    color: #00818e;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.3vw;
+    letter-spacing: .5rem;
+    text-shadow: 2px 0 #00818e;
+}
+
+.profil>hr {
     width: 3%;
     border: 3px solid #ea5f00;
     float: left;
@@ -821,7 +990,6 @@ html {
     font-size: 1.3vw;
     font-family: 'Montserrat', sans-serif;
 }
-
 
 /* lanjut isi berita */
 
