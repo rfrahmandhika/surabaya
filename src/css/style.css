@@ -63,17 +63,22 @@ html {
     list-style-type: none;
 }
 
-.dropdown-menu {
+.sub_menu_1 {
     opacity: 0.89;
 }
 
+.sub_meniu2 {
+    opacity: 1;
+}
+
 .nav li:hover>ul.dropdown-menu {
+    margin-top: 0;
+    margin-bottom: 0;
     width: auto;
     height: auto;
-    /* border: 1px solid green; */
+    /* border: 0px solid green; */
     display: block;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 1.5rem 1rem 1.5rem 1rem;
     background-color: white;
 }
 
@@ -98,23 +103,34 @@ html {
     list-style-type: none;
 }
 
-.dropdown-item:hover {
+.dropdown-item:hover,
+.dropdown-menu>li>a:hover {
+    background-color: #00828eb0 !important;
+}
+
+.dropdown-menu>li:hover,
+.dropdown-menu>li:focus {
     height: 100%;
+    background-color: #00828eb0 !important;
 }
 
 .dropdown-menu>li>a {
     font-family: Montserrat-bold;
     text-transform: uppercase;
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
     font-weight: bold;
     color: #562f00;
+}
+
+.dropdown-menu>li>a:hover:after {
+    color: white;
 }
 
 
 /* rotate caret on hover */
 
 .dropdown-menu>li>a:hover:after {
-    /* border: 1px solid black; */
+    border: 3px solid black;
     text-decoration: underline;
     transform: rotate(-90deg);
 }
@@ -141,7 +157,7 @@ html {
     list-style-type: none;
     border: 0 solid black;
     width: 10%;
-    height: 5rem;
+    height: 7.8rem;
     display: flex;
     align-items: center;
 }
@@ -156,22 +172,24 @@ html {
     text-shadow: .6px 0 #562f00;
 }
 
-.menu-atas>ul>li>a:hover {
-    /* background-color: #00818e;
+.menu-atas>ul>li:hover>a,
+.menu-atas>ul>li:focus-within>a {
+    background-color: #00818e;
     border-top-left-radius: 1.3rem;
     border-bottom-right-radius: 1.3rem;
-    color: white; */
-    border-bottom: 3px solid #00818e;
+    color: white;
+    /* border-bottom: 3px solid #00818e; */
 }
 
-.menu-atas>ul>li>a.active {
+
+/* .menu-atas>ul>li>a.active {
     background-color: #00818e;
     border-top-left-radius: 1.3rem;
     border-bottom-right-radius: 1.3rem;
     color: white;
 }
 
-.menu-atas>a>img.active {}
+.menu-atas>a>img.active {} */
 
 .menu-atas>img {
     height: auto;
@@ -296,6 +314,7 @@ html {
     border: 0 solid black;
 }
 
+
 /* info section */
 
 .info {
@@ -337,12 +356,12 @@ html {
     height: 90%;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
-    background-color: #00818e;
+    background-color: #00818e !important;
     border: none;
 }
 
 .info>.row>.col-lg-6>button:hover {
-    background-color: #11aa89;
+    background-color: #11aa89 !important;
 }
 
 #row {
@@ -536,10 +555,12 @@ html {
     -webkit-transform: translateX(-50%);
 }
 
+
 /* end of info section */
 
 
 /* video section */
+
 .video {
     border: 0 solid black;
     margin: 0;
@@ -579,22 +600,25 @@ html {
     height: 90%;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
-    background-color: #00818e;
+    background-color: #00818e !important;
     border: none;
 }
 
 .video>.row>.col-lg-6>button:hover {
-    background-color: #11aa89;
+    background-color: #11aa89 !important;
 }
 
 #row1 {
     overflow-x: hidden;
     width: 100%;
 }
+
+
 /* end of video section */
 
 
 /* audio section */
+
 .audio {
     border: 0 solid black;
     margin: 0;
@@ -634,12 +658,12 @@ html {
     height: 90%;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
-    background-color: #00818e;
+    background-color: #00818e !important;
     border: none;
 }
 
 .audio>.row>.col-lg-6>button:hover {
-    background-color: #11aa89;
+    background-color: #11aa89 !important;
 }
 
 #row3 {
@@ -647,10 +671,12 @@ html {
     width: 100%;
 }
 
+
 /* end of audio section */
 
 
 /* foto section */
+
 .foto {
     border: 0 solid black;
     margin: 0;
@@ -690,12 +716,12 @@ html {
     height: 90%;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
-    background-color: #00818e;
+    background-color: #00818e !important;
     border: none;
 }
 
 .foto>.row>.col-lg-6>button:hover {
-    background-color: #11aa89;
+    background-color: #11aa89 !important;
 }
 
 #row2 {
@@ -703,7 +729,9 @@ html {
     width: 100%;
 }
 
+
 /* end of foto section */
+
 
 /* berita section */
 
@@ -720,12 +748,12 @@ html {
     height: 145%;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
-    background-color: #00818e;
+    background-color: #00818e !important;
     border: none;
 }
 
 .berita>.row>.col-lg-6>button:hover {
-    background-color: #11aa89;
+    background-color: #11aa89 !important;
 }
 
 .btn-berita>button {
@@ -756,6 +784,7 @@ html {
     float: left;
     margin-left: 5rem;
 }
+
 
 /* end of berita section */
 
@@ -793,9 +822,8 @@ html {
     margin-left: 5rem;
 }
 
+
 /* end of pelayanan section */
-
-
 
 .profil>.row>.col-lg-6>p {
     font-size: 1.1vw;
@@ -818,14 +846,13 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-
 .btn-info-penting>button {
     float: right;
     margin-right: 3rem;
 }
 
 .komik>.row>.col-lg-6>button:hover {
-    background-color: #11aa89;
+    background-color: #11aa89 !important;
 }
 
 .komik>.row>.col-lg-6>button {
@@ -834,11 +861,9 @@ html {
     height: 90%;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
-    background-color: #00818e;
+    background-color: #00818e !important;
     border: none;
 }
-
-
 
 .btn-komik>button {
     float: right;
@@ -1072,6 +1097,7 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
+
 /* lanjut isi berita */
 
 .img-isi-berita-lanjut {
@@ -1112,46 +1138,45 @@ html {
 /* footer */
 
 .indigo {
-    background-color: #00818e;
+    background-color: #00818e !important;
     bottom: 0;
     position: relative;
     margin-top: 4rem;
 }
 
-.flex-center {
+
+/* .flex-center {
     margin-top: 1rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+} */
+
+.int-ic>i>img {
+    margin-right: 3rem;
 }
 
-.fb-ic>img {
-    width: 3%;
-    height: auto;
-    position: center;
-    margin-left: 38%;
+.fb-ic>i>img {
+    margin-right: 3rem;
 }
 
-.tw-ic>img {
-    width: 3%;
-    height: auto;
-    margin-left: 1%;
+.tw-ic>i>img {
+    margin-right: 3rem;
 }
 
-.ins-ic>img {
-    width: 3%;
-    height: auto;
-    margin-left: 1%;
+.ytb-ic>i>img {
+    margin-right: 0rem;
 }
 
-.ytb-ic>img {
-    width: 3%;
-    height: auto;
-    margin-left: 1%;
-}
 
+/*
 .logo-center>img {
     border: 2px solid green;
     width: 20%;
     margin: 0% auto;
-}
+} */
 
 .berita-intro {
     /*border:1px solid #000000;*/

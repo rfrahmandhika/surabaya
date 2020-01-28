@@ -1,104 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="HandheldFriendly" content="true">
-        <title>Pemerintah Kota Surabaya</title>
-        <link rel="stylesheet" type="text/css" href="src/css/sidr.css">
-        <link rel="stylesheet" type="text/css"
-            href="https://cdn.jsdelivr.net/jquery.sidr/2.2.1/stylesheets/jquery.sidr.light.min.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Pemerintah Kota Surabaya</title>
+    <link rel="stylesheet" type="text/css" href="src/css/sidr.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.sidr/2.2.1/stylesheets/jquery.sidr.light.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled-4.12.0.min.css">
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
 
-        <link rel="stylesheet" href="src/css/bootstrap.min.css">
-        <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>-->
+    <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>-->
+    <script src="https://cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+    <script src="src/js/popper.min.js"></script>
+    <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/main.js"></script>
+</head>
 
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-        <!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>-->
-        <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>-->
-        <script src="https://cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
-        <script src="src/js/bootstrap.min.js"></script>
-        <script src="src/js/popper.min.js"></script>
-        <script src="src/js/jquery.min.js"></script>
-        <script src="src/js/main.js"></script>
-    </head>
-
-    <body>
-        <div class="container-fluid intro" id="home">
-            <div class="container menu-atas" id="menu">
-                <a href="#home"><img src="src/images/logo.jpg" class="mr-5 active" alt="" width="100%" height="100%"></a>
-                <ul class="nav" id="myMenu">
-                    <li class="nav-item dropdown" align="center">
-                        <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false" href="#">Profil</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="halaman_baru/tentang-surabaya.html">Tentang Surabaya</a></li>
-                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">Instansi</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="halaman_baru/opd.html">ORGANISASI PERANGKAT DAERAH
+<body>
+    <div class="container-fluid intro" id="home">
+        <div class="container menu-atas" id="menu">
+            <a href="#home"><img src="src/images/logo.jpg" class="mr-5 active" alt="" width="100%" height="100%"></a>
+            <ul class="nav">
+                <li class="nav-item dropdown" align="center">
+                    <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Profil</a>
+                    <ul class="dropdown-menu sub_menu_1" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="halaman_baru/tentang-surabaya.html">Tentang Surabaya</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item" href="#">Instansi</a>
+                            <ul class="dropdown-menu sub_menu_2">
+                                <li><a class="dropdown-item" href="halaman_baru/opd.html">ORGANISASI PERANGKAT DAERAH
                                             (OPD)</a></li>
-                                    <li><a class="dropdown-item"
-                                            href="https://surabaya.go.id/id/page/0/8063/daftar-nama-pejabat">DAFTAR NAMA
+                                <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/8063/daftar-nama-pejabat">DAFTAR NAMA
                                             PEJABAT</a></li>
-                                    <li><a class="dropdown-item"
-                                            href="halaman_baru/daftar-alamat-kecamatan-dan-kelurahan.html">DAFTAR ALAMAT
+                                <li><a class="dropdown-item" href="halaman_baru/daftar-alamat-kecamatan-dan-kelurahan.html">DAFTAR ALAMAT
                                             KECAMATAN DAN KELURAHAN</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-submenu"><a class="dropdown-item" href="http://google.com">Organisasi</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="http://dharmawanita.surabaya.go.id/">Darma Wanita</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/8232/korpri">Korps
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu"><a class="dropdown-item" href="http://google.com">Organisasi</a>
+                            <ul class="dropdown-menu sub_menu_2">
+                                <li><a class="dropdown-item" href="http://dharmawanita.surabaya.go.id/">Darma Wanita</a>
+                                </li>
+                                <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/8232/korpri">Korps
                                             Pagawai Republik<br> Indonesia (KORPRI)</a></li>
-                                    <li><a class="dropdown-item" href="http://www.sby.uddpmikotasby.com/">Palang Merah
+                                <li><a class="dropdown-item" href="http://www.sby.uddpmikotasby.com/">Palang Merah
                                             Indonesia (PMI)<br>Kota Surabaya</a></li>
-                                    <li><a class="dropdown-item" href="http://pkk.surabaya.go.id/pkk/index.php">PEMBERDAYAAN
+                                <li><a class="dropdown-item" href="http://pkk.surabaya.go.id/pkk/index.php">PEMBERDAYAAN
                                             KESEJAHTERAAN<br>KELUARGA(PKK) KOTA SURABAYA</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="dropdown-item" href="halaman_baru/link-site-otd.html">Link Site OPD</a></li>
-                            <li><a class="dropdown-item" href="halaman_baru/profil-kota-surabaya.html">Profil Kota
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="halaman_baru/link-site-otd.html">Link Site OPD</a></li>
+                        <li><a class="dropdown-item" href="halaman_baru/profil-kota-surabaya.html">Profil Kota
                                     Surabaya</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown" align="center">
-                        <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"aria-expanded="false" href="#goPelayanan">Pelayanan</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="http://ppid.surabaya.go.id/">PPID</a></li>
-                            <li><a class="dropdown-item" href="https://surabaya.go.id/id/berita/10287/administrasi-kependudukan">Administrasi kependudukan</a></li>
-                            <li><a class="dropdown-item" href="http://ssw.surabaya.go.id/">Pelayanan perizinan</a></li>
-                            <li><a class="dropdown-item" href="https://surabaya.go.id/id/berita/10314/media-centre">Media center</a></li>
-                            <li><a class="dropdown-item" href="https://ehealth.surabaya.go.id/pendaftaran/">e-health</a></li>
-                            <li><a class="dropdown-item" href="https://twitter.com/Commandsurabaya?s=08">112</a></li>
-                            <li><a class="dropdown-item" href="https://lpse.surabaya.go.id/eproc/app">LPSE</a></li>
-                            <li><a class="dropdown-item" href="https://jdih.surabaya.go.id/">JDIH</a></li>
-                            <li><a class="dropdown-item" href="https://pelayanan.dispendik.surabaya.go.id/">Dispendik</a></li>
-                            <li><a class="dropdown-item" href="https://surabaya.go.id/id/berita/16303/rekomendasi-dan-perijinan-dinas-sosial">Perijinan dinas sosial</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown" align="center">
-                        <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false" href="#goInformasi">Informasi</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="https://surabaya.go.id/id/berita/49454/informasi-harga-kebutuhan-pokok">Informasi
+                    </ul>
+                </li>
+                <li class="nav-item dropdown" align="center">
+                    <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#goPelayanan">Pelayanan</a>
+                    <ul class="dropdown-menu sub_menu_1" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="http://ppid.surabaya.go.id/">PPID</a></li>
+                        <li><a class="dropdown-item" href="https://surabaya.go.id/id/berita/10287/administrasi-kependudukan">Administrasi kependudukan</a></li>
+                        <li><a class="dropdown-item" href="http://ssw.surabaya.go.id/">Pelayanan perizinan</a></li>
+                        <li><a class="dropdown-item" href="https://surabaya.go.id/id/berita/10314/media-centre">Media center</a></li>
+                        <li><a class="dropdown-item" href="https://ehealth.surabaya.go.id/pendaftaran/">e-health</a></li>
+                        <li><a class="dropdown-item" href="https://twitter.com/Commandsurabaya?s=08">112</a></li>
+                        <li><a class="dropdown-item" href="https://lpse.surabaya.go.id/eproc/app">LPSE</a></li>
+                        <li><a class="dropdown-item" href="https://jdih.surabaya.go.id/">JDIH</a></li>
+                        <li><a class="dropdown-item" href="https://pelayanan.dispendik.surabaya.go.id/">Dispendik</a></li>
+                        <li><a class="dropdown-item" href="https://surabaya.go.id/id/berita/16303/rekomendasi-dan-perijinan-dinas-sosial">Perijinan dinas sosial</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown" align="center">
+                    <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#goInformasi">Informasi</a>
+                    <ul class="dropdown-menu sub_menu_1 " aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="https://surabaya.go.id/id/berita/49454/informasi-harga-kebutuhan-pokok">Informasi
                                     harga pokok</a></li>
-                            <li><a class="dropdown-item" href="https://surabaya.go.id/page/0/8263/transportasi">Transportasi</a></li>
-                            <li><a class="dropdown-item" href="halaman_baru/statistik-surabaya.html">Statistik surabaya</a>
+                        <li><a class="dropdown-item" href="https://surabaya.go.id/page/0/8263/transportasi">Transportasi</a></li>
+                        <li><a class="dropdown-item" href="halaman_baru/statistik-surabaya.html">Statistik surabaya</a>
                             <li><a class="dropdown-item" href="halaman_baru/taman-taman-di-kota-surabaya.html">Taman kota</a></li>
                             <li class="dropdown-submenu"><a class="dropdown-item" href="#info-perdagangan">Informasi perdagangan</a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu sub_menu_2">
                                     <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/8177/sosial-ekonomi">KAWASAN BISNIS</a></li>
                                     <li><a class="dropdown-item" href="http://dpm-ptsp.surabaya.go.id/v3/pages/data-investasi-kota-surabaya">DATA INVESTASI</a></li>
                                     <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/11327/daftar-usaha-pariwisata--dup-">DAFTAR USAHA PARIWISATA (DUP)</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown-submenu"><a class="dropdown-item" href="#about">tempat ibadah</a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu sub_menu_2">
                                     <li><a class="dropdown-item" href="https://surabaya.go.id/uploads/attachments/2018/10/40178/Data_Tempat_Ibadah_Masjid_2018.pdf?1540453611">MASJID</a></li>
                                     <li><a class="dropdown-item" href="https://surabaya.go.id/uploads/attachments/2016/3/5337/data_ibadah_kristen_un_habitat.pdf">GEREJA</a></li>
                                     <li><a class="dropdown-item" href="https://surabaya.go.id/uploads/attachments/2016/3/5338/data_ibadah_hindu_habitat.pdf">PURA</a></li>
@@ -107,223 +99,220 @@
                                 </ul>
                             </li>
                             <li class="dropdown-submenu"><a class="dropdown-item" href="#about">KIM</a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu sub_menu_2">
                                     <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/38005/rekap-kim-kota-surabaya-yang-sudah-ber-sk">REKAP KIM</a></li>
                                     <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/38345/blogspot-kim-kota-surabaya">BLOG KIM</a></li>
                                 </ul>
                             </li>
                             <li><a class="dropdown-item" href="halaman_baru/pariwisata-surabaya.html">Pariwisata Surabaya</a></li>
-                        </ul>
+                    </ul>
                     </li>
+            </ul>
+        </div>
+        <div class="smartphone header-menu-mobile">
+            <img src="src/images/logo.jpg" alt="" class="image-logo-mobile" width="150" height="10">
+            <a id="simple-menu" class="menu-button" href="#sidr">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </a>
+            <div id="sidr">
+                <ul>
+                    <li><a href="#">Profil</a></li>
+                    <li><a href="#">Pelayanan</a></li>
+                    <li><a href="#">Informasi</a></li>
+                    <li><a href="#">Komik</a></li>
                 </ul>
             </div>
-            <div class="smartphone header-menu-mobile">
-                <img src="src/images/logo.jpg" alt="" class="image-logo-mobile" width="150" height="10">
-                <a id="simple-menu" class="menu-button" href="#sidr">
-                    <i class="fa fa-bars" aria-hidden="true"></i>
-                </a>
-                <div id="sidr">
-                    <ul>
-                        <li><a href="#">Profil</a></li>
-                        <li><a href="#">Pelayanan</a></li>
-                        <li><a href="#">Informasi</a></li>
-                        <li><a href="#">Komik</a></li>
-                    </ul>
+        </div>
+        <div class="smartphone"></div>
+        <div class="row slide-header">
+            <div class="col-md-6 slider-head">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner slide-back">
+                        <!-- data slider random di javascript -->
+                    </div>
+                    <a class="carousel-control-prev lanjut" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next lanjut" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
-            <div class="smartphone"></div>
-            <div class="row slide-header">
-                <div class="col-md-6 slider-head">
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner slide-back">
-                            <!-- data slider random di javascript -->
-                        </div>
-                        <a class="carousel-control-prev lanjut" href="#carouselExampleControls" role="button"
-                            data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next lanjut" href="#carouselExampleControls" role="button"
-                            data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6 img-surabaya">
-                    <img src="src/images/bg_sby_polos.png">
-                    <div class="teks-surabaya">Surabaya</div>
-                    <div class="teks-surabaya-shadow">Surabaya</div>
-                    <div class="teks-surabaya-2">Kota Sentosa, Berkarakter,<br> Berdaya Saing Global, Berbasis Ekologi</div>
-                </div>
+            <div class="col-md-6 img-surabaya">
+                <img src="src/images/bg_sby_polos.png">
+                <div class="teks-surabaya">Surabaya</div>
+                <div class="teks-surabaya-shadow">Surabaya</div>
+                <div class="teks-surabaya-2">Kota Sentosa, Berkarakter,<br> Berdaya Saing Global, Berbasis Ekologi</div>
             </div>
         </div>
+    </div>
 
-        <div class="container info">
-            <div class="smartphone">
-                <h1>INFO PENTING</h1>
+    <div class="container info">
+        <div class="smartphone">
+            <h1>INFO PENTING</h1>
+        </div>
+        <h1>INFO<br>PENTING</h1>
+        <hr>
+        </br>
+        </br>
+        <div class="row">
+            <div class="col-lg-6">
+                <p>Menyajikan informasi dari Pemerintahan Kota Surabaya dan jadwal terdekat di kota Surabaya </p>
             </div>
-            <h1>INFO<br>PENTING</h1>
-            <hr>
-            </br>
-            </br>
-            <div class="row">
-                <div class="col-lg-6">
-                    <p>Menyajikan informasi dari Pemerintahan Kota Surabaya dan jadwal terdekat di kota Surabaya </p>
-                </div>
-                <div class="col-lg-6 btn-info-penting">
-                    <button type="button" class="btn btn-secondary">Melihat semua info penting</button>
-                </div>
+            <div class="col-lg-6 btn-info-penting">
+                <button type="button" class="btn btn-secondary">Melihat semua info penting</button>
             </div>
-            <div id="row">
-                <div class="row__inner">
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+        </div>
+        <div id="row">
+            <div class="row__inner">
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -332,528 +321,334 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="container berita ">
-            <h1>BERITA</h1>
-            <hr>
-            </br>
-            </br>
-            <div class="row">
-                <div class="col-lg-6">
-                    <p>Menyajikan berita terkini seputar Pemerintahan Kota Surabaya</p>
-                </div>
-                <div class="col-lg-6 btn-info-penting">
-                    <button type="button" class="btn btn-secondary">Melihat semua berita</button>
-                </div>
+    <div class="container berita ">
+        <h1>BERITA</h1>
+        <hr>
+        </br>
+        </br>
+        <div class="row">
+            <div class="col-lg-6">
+                <p>Menyajikan berita terkini seputar Pemerintahan Kota Surabaya</p>
             </div>
-            <div class="container-fluid berita-intro">
-                <div class="container berita-konten">
-                    <div class="row berita-isi-konten">
-                        <div class="col-md-8 berita-slider-intro">
-                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="row berita-slide-konten">
-                                            <div class="col-md-5 slide-konten-img">
-                                                <img src="src/images/img2.jpg" class="img-fluid" height="500px"
-                                                    alt="Responsive image">
+            <div class="col-lg-6 btn-info-penting">
+                <button type="button" class="btn btn-secondary">Melihat semua berita</button>
+            </div>
+        </div>
+        <div class="container-fluid berita-intro">
+            <div class="container berita-konten">
+                <div class="row berita-isi-konten">
+                    <div class="col-md-8 berita-slider-intro">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row berita-slide-konten">
+                                        <div class="col-md-5 slide-konten-img">
+                                            <img src="src/images/img2.jpg" class="img-fluid" height="500px" alt="Responsive image">
+                                        </div>
+                                        <div class="col-md-7 slide-konten-desc">
+                                            <div class="col-md-12 slide-judul-desc">
+                                                <h1>
+                                                    <p>Antisipasi Menghadapi Cuaca Ekstrem</p>
+                                                </h1>
                                             </div>
-                                            <div class="col-md-7 slide-konten-desc">
-                                                <div class="col-md-12 slide-judul-desc">
-                                                    <h1>
-                                                        <p>Antisipasi Menghadapi Cuaca Ekstrem</p>
-                                                    </h1>
-                                                </div>
-                                                <div class="col-md-12 slide-isi-desc">
-                                                    <p>
-                                                        Lorem Isum is Simply dummy text of the printing and typesetting
-                                                        industry. Lorem ipsum has been the industry's standart dummy text
-                                                        ever sine the 1500s...
-                                                    </p>
-                                                    <br>
-                                                    <a type="button" class="btn btn-selengkapnya"
-                                                        href="isi-berita.html">LIHAT SELENGKAPNYA</a>
-                                                    <br>
-                                                    <br>
-                                                    <span class="align-text-bottom">23.12.19 | 22 menit yang lalu | Oleh :
+                                            <div class="col-md-12 slide-isi-desc">
+                                                <p>
+                                                    Lorem Isum is Simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standart dummy text ever sine the 1500s...
+                                                </p>
+                                                <br>
+                                                <a type="button" class="btn btn-selengkapnya" href="isi-berita.html">LIHAT SELENGKAPNYA</a>
+                                                <br>
+                                                <br>
+                                                <span class="align-text-bottom">23.12.19 | 22 menit yang lalu | Oleh :
                                                         John Lennon</span>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="carousel-item">
-                                        <div class="row berita-slide-konten">
-                                            <div class="col-md-5 slide-konten-img">
-                                                <img src="src/images/img3.jpg" class="img-fluid" height="500px"
-                                                    alt="Responsive image">
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row berita-slide-konten">
+                                        <div class="col-md-5 slide-konten-img">
+                                            <img src="src/images/img3.jpg" class="img-fluid" height="500px" alt="Responsive image">
+                                        </div>
+                                        <div class="col-md-7 slide-konten-desc">
+                                            <div class="col-md-12 slide-judul-desc">
+                                                <h1>
+                                                    <p>Antisipasi Menghadapi Cuaca Ekstrem</p>
+                                                </h1>
                                             </div>
-                                            <div class="col-md-7 slide-konten-desc">
-                                                <div class="col-md-12 slide-judul-desc">
-                                                    <h1>
-                                                        <p>Antisipasi Menghadapi Cuaca Ekstrem</p>
-                                                    </h1>
-                                                </div>
-                                                <div class="col-md-12 slide-isi-desc">
-                                                    <p>
-                                                        Lorem Isum is Simply dummy text of the printing and typesetting
-                                                        industry. Lorem ipsum has been the industry's standart dummy text
-                                                        ever sine the 1500s...
-                                                    </p>
-                                                    <br>
-                                                    <a type="button" class="btn btn-selengkapnya"
-                                                        href="isi-berita.html">LIHAT SELENGKAPNYA</a>
-                                                    <br>
-                                                    <br>
-                                                    <span class="align-text-bottom">23.12.19 | 22 menit yang lalu | Oleh :
+                                            <div class="col-md-12 slide-isi-desc">
+                                                <p>
+                                                    Lorem Isum is Simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standart dummy text ever sine the 1500s...
+                                                </p>
+                                                <br>
+                                                <a type="button" class="btn btn-selengkapnya" href="isi-berita.html">LIHAT SELENGKAPNYA</a>
+                                                <br>
+                                                <br>
+                                                <span class="align-text-bottom">23.12.19 | 22 menit yang lalu | Oleh :
                                                         John Lennon</span>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="carousel-item">
-                                        <div class="row berita-slide-konten">
-                                            <div class="col-md-5 slide-konten-img">
-                                                <img src="src/images/img1.jpg" class="img-fluid" height="500px"
-                                                    alt="Responsive image">
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row berita-slide-konten">
+                                        <div class="col-md-5 slide-konten-img">
+                                            <img src="src/images/img1.jpg" class="img-fluid" height="500px" alt="Responsive image">
+                                        </div>
+                                        <div class="col-md-7 slide-konten-desc">
+                                            <div class="col-md-12 slide-judul-desc">
+                                                <h1>
+                                                    <p>Antisipasi Menghadapi Cuaca Ekstrem</p>
+                                                </h1>
                                             </div>
-                                            <div class="col-md-7 slide-konten-desc">
-                                                <div class="col-md-12 slide-judul-desc">
-                                                    <h1>
-                                                        <p>Antisipasi Menghadapi Cuaca Ekstrem</p>
-                                                    </h1>
-                                                </div>
-                                                <div class="col-md-12 slide-isi-desc">
-                                                    <p>
-                                                        Lorem Isum is Simply dummy text of the printing and typesetting
-                                                        industry. Lorem ipsum has been the industry's standart dummy text
-                                                        ever sine the 1500s...
-                                                    </p>
-                                                    <br>
-                                                    <a type="button" class="btn btn-selengkapnya"
-                                                        href="isi-berita.html">LIHAT SELENGKAPNYA</a>
-                                                    <br>
-                                                    <br>
-                                                    <span class="align-text-bottom">23.12.19 | 22 menit yang lalu | Oleh :
+                                            <div class="col-md-12 slide-isi-desc">
+                                                <p>
+                                                    Lorem Isum is Simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standart dummy text ever sine the 1500s...
+                                                </p>
+                                                <br>
+                                                <a type="button" class="btn btn-selengkapnya" href="isi-berita.html">LIHAT SELENGKAPNYA</a>
+                                                <br>
+                                                <br>
+                                                <span class="align-text-bottom">23.12.19 | 22 menit yang lalu | Oleh :
                                                         John Lennon</span>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="carousel-item">
-                                        <div class="row berita-slide-konten">
-                                            <div class="col-md-5 slide-konten-img">
-                                                <img src="src/images/img1.jpg" class="img-fluid" height="500px"
-                                                    alt="Responsive image">
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row berita-slide-konten">
+                                        <div class="col-md-5 slide-konten-img">
+                                            <img src="src/images/img1.jpg" class="img-fluid" height="500px" alt="Responsive image">
+                                        </div>
+                                        <div class="col-md-7 slide-konten-desc">
+                                            <div class="col-md-12 slide-judul-desc">
+                                                <h1>
+                                                    <p>Antisipasi Menghadapi Cuaca Ekstrem</p>
+                                                </h1>
                                             </div>
-                                            <div class="col-md-7 slide-konten-desc">
-                                                <div class="col-md-12 slide-judul-desc">
-                                                    <h1>
-                                                        <p>Antisipasi Menghadapi Cuaca Ekstrem</p>
-                                                    </h1>
-                                                </div>
-                                                <div class="col-md-12 slide-isi-desc">
-                                                    <p>
-                                                        Lorem Isum is Simply dummy text of the printing and typesetting
-                                                        industry. Lorem ipsum has been the industry's standart dummy text
-                                                        ever sine the 1500s...
-                                                    </p>
-                                                    <br>
-                                                    <a type="button" class="btn btn-selengkapnya"
-                                                        href="isi-berita.html">LIHAT SELENGKAPNYA</a>
-                                                    <br>
-                                                    <br>
-                                                    <span class="align-text-bottom">23.12.19 | 22 menit yang lalu | Oleh :
+                                            <div class="col-md-12 slide-isi-desc">
+                                                <p>
+                                                    Lorem Isum is Simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standart dummy text ever sine the 1500s...
+                                                </p>
+                                                <br>
+                                                <a type="button" class="btn btn-selengkapnya" href="isi-berita.html">LIHAT SELENGKAPNYA</a>
+                                                <br>
+                                                <br>
+                                                <span class="align-text-bottom">23.12.19 | 22 menit yang lalu | Oleh :
                                                         John Lennon</span>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="carousel-item">
-                                        <div class="row berita-slide-konten">
-                                            <div class="col-md-5 slide-konten-img">
-                                                <img src="src/images/img1.jpg" class="img-fluid" height="500px"
-                                                    alt="Responsive image">
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row berita-slide-konten">
+                                        <div class="col-md-5 slide-konten-img">
+                                            <img src="src/images/img1.jpg" class="img-fluid" height="500px" alt="Responsive image">
+                                        </div>
+                                        <div class="col-md-7 slide-konten-desc">
+                                            <div class="col-md-12 slide-judul-desc">
+                                                <h1>
+                                                    <p>Antisipasi Menghadapi Cuaca Ekstrem</p>
+                                                </h1>
                                             </div>
-                                            <div class="col-md-7 slide-konten-desc">
-                                                <div class="col-md-12 slide-judul-desc">
-                                                    <h1>
-                                                        <p>Antisipasi Menghadapi Cuaca Ekstrem</p>
-                                                    </h1>
-                                                </div>
-                                                <div class="col-md-12 slide-isi-desc">
-                                                    <p>
-                                                        Lorem Isum is Simply dummy text of the printing and typesetting
-                                                        industry. Lorem ipsum has been the industry's standart dummy text
-                                                        ever sine the 1500s...
-                                                    </p>
-                                                    <br>
-                                                    <a type="button" class="btn btn-selengkapnya"
-                                                        href="isi-berita.html">LIHAT SELENGKAPNYA</a>
-                                                    <br>
-                                                    <br>
-                                                    <span class="align-text-bottom">23.12.19 | 22 menit yang lalu | Oleh :
+                                            <div class="col-md-12 slide-isi-desc">
+                                                <p>
+                                                    Lorem Isum is Simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standart dummy text ever sine the 1500s...
+                                                </p>
+                                                <br>
+                                                <a type="button" class="btn btn-selengkapnya" href="isi-berita.html">LIHAT SELENGKAPNYA</a>
+                                                <br>
+                                                <br>
+                                                <span class="align-text-bottom">23.12.19 | 22 menit yang lalu | Oleh :
                                                         John Lennon</span>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-md-4" style="border-left:2px solid grey;">
+                    </div>
+                    <!-- <div class="col-md-4" style="border-left:2px solid grey;">
                             <img src="src/images/kanan.PNG">
                         </div> -->
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="container video">
-            <div class="smartphone">
-                <h1>Video</h1>
+    <div class="container video">
+        <div class="smartphone">
+            <h1>Video</h1>
+        </div>
+        <h1>VIDEO</h1>
+        <hr>
+        </br>
+        </br>
+        <div class="row">
+            <div class="col-lg-6">
+                <p>Menyajikan informasi dari Pemerintahan Kota Surabaya dan jadwal terdekat di kota Surabaya </p>
             </div>
-            <h1>VIDEO</h1>
-            <hr>
-            </br>
-            </br>
-            <div class="row">
-                <div class="col-lg-6">
-                    <p>Menyajikan informasi dari Pemerintahan Kota Surabaya dan jadwal terdekat di kota Surabaya </p>
-                </div>
-                <div class="col-lg-6 btn-info-penting">
-                    <button type="button" class="btn btn-secondary">Melihat semua video</button>
-                </div>
-            </div>
-            <div id="row1">
-                <div class="row__inner">
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-6 btn-info-penting">
+                <button type="button" class="btn btn-secondary">Melihat semua video</button>
             </div>
         </div>
-
-        <div class="container foto">
-            <div class="smartphone">
-                <h1>Foto</h1>
-            </div>
-            <h1>FOTO</h1>
-            <hr>
-            </br>
-            </br>
-            <div class="row">
-                <div class="col-lg-6">
-                    <p>Menyajikan informasi dari Pemerintahan Kota Surabaya dan jadwal terdekat di kota Surabaya </p>
+        <div id="row1">
+            <div class="row__inner">
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-6 btn-info-penting">
-                    <button type="button" class="btn btn-secondary">Melihat semua foto</button>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div id="row2">
-                <div class="row__inner">
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -862,172 +657,172 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="container audio">
-            <div class="smartphone">
-                <h1>Audio</h1>
+    <div class="container foto">
+        <div class="smartphone">
+            <h1>Foto</h1>
+        </div>
+        <h1>FOTO</h1>
+        <hr>
+        </br>
+        </br>
+        <div class="row">
+            <div class="col-lg-6">
+                <p>Menyajikan informasi dari Pemerintahan Kota Surabaya dan jadwal terdekat di kota Surabaya </p>
             </div>
-            <h1>AUDIO</h1>
-            <hr>
-            </br>
-            </br>
-            <div class="row">
-                <div class="col-lg-6">
-                    <p>Menyajikan informasi dari Pemerintahan Kota Surabaya dan jadwal terdekat di kota Surabaya </p>
-                </div>
-                <div class="col-lg-6 btn-info-penting">
-                    <button type="button" class="btn btn-secondary">Melihat semua audio</button>
-                </div>
+            <div class="col-lg-6 btn-info-penting">
+                <button type="button" class="btn btn-secondary">Melihat semua foto</button>
             </div>
-            <div id="row3">
-                <div class="row__inner">
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+        </div>
+        <div id="row2">
+            <div class="row__inner">
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
-                        <div class="tile__media">
-                            <div class="cino">
-                                <div class="img-each">
-                                    <img class="tile__img" src="src/images/info4.jpg" alt="" />
-                                    <div class="overlay">
-                                        <div class="viewmore">
-                                            <a href="#">
-                                                <h1>Waspada Pasang Air Laut Maksimum</h1>
-                                                <h5>Jumat, 10 Januari 2020</h5>
-                                                <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
-                                                <span class="kota-sby-text">Kota Surabaya</span>
-                                            </a>
-                                        </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -1036,279 +831,480 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="container komik" id="goKomik">
-            <h1>KOMIK</h1>
-            <hr>
-            </br>
-            </br>
-            <div class="row">
-                <div class="col-lg-6">
-                    <p>Menyajikan informasi-informasi kebijakan terbaru dari Pemerintahan Kota Surabaya yang disajikan dalam
-                        bentuk komik</p>
-                </div>
-                <div class="col-lg-6 btn-komik">
-                    <button type="button" class="btn btn-secondary">Melihat semua komik</button>
-                </div>
+    <div class="container audio">
+        <div class="smartphone">
+            <h1>Audio</h1>
+        </div>
+        <h1>AUDIO</h1>
+        <hr>
+        </br>
+        </br>
+        <div class="row">
+            <div class="col-lg-6">
+                <p>Menyajikan informasi dari Pemerintahan Kota Surabaya dan jadwal terdekat di kota Surabaya </p>
             </div>
-            <div class="row list-komik">
-                <div class="row komik_detail">
-                    <div class="col-lg-3 col-md-4 col-6 mx-auto">
-                        <div class="img-each">
-                            <a href="#" data-toggle="modal" data-target=".modalBesar">
-                                <img class="img-fluid" src="src/images/comic1.png" />
-                                <div class="overlay-komik">
-                                    <div class="viewmore-komik judul-komik">
-                                        <span>Tips Berkendara Saat Musim Hujan</span>
+            <div class="col-lg-6 btn-info-penting">
+                <button type="button" class="btn btn-secondary">Melihat semua audio</button>
+            </div>
+        </div>
+        <div id="row3">
+            <div class="row__inner">
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Modal komik -->
-
-                    <div class="modal fade modalBesar" tabindex="-1" role="dialog" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h3>Tips Berkendara Saat Musim Hujan</h3>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="src/images/komikcoba.jpg" width="100%">
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <!-- end of modal komik -->
-
-                    <div class="col-lg-3 col-md-4 col-6 mx-auto">
-                        <div class="img-each">
-                            <a href="#" data-toggle="modal" data-target=".modalBesar">
-                                <img class="img-fluid" src="src/images/comic1.png" />
-                                <div class="overlay-komik">
-                                    <div class="viewmore-komik judul-komik">
-                                        <span>Tips Berkendara Saat Musim Hujan</span>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Modal komik -->
-
-                    <div class="modal fade modalBesar" tabindex="-1" role="dialog" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h3>Tips Berkendara Saat Musim Hujan</h3>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="src/images/komikcoba.jpg" width="100%">
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <!-- end of modal komik -->
-
-                    <div class="col-lg-3 col-md-4 col-6 mx-auto">
-                        <div class="img-each">
-                            <a href="#" data-toggle="modal" data-target=".modalBesar">
-                                <img class="img-fluid" src="src/images/comic1.png" />
-                                <div class="overlay-komik">
-                                    <div class="viewmore-komik judul-komik">
-                                        <span>Tips Berkendara Saat Musim Hujan</span>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Modal komik -->
-
-                    <div class="modal fade modalBesar" tabindex="-1" role="dialog" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h3>Tips Berkendara Saat Musim Hujan</h3>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="src/images/komikcoba.jpg" width="100%">
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <!-- end of modal komik -->
-
-                    <div class="col-lg-3 col-md-4 col-6 mx-auto">
-                        <div class="img-each">
-                            <a href="#" data-toggle="modal" data-target=".modalBesar">
-                                <img class="img-fluid" src="src/images/comic1.png" />
-                                <div class="overlay-komik">
-                                    <div class="viewmore-komik judul-komik">
-                                        <span>Tips Berkendara Saat Musim Hujan</span>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Modal komik -->
-
-                    <div class="modal fade modalBesar" tabindex="-1" role="dialog" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h3>Tips Berkendara Saat Musim Hujan</h3>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="src/images/komikcoba.jpg" width="100%">
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <!-- end of modal komik -->
-
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__media">
+                        <div class="cino">
+                            <div class="img-each">
+                                <img class="tile__img" src="src/images/info4.jpg" alt="" />
+                                <div class="overlay">
+                                    <div class="viewmore">
+                                        <a href="#">
+                                            <h1>Waspada Pasang Air Laut Maksimum</h1>
+                                            <h5>Jumat, 10 Januari 2020</h5>
+                                            <span class="dinas-text">Dinas Komunikasi dan Informatika</span>
+                                            <span class="kota-sby-text">Kota Surabaya</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Footer -->
-        <footer class="page-footer font-small indigo">
+    </div>
 
-            <!-- Footer Links -->
-            <div class="container">
-
-                <!-- Grid row-->
-                <div class="row logo-center d-flex justify-content-center pt-5 mb-3">
-                    <img src="src/images/info7.jpg" alt="">
-
-                </div>
-                <!-- Grid row-->
-
-
-                <!-- Grid row-->
-                <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
-
-                </div>
-                <!-- Grid row-->
-                <hr style="border: 1px solid white; background-color: white; width: 60rem;">
-                </hr>
-                <p style="line-height: 3rem"></p>
-
-                <!-- Grid row-->
-                <div class="row pb-3">
-
-                    <!-- Grid column -->
-                    <div class="col-md-12 flex">
-
-                        <div class="mb-5 flex-center">
-
-                            <!-- Facebook -->
-                            <a href="https://id-id.facebook.com/sapawargakotasurabaya/" class="fb-ic">
-                                <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
-                                <img src="src/images/facebook-white.png" alt="">
-                            </a>
-                            <!-- Twitter -->
-                            <a href="https://twitter.com/SapawargaSby" class="tw-ic">
-                                <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
-                                <img src="src/images/twitter-white.png" alt="">
-                            </a>
-                            <!--Instagram-->
-                            <a href="https://www.instagram.com/sapawargasby/" class="ins-ic">
-                                <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
-                                <img src="src/images/instagram-white.png" alt="">
-                            </a>
-                            <!--Youtube-->
-                            <a href="https://www.youtube.com/user/MediaCenterPemkotSby" class="ytb-ic">
-                                <i class="fab fa-youtube fa-lg white-text mr-4"> </i>
-                                <img src="src/images/youtube-white.png" alt="">
-                            </a>
-
-                        </div>
-
+    <div class="container komik" id="goKomik">
+        <h1>KOMIK</h1>
+        <hr>
+        </br>
+        </br>
+        <div class="row">
+            <div class="col-lg-6">
+                <p>Menyajikan informasi-informasi kebijakan terbaru dari Pemerintahan Kota Surabaya yang disajikan dalam bentuk komik</p>
+            </div>
+            <div class="col-lg-6 btn-komik">
+                <button type="button" class="btn btn-secondary">Melihat semua komik</button>
+            </div>
+        </div>
+        <div class="row list-komik">
+            <div class="row komik_detail">
+                <div class="col-lg-3 col-md-4 col-6 mx-auto">
+                    <div class="img-each">
+                        <a href="#" data-toggle="modal" data-target=".modalBesar">
+                            <img class="img-fluid" src="src/images/comic1.png" />
+                            <div class="overlay-komik">
+                                <div class="viewmore-komik judul-komik">
+                                    <span>Tips Berkendara Saat Musim Hujan</span>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <!-- Grid column -->
-
                 </div>
-                <!-- Grid row-->
+
+                <!-- Modal komik -->
+
+                <div class="modal fade modalBesar" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3>Tips Berkendara Saat Musim Hujan</h3>
+                            </div>
+                            <div class="modal-body">
+                                <img src="src/images/komikcoba.jpg" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- end of modal komik -->
+
+                <div class="col-lg-3 col-md-4 col-6 mx-auto">
+                    <div class="img-each">
+                        <a href="#" data-toggle="modal" data-target=".modalBesar">
+                            <img class="img-fluid" src="src/images/comic1.png" />
+                            <div class="overlay-komik">
+                                <div class="viewmore-komik judul-komik">
+                                    <span>Tips Berkendara Saat Musim Hujan</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Modal komik -->
+
+                <div class="modal fade modalBesar" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3>Tips Berkendara Saat Musim Hujan</h3>
+                            </div>
+                            <div class="modal-body">
+                                <img src="src/images/komikcoba.jpg" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- end of modal komik -->
+
+                <div class="col-lg-3 col-md-4 col-6 mx-auto">
+                    <div class="img-each">
+                        <a href="#" data-toggle="modal" data-target=".modalBesar">
+                            <img class="img-fluid" src="src/images/comic1.png" />
+                            <div class="overlay-komik">
+                                <div class="viewmore-komik judul-komik">
+                                    <span>Tips Berkendara Saat Musim Hujan</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Modal komik -->
+
+                <div class="modal fade modalBesar" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3>Tips Berkendara Saat Musim Hujan</h3>
+                            </div>
+                            <div class="modal-body">
+                                <img src="src/images/komikcoba.jpg" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- end of modal komik -->
+
+                <div class="col-lg-3 col-md-4 col-6 mx-auto">
+                    <div class="img-each">
+                        <a href="#" data-toggle="modal" data-target=".modalBesar">
+                            <img class="img-fluid" src="src/images/comic1.png" />
+                            <div class="overlay-komik">
+                                <div class="viewmore-komik judul-komik">
+                                    <span>Tips Berkendara Saat Musim Hujan</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Modal komik -->
+
+                <div class="modal fade modalBesar" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3>Tips Berkendara Saat Musim Hujan</h3>
+                            </div>
+                            <div class="modal-body">
+                                <img src="src/images/komikcoba.jpg" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- end of modal komik -->
 
             </div>
-        </footer>
-        <script type="text/javascript">
-            function getScrollTop() {
-                if (typeof window.pageYOffset !== "undefined") {
-                    // Most browsers
-                    return window.pageYOffset;
-                }
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small indigo">
 
-                var d = document.documentElement;
-                if (typeof d.clientHeight !== "undefined") {
-                    // IE in standards mode
-                    return d.scrollTop;
-                }
+        <!-- Footer Links -->
+        <div class="container">
 
-                // IE in quirks mode
-                return document.body.scrollTop;
+            <!-- Grid row-->
+            <div class="row text-center d-flex justify-content-center pt-5 mb-3" style="padding-bottom: 2rem;">
+
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-5 mb-6">
+                    <img src="src/images/gedung.png" width=50%>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+            <hr class="rgba-white-light" style="margin: 0 15%;">
+
+            <!-- Grid row-->
+            <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+            <!-- <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;"> -->
+
+            <!-- Grid row-->
+            <div class="row pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-12">
+
+                    <div class="mb-5 flex-center">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic">
+                            <i class="mr-4">
+                                <img src="src/images/facebook.png">
+                                </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="mr-4">
+                                <img src="src/images/twitter.png">
+                                </i>
+                        </a>
+                        <!-- Instagram-->
+                        <a class="int-ic">
+                            <i class="mr-4">
+                                <img src="src/images/instagram.png">
+                                </i>
+                        </a>
+                        <!--Youtube -->
+                        <a class="ytb-ic">
+                            <i class="mr-4">
+                                <img src="src/images/youtube.png">
+                            </i>
+                        </a>
+
+
+                    </div>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3"> PEMERINTAH KOTA SURABAYA <br>
+            <a href="https://surabaya.go.id"> Surabaya.go.id</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+    <script type="text/javascript">
+        function getScrollTop() {
+            if (typeof window.pageYOffset !== "undefined") {
+                // Most browsers
+                return window.pageYOffset;
             }
 
-            window.onscroll = function () {
-                var box = document.getElementById("menu");
-                var scroll = getScrollTop();
-
-                if (scroll <= 28) {
-                    box.style.top = "10px";
-                    box.style.width = "100%"
-                } else {
-                    box.style.top = (scroll + 2) + "px";
-                }
-            };
-
-            var header = document.getElementById("myMenu");
-            var btns = header.getElementsByClassName("nav-link");
-            for (var i = 0; i < btns.length; i++) {
-                btns[i].addEventListener("click", function () {
-                    var current = document.getElementsByClassName("active");
-                    current[0].className = current[0].className.replace(" active", "");
-                    this.className += " active";
-                });
+            var d = document.documentElement;
+            if (typeof d.clientHeight !== "undefined") {
+                // IE in standards mode
+                return d.scrollTop;
             }
 
+            // IE in quirks mode
+            return document.body.scrollTop;
+        }
+
+        window.onscroll = function() {
+            var box = document.getElementById("menu");
+            var scroll = getScrollTop();
+
+            if (scroll <= 28) {
+                box.style.top = "10px";
+                box.style.width = "100%"
+            } else {
+                box.style.top = (scroll + 2) + "px";
+            }
+        };
 
 
-            jQuery(document).ready(function ($) {
-                var images = [{
-                    url: "src/images/img3.jpg"
-                }, {
-                    url: "src/images/img2.jpg"
-                }, {
-                    url: "src/images/img1.jpg"
-                }];
 
-                images.sort(function () {
-                    return 0.5 - Math.random();
-                });
 
-                $.each(images, function (index, image) {
-                    var element = $('<div class="carousel-item"><img src="' + image.url + '" class="d-block w-100"/></div>')
+        jQuery(document).ready(function($) {
+            var images = [{
+                url: "src/images/img3.jpg"
+            }, {
+                url: "src/images/img2.jpg"
+            }, {
+                url: "src/images/img1.jpg"
+            }];
 
-                    if (index === 0) {
-                        element.addClass("active");
-                    }
-
-                    element.appendTo("div.slide-back");
-                });
-
-                $('.carousel').carousel({
-                    interval: 3000,
-                })
+            images.sort(function() {
+                return 0.5 - Math.random();
             });
 
-            init();
-        </script>
-    </body>
+            $.each(images, function(index, image) {
+                var element = $('<div class="carousel-item"><img src="' + image.url + '" class="d-block w-100"/></div>')
+
+                if (index === 0) {
+                    element.addClass("active");
+                }
+
+                element.appendTo("div.slide-back");
+            });
+
+            $('.carousel').carousel({
+                interval: 3000,
+            })
+        });
+
+        init();
+    </script>
+</body>
 
 </html>
