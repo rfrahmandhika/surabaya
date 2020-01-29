@@ -71,6 +71,70 @@ html {
     opacity: 1;
 }
 
+
+/* ===========================
+   ====== Search Box ====== 
+   =========================== */
+
+.search {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
+    overflow: auto;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.search input[type="text"] {
+    border: 0px;
+    width: 80%;
+    font-family: 'Montserrat' !important;
+    padding: 10px 10px;
+    letter-spacing: normal;
+    font-size: 15px;
+}
+
+.search input[type="text"]:focus {
+    outline: 0;
+}
+
+.search button {
+    /* background-image: url("src/images/cari.png"); */
+    border: none;
+    background-color: #CF5C3F;
+    color: #fff;
+    float: right;
+    padding: 10px;
+    border-radius-top-right: 5px;
+    -moz-border-radius-top-right: 5px;
+    -webkit-border-radius-top-right: 5px;
+    border-radius-bottom-right: 5px;
+    -moz-border-radius-bottom-right: 5px;
+    -webkit-border-radius-bottom-right: 5px;
+    cursor: pointer;
+}
+
+
+/* ===========================
+      ====== Medua Query for Search Box ====== 
+      =========================== */
+
+@media only screen and (min-width: 150px) and (max-width: 780px) {
+    .search {
+        /* width: auto; */
+        margin: 0 auto;
+    }
+}
+
+.add-on .input-group-btn>.btn {
+    border-left-width: 0;
+    left: -2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+
+/* stop the glowing blue shadow */
+
 .nav li:hover>ul.dropdown-menu {
     margin-top: 0;
     margin-bottom: 0;
@@ -142,21 +206,26 @@ html {
     position: absolute;
     z-index: 5;
     background-color: white;
-    margin-top: 3rem;
-    margin-left: 5rem;
+    margin: 5rem;
     height: 8rem;
+    max-width: 92.5%;
+}
+
+#profil-header {
+    width: 13%;
+    margin-left: 4rem;
 }
 
 .menu-atas>ul {
-    width: 90%;
+    width: 61%;
     border: 0 solid black;
 }
 
 .menu-atas>ul>li {
-    margin-left: 8rem;
+    margin-left: 4rem;
     list-style-type: none;
     border: 0 solid black;
-    width: 18%;
+    width: 17%;
     height: 7.8rem;
     display: flex;
     align-items: center;
@@ -1286,19 +1355,19 @@ html {
     justify-content: center;
 } */
 
-.int-ic>i>img {
-    margin-right: 3rem;
+.int-ic {
+    margin-right: 4rem;
 }
 
-.fb-ic>i>img {
-    margin-right: 3rem;
+.fb-ic {
+    margin-right: 4rem;
 }
 
-.tw-ic>i>img {
-    margin-right: 3rem;
+.tw-ic {
+    margin-right: 4rem;
 }
 
-.ytb-ic>i>img {
+.ytb-ic {
     margin-right: 0rem;
 }
 
