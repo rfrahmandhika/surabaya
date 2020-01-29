@@ -63,13 +63,80 @@ html {
     list-style-type: none;
 }
 
-.dropdown-menu {
+.sub_menu_1 {
     opacity: 0.89;
 }
 
-.menusub2 {
+.sub_meniu2 {
     opacity: 1;
 }
+
+
+/* ===========================
+   ====== Search Box ====== 
+   =========================== */
+
+.search {
+    width: 20%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
+    overflow: auto;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.search input[type="text"] {
+    border: 0px;
+    width: 81%;
+    font-family: 'Montserrat' !important;
+    padding: 10px 10px;
+    letter-spacing: normal;
+    font-size: 15px;
+}
+
+.search input[type="text"]:focus {
+    outline: 0;
+}
+
+.search button {
+    /* background-image: url("src/images/cari.png"); */
+    border: none;
+    background-color: #CF5C3F;
+    color: #fff;
+    float: right;
+    padding: 10px;
+    width: 5.2rem;
+    height: 42.5px;
+    border-radius-top-right: 5px;
+    -moz-border-radius-top-right: 5px;
+    -webkit-border-radius-top-right: 5px;
+    border-radius-bottom-right: 5px;
+    -moz-border-radius-bottom-right: 5px;
+    -webkit-border-radius-bottom-right: 5px;
+    cursor: pointer;
+}
+
+
+/* ===========================
+      ====== Medua Query for Search Box ====== 
+      =========================== */
+
+@media only screen and (min-width: 150px) and (max-width: 780px) {
+    .search {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+.add-on .input-group-btn>.btn {
+    border-left-width: 0;
+    left: -2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+
+/* stop the glowing blue shadow */
 
 .nav li:hover>ul.dropdown-menu {
     margin-top: 0;
@@ -103,7 +170,13 @@ html {
     list-style-type: none;
 }
 
-.dropdown-item:hover {
+.dropdown-item:hover,
+.dropdown-menu>li>a:hover {
+    background-color: #00828eb0 !important;
+}
+
+.dropdown-menu>li:hover,
+.dropdown-menu>li:focus {
     height: 100%;
     background-color: #00828eb0 !important;
 }
@@ -116,36 +189,46 @@ html {
     color: #562f00;
 }
 
+.dropdown-menu>li>a:hover:after {
+    color: white;
+}
+
 
 /* rotate caret on hover */
 
 .dropdown-menu>li>a:hover:after {
-    /* border: 1px solid black; */
+    border: 3px solid black;
     text-decoration: underline;
     transform: rotate(-90deg);
 }
 
 .menu-atas {
-    border:0 solid black;
+    border: 0 solid black;
     display: flex;
     align-items: center;
     position: absolute;
     z-index: 5;
-	margin:5rem;
     background-color: white;
+    margin: 5rem;
     height: 8rem;
+    max-width: 92.5%;
+}
+
+#profil-header {
+    width: 13%;
+    margin-left: 4rem;
 }
 
 .menu-atas>ul {
-    width: 90%;
+    width: 61%;
     border: 0 solid black;
 }
 
 .menu-atas>ul>li {
-    padding: 0 5rem 0 5rem;
+    margin-left: 4rem;
     list-style-type: none;
     border: 0 solid black;
-    width: 10%;
+    width: 17%;
     height: 7.8rem;
     display: flex;
     align-items: center;
@@ -162,9 +245,7 @@ html {
 }
 
 .menu-atas>ul>li:hover>a,
-.menu-atas>ul>li:focus-within>a,
-.menu-atas>ul>li>a:hover,
-.menu-atas>ul>li>a:focus {
+.menu-atas>ul>li:focus-within>a {
     background-color: #00818e;
     border-top-left-radius: 1.3rem;
     border-bottom-right-radius: 1.3rem;
@@ -744,6 +825,270 @@ html {
     font-family: 'Montserrat', sans-serif;
     background-color: #00818e !important;
     border: none;
+}
+
+.berita>.row>.col-lg-6>button:hover {
+    background-color: #11aa89 !important;
+}
+
+.btn-berita>button {
+    float: right;
+    padding-right: 3rem;
+}
+
+.berita {
+    border: 0 solid black;
+    margin: 0;
+    padding: 0;
+    max-width: 192rem;
+}
+
+.video>h1 {
+    line-height: 100%;
+    padding-left: 5rem;
+    margin-top: 5rem;
+    color: #00818e;
+    font-weight: bold;
+    font-size: 2.3vw;
+    letter-spacing: .5rem;
+    text-shadow: 2px 0 #00818e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.berita>hr {
+    width: 3%;
+    border: 3px solid #ea5f00;
+    float: left;
+    margin-left: 5rem;
+}
+
+
+/* end of berita section */
+
+
+/* pelayanan section */
+
+.pelayanan>.row>.col-lg-6>p {
+    font-size: 1.1vw;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pelayanan {
+    border: 0 solid black;
+    max-width: 192rem;
+    padding-top: 8rem;
+}
+
+.pelayanan>h1 {
+    margin-left: 5rem;
+    font-weight: bold;
+    color: #00818e;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.3vw;
+    letter-spacing: .5rem;
+    text-shadow: 2px 0 #00818e;
+}
+
+.pelayanan>hr {
+    width: 3%;
+    border: 3px solid #ea5f00;
+    float: left;
+    margin-left: 5rem;
+}
+
+
+/* end of pelayanan section */
+
+.profil>.row>.col-lg-6>p {
+    font-size: 1.1vw;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.informasi>.row>.col-lg-6>p {
+    font-size: 1.1vw;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.komik>.row>.col-lg-6>p {
+    font-size: 1.1vw;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-info-penting>button {
+    float: right;
+    margin-right: 3rem;
+}
+
+.komik>.row>.col-lg-6>button:hover {
+    background-color: #11aa89 !important;
+}
+
+.komik>.row>.col-lg-6>button {
+    font-size: 1.1vw;
+    width: 40%;
+    height: 90%;
+    border-radius: .6rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00818e !important;
+    border: none;
+}
+
+.btn-komik>button {
+    float: right;
+    margin-right: 3rem;
+}
+
+.judul-info>a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.profil {
+    border: 0 solid black;
+    margin: 0;
+    padding: 0;
+    max-width: 192rem;
+}
+
+.profil>h1 {
+    margin-left: 5rem;
+    font-weight: bold;
+    color: #00818e;
+    font-weight: bold;
+    font-size: 2.3vw;
+    letter-spacing: .5rem;
+    text-shadow: 2px 0 #00818e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profil>hr {
+    width: 3%;
+    border: 3px solid #ea5f00;
+    float: left;
+    margin-left: 5rem;
+}
+
+.audio>.row>.col-lg-6>p {
+    font-size: 1.1vw;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.audio>.row>.col-lg-6>button {
+    font-size: 1.1vw;
+    width: 40%;
+    height: 90%;
+    border-radius: .6rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00818e !important;
+    border: none;
+}
+
+.audio>.row>.col-lg-6>button:hover {
+    background-color: #11aa89 !important;
+}
+
+#row3 {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+/* end of audio section */
+
+
+/* foto section */
+
+.foto {
+    border: 0 solid black;
+    margin: 0;
+    padding: 0;
+    max-width: 192rem;
+    padding-top: 14rem;
+}
+
+.foto>h1 {
+    line-height: 100%;
+    padding-left: 5rem;
+    margin-top: 5rem;
+    color: #00818e;
+    font-weight: bold;
+    font-size: 2.3vw;
+    letter-spacing: .5rem;
+    text-shadow: 2px 0 #00818e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.foto>hr {
+    width: 3%;
+    border: 3px solid #ea5f00;
+    float: left;
+    margin-left: 5rem;
+}
+
+.komik {
+    border: 0 solid black;
+    max-width: 192rem;
+    padding-top: 10rem;
+}
+
+.komik_detail {
+    padding: 5rem;
+}
+
+.foto>.row>.col-lg-6>button {
+    font-size: 1.1vw;
+    width: 40%;
+    height: 90%;
+    border-radius: .6rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00818e !important;
+    border: none;
+}
+
+.foto>.row>.col-lg-6>button:hover {
+    background-color: #11aa89 !important;
+}
+
+#row2 {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+/* end of foto section */
+
+
+/* berita section */
+
+.berita>.row>.col-lg-6>p {
+    font-size: 1.1vw;
+    text-align: justify;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.berita>.row>.col-lg-6>button {
+    font-size: 1.1vw;
+    width: 40%;
+    height: 145%;
+    border-radius: .6rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00818e !important;
+    border: none;
     float: left;
 }
 
@@ -1251,7 +1596,7 @@ html {
 }
 
 .berita-isi-konten>.berita-kanan{
-    padding:0 5rem 0 5rem;"
+    padding:0 5rem 0 5rem;
 }
 
 .berita-isi-konten>.berita-kanan {
