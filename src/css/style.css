@@ -206,7 +206,7 @@ html {
     position: absolute;
     z-index: 5;
     background-color: white;
-    margin: 5rem;
+    margin: 3rem 5rem 5rem 5.8rem;
     height: 8rem;
     max-width: 92.5%;
 }
@@ -521,17 +521,23 @@ html {
     bottom: 0;
     padding: 10px;
 }
+
+
 /*
 .row__inner:hover {
     -webkit-transform: translate3d(-62.5px, 0, 0);
     transform: translate3d(-62.5px, 0, 0);
 }
 */
+
+
 /*
 .row__inner:hover .tile {
     opacity: 0.3;
 }
 */
+
+
 /*
 .row__inner:hover .tile:hover {
     -webkit-transform: scale(1.2);
@@ -539,12 +545,15 @@ html {
     opacity: 1;
 }
 */
+
+
 /*
 .tile:hover~.tile {
     -webkit-transform: translate3d(70px, 0, 0);
     transform: translate3d(70px, 0, 0);
 }
 */
+
 .img-each {
     position: relative;
     overflow: hidden;
@@ -1584,60 +1593,58 @@ html {
     font-size: 1vw;
 }
 
-.btn-selengkapnya:hover{
+.btn-selengkapnya:hover {
     background-color: darkorange;
 }
 
-.slide-isi-desc>a:hover{
+.slide-isi-desc>a:hover {
     color: #ffffff;
 }
 
-.berita-isi-konten>.berita-kanan{
-    padding:0 5rem 0 5rem;
+.berita-isi-konten>.berita-kanan {
+    padding: 0 5rem 0 5rem;
 }
 
 .berita-isi-konten>.berita-kanan {
     /*border: 1px solid #000000;*/
 }
 
-.berita-kanan-konten{
+.berita-kanan-konten {
     /*border-bottom: 1px solid #000000;*/
 }
 
-.berita-kanan-konten>.berita-kanan-isi-konten{
+.berita-kanan-konten>.berita-kanan-isi-konten {
     /*border: 1px solid #000000;*/
 }
 
-.berita-kanan-konten > .berita-kanan-isi-konten > .berita-kanan-tgl > .tgl{
-    height:10rem;
+.berita-kanan-konten>.berita-kanan-isi-konten>.berita-kanan-tgl>.tgl {
+    height: 10rem;
     /*border:1px solid #000000;*/
     display: flex;
     align-items: center;
-    text-align:center;
+    text-align: center;
     font-size: 3rem;
     justify-content: center;
 }
 
-.berita-kanan-isi-konten > .berita-kanan-tgl > .tgl{
+.berita-kanan-isi-konten>.berita-kanan-tgl>.tgl {
     color: #562f00;
     font-weight: bold;
 }
 
-.berita-kanan-isi-konten > .berita-kanan-tgl > .judul{
+.berita-kanan-isi-konten>.berita-kanan-tgl>.judul {
     color: #808080;
     font-weight: bold;
 }
 
-
-.berita-kanan-konten > .berita-kanan-isi-konten > .berita-kanan-judul{
-    height:10rem;
+.berita-kanan-konten>.berita-kanan-isi-konten>.berita-kanan-judul {
+    height: 10rem;
     /*border: 1px solid #000000;*/
     display: flex;
     align-items: center;
-    text-align:left;
+    text-align: left;
     font-size: 1.2rem;
 }
-
 
 div.gallery {
     margin: 5px;
