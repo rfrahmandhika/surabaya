@@ -20,6 +20,7 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
     font-size: 100%;
+    font: inherit;
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -59,23 +60,27 @@ body {
 }
 
 h1 {
+    text-align: center;
     font-size: 32px;
+    color: #444;
     margin-bottom: 30px;
     line-height: 1.5em;
 }
 
 h2 {
     font-size: 24px;
+    color: #444;
     margin-bottom: 20px;
     line-height: 1.5em;
 }
 
 p {
+    font-size: 16px;
     margin-bottom: 20px;
 }
 
 ul li {
-    list-style-type: square;
+  list-style-type: square;
 }
 
 .menu-button {
@@ -83,7 +88,7 @@ ul li {
     position: absolute;
     top: 20px;
     left: 20px;
-    background: url(../images/menu.gif) no-repeat;
+    background: url(menu.gif) no-repeat;
     overflow: hidden;
     width: 34px;
     height: 31px;

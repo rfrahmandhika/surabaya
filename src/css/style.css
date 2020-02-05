@@ -342,6 +342,7 @@ html {
     animation-timing-function: ease-out;
     animation-direction: alternate;
     animation-fill-mode: forwards;
+    padding-top: 7vw;
 }
 
 .intro {
@@ -419,7 +420,7 @@ html {
 }
 
 #row {
-    overflow-x: hidden;
+    overflow: hidden;
     width: 100%;
 }
 
@@ -445,7 +446,7 @@ html {
     transition: 450ms all;
     -webkit-transform-origin: center left;
     transform-origin: center left;
-    /* box-shadow: 5px 5px 5px 1px grey; */
+    box-shadow: 5px 5px 5px 1px grey;
 }
 
 .tile__img {
@@ -507,23 +508,14 @@ html {
     padding: 10px;
 }
 
-
-/* /* */
-
 .row__inner:hover {
     -webkit-transform: translate3d(-62.5px, 0, 0);
     transform: translate3d(-62.5px, 0, 0);
 }
 
-*/
-/* /* */
-
 .row__inner:hover .tile {
     opacity: 0.3;
 }
-
-*/
-/* /* */
 
 .row__inner:hover .tile:hover {
     -webkit-transform: scale(1.2);
@@ -531,15 +523,12 @@ html {
     opacity: 1;
 }
 
-*/
-/* /* */
-
 .tile:hover~.tile {
     -webkit-transform: translate3d(70px, 0, 0);
     transform: translate3d(70px, 0, 0);
 }
 
-*/ .img-each {
+.img-each {
     position: relative;
     overflow: hidden;
     border-radius: 0;
@@ -566,11 +555,11 @@ html {
 }
 
 .tile:nth-child(odd)>div>div>div>.overlay {
-    background: rgba(255, 150, 0, 0.9);
+    background: rgba(255, 150, 0, 0.8);
 }
 
 .tile:nth-child(even)>div>div>div>.overlay {
-    background: #00818e;
+    background: rgba(0, 129, 142, 0.8);
 }
 
 .img-each:hover .overlay {
@@ -921,7 +910,7 @@ html {
 }
 
 .komik>h1 {
-    padding: 5rem;
+    padding-left: 5rem;
     font-weight: bold;
     color: #00818e;
     font-family: 'Montserrat', sans-serif;
@@ -1742,30 +1731,23 @@ li.flyout-right a:hover+ul {
     background-color: #ea5f00;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
     .menu-atas {
         display: none;
     }
     .smartphone {
         display: block !important;
         padding-top: 10px;
-        padding-bottom: 10px;
     }
-    .smartphone>a {
-        border: 0 solid #808080;
-        background-color: #333333;
-        margin-left: 80%;
-        margin-top: -2px;
+    .smartphone>.menu-button {
+        margin-left: 85%;
     }
-    .menu-atas-menu-mobile>img {
-        width: auto;
-        height: auto;
-        margin-left: 340px;
-        margin: 0 auto;
+    .smartphone>.nav-sample {
+        display: none;
     }
-    .smartphone>div>ul>li>a {
-        color: #000 !important;
-    }
+}
+
+@media (max-width: 767px) {
     .carousel-cell {
         width: 80%;
     }
@@ -1775,6 +1757,7 @@ li.flyout-right a:hover+ul {
     .img-surabaya img {
         width: 65%;
         height: auto;
+        padding-top: 0;
     }
     .info {
         text-align: center;
