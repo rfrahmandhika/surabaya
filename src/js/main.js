@@ -1,11 +1,25 @@
 /*plugin for sidr*/
 $(document).ready(function () {
-  $('#simple-menu').sidr({
+(function(sidr) {
+  "use strict"
+
+  sidr.new('#sidr-left-top-button', {
+    name: 'sidr-left-top',
     timing: 'ease-in-out',
     speed: 500,
-    side: 'right'
+    side : 'right',
+    source: '.nav-sample'
+    
   });
+
+  window.onresize = function() {
+    sidr.close('sidr-left-top');
+  };
+
+  })(window.sidr);
+
 });
+
 
 /*Scroll Delay*/
 
