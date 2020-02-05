@@ -429,7 +429,8 @@ html {
     transition: 450ms transform;
     transition: 450ms transform, 450ms -webkit-transform;
     font-size: 0;
-    margin: 70.3125px 0;
+    margin: 55px 0;
+    padding-left: 1.5vw;
     padding-bottom: 1rem;
     counter-increment: row__inner;
     white-space: nowrap;
@@ -440,13 +441,13 @@ html {
     display: inline-block;
     width: 33rem;
     height: 33rem;
-    margin-right: 1rem;
+    margin-right: 1.2rem;
     font-size: 2rem;
     cursor: pointer;
     transition: 450ms all;
     -webkit-transform-origin: center left;
     transform-origin: center left;
-    box-shadow: 5px 5px 5px 1px grey;
+    box-shadow: 7px 6px 6px 0px lightgrey;
 }
 
 .tile__img {
@@ -533,6 +534,7 @@ html {
     overflow: hidden;
     border-radius: 0;
     transition: transform .2s;
+    margin: .8rem 0 .8rem 0;
 }
 
 .img-each>img {
@@ -1156,6 +1158,8 @@ html {
     text-transform: uppercase;
     font-weight: bold;
     color: #fd7e14;
+    font-family: 'Montserrat-Bold';
+    font-size: 1.5vw;
 }
 
 .slide-konten-desc>.slide-isi-desc {
@@ -1195,7 +1199,7 @@ html {
 }
 
 .berita-kanan-konten {
-    /*border-bottom: 1px solid #000000;*/
+    border-bottom: 1px solid #ea5f00;
 }
 
 .berita-kanan-konten>.berita-kanan-isi-konten {
@@ -1208,7 +1212,7 @@ html {
     display: flex;
     align-items: center;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5vw;
     justify-content: center;
 }
 
@@ -1312,6 +1316,7 @@ div.desc {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Montserrat;
 }
 
 .vertical-menu-informasi {
@@ -1747,6 +1752,51 @@ li.flyout-right a:hover+ul {
     }
 }
 
+@media (max-width: 991px) {
+    .info>.row>.col-lg-6>button {
+        width: 30%;
+        height: 100%;
+        float: none;
+        margin-left: 5rem;
+    }
+    .berita>.row>.col-lg-6>button {
+        width: 30%;
+        height: 100%;
+        float: none;
+        margin-left: 5rem;
+    }
+    .berita>.row>.col-lg-6>button {
+        width: 30%;
+        height: 100%;
+        float: none;
+        margin-left: 5rem;
+    }
+    .video>.row>.col-lg-6>button {
+        width: 30%;
+        height: 100%;
+        float: none;
+        margin-left: 5rem;
+    }
+    .foto>.row>.col-lg-6>button {
+        width: 30%;
+        height: 100%;
+        float: none;
+        margin-left: 5rem;
+    }
+    .audio>.row>.col-lg-6>button {
+        width: 30%;
+        height: 100%;
+        float: none;
+        margin-left: 5rem;
+    }
+    .komik>.row>.col-lg-6>button {
+        width: 30%;
+        height: 100%;
+        float: none;
+        margin-left: 5rem;
+    }
+}
+
 @media (max-width: 767px) {
     .carousel-cell {
         width: 80%;
@@ -1955,6 +2005,7 @@ li.flyout-right a:hover+ul {
         border: none;
         float: none;
         margin-right: 0;
+        margin-left: 0;
         padding: 1rem;
     }
     .komik>.row>.col-lg-6>p {
@@ -1983,12 +2034,15 @@ li.flyout-right a:hover+ul {
         display: inline;
         text-align: center;
     }
+    .berita-kanan-konten {
+        border-bottom: 0px;
+    }
     .row__inner {
         transition: 450ms -webkit-transform;
         transition: 450ms transform;
         transition: 450ms transform, 450ms -webkit-transform;
         font-size: 0;
-        margin: 3rem 0;
+        margin: 4rem 0;
     }
     .dropdown-menu>li {
         list-style-type: none;
@@ -2107,5 +2161,8 @@ li.flyout-right a:hover+ul {
     }
     .btn-selengkapnya {
         font-size: 2vw;
+    }
+    .slide-konten-desc>.slide-judul-desc>h1 {
+        font-size: 3vw;
     }
 }
