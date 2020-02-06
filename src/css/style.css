@@ -100,8 +100,8 @@ html {
 .search button {
     /* background-image: url("src/images/cari.png"); */
     border: none;
-    background-color: #CF5C3F;
-    color: #fff;
+    background-color: #CF5C3F !important;
+    color: #fff !important;
     float: right;
     padding: 10px;
     border-radius-top-right: 5px;
@@ -143,7 +143,7 @@ html {
     /* border: 0px solid green; */
     display: block;
     padding: 1.5rem 1rem 1.5rem 1rem;
-    background-color: white;
+    background-color: white !important;
 }
 
 .dropdown-item {
@@ -183,11 +183,11 @@ html {
     text-transform: uppercase;
     font-size: 1.4rem !important;
     font-weight: bold;
-    color: #562f00;
+    color: #562f00 !important;
 }
 
 .dropdown-menu>li>a:hover:after {
-    color: white;
+    color: white !important;
 }
 
 
@@ -205,7 +205,7 @@ html {
     align-items: center;
     position: absolute;
     z-index: 5;
-    background-color: white;
+    background-color: white !important;
     margin: 3rem 5rem 5rem 5.8rem;
     height: 8rem;
     max-width: 92.5%;
@@ -232,21 +232,21 @@ html {
 }
 
 .menu-atas>ul>li>a {
-    color: #562f00;
+    color: #562f00 !important;
     font-family: Montserrat;
     text-transform: uppercase;
     font-size: 1.4rem;
     font-weight: bold;
     letter-spacing: .28rem;
-    text-shadow: .6px 0 #562f00;
+    text-shadow: .6px 0 #562f00 !important;
 }
 
 .menu-atas>ul>li:hover>a,
 .menu-atas>ul>li:focus-within>a {
-    background-color: #00818e;
+    background-color: #00818e !important;
     border-top-left-radius: 1.3rem;
     border-bottom-right-radius: 1.3rem;
-    color: white;
+    color: white !important;
     /* border-bottom: 3px solid #00818e; */
 }
 
@@ -275,9 +275,9 @@ html {
     top: 41%;
     left: 51%;
     font-size: 6vw;
-    color: transparent;
+    color: transparent !important;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #562f0056;
+    -webkit-text-stroke-color: #562f0056 !important;
     animation-name: mymove;
     animation-duration: .9s;
     animation-iteration-count: 1;
@@ -295,7 +295,7 @@ html {
     top: 40%;
     left: 50%;
     font-size: 6vw;
-    color: #ea5f00;
+    color: #ea5f00 !important;
     animation-name: mymove;
     animation-duration: .9s;
     animation-iteration-count: 1;
@@ -315,7 +315,7 @@ html {
     top: 62%;
     left: 70%;
     font-size: 1.1vw;
-    color: #562f00;
+    color: #562f00 !important;
     animation-name: mymove2;
     animation-duration: 1.3s;
     animation-iteration-count: 1;
@@ -353,7 +353,7 @@ html {
     height: 5rem;
     width: 5rem;
     top: 50%;
-    background-color: #ea5f00;
+    background-color: #ea5f00 !important;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     opacity: 1 !important;
@@ -377,11 +377,11 @@ html {
     line-height: 100%;
     padding-left: 5rem;
     padding-top: 4rem;
-    color: #00818e;
+    color: #00818e !important;
     font-weight: bold;
     font-size: 2vw;
     letter-spacing: .5rem;
-    text-shadow: 2px 0 #00818e;
+    text-shadow: 2px 0 #00818e !important;
     font-family: Montserrat;
 }
 
@@ -548,7 +548,7 @@ html {
     bottom: 0;
     left: 0;
     right: 0;
-    color: #fff;
+    color: #fff !important;
     opacity: 0;
     display: flex;
     align-items: center;
@@ -567,7 +567,7 @@ html {
 .img-each:hover .overlay {
     visibility: visible;
     opacity: 1;
-    color: white;
+    color: white !important;
 }
 
 .viewmore {
@@ -588,7 +588,7 @@ html {
 
 .viewmore>a {
     display: block;
-    color: #fff;
+    color: #fff !important;
     padding: 50px;
     position: relative;
     height: 100%;
@@ -629,7 +629,7 @@ html {
     line-height: 100%;
     padding-left: 5rem;
     margin-top: 5rem;
-    color: #00818e;
+    color: #00818e !important;
     font-weight: bold;
     font-size: 2.3vw;
     letter-spacing: .5rem;
@@ -688,11 +688,11 @@ html {
 .audio>h1 {
     line-height: 100%;
     padding-left: 5rem;
-    color: #00818e;
+    color: #00818e !important;
     font-weight: bold;
     font-size: 2vw;
     letter-spacing: .5rem;
-    text-shadow: 2px 0 #00818e;
+    text-shadow: 2px 0 #00818e !important;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -747,7 +747,7 @@ html {
 .foto>h1 {
     line-height: 100%;
     padding-left: 5rem;
-    color: #00818e;
+    color: #00818e !important;
     font-weight: bold;
     font-size: 2vw;
     letter-spacing: .5rem;
@@ -811,12 +811,12 @@ html {
 .berita>h1 {
     padding-left: 5rem;
     font-weight: bold;
-    color: #00818e;
+    color: #00818e !important;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 2vw;
     letter-spacing: .5rem;
-    text-shadow: 2px 0 #00818e;
+    text-shadow: 2px 0 #00818e !important;
 }
 
 .btn-berita>button {
@@ -896,7 +896,7 @@ html {
 .judul-berita h2 {
     border: 0 solid black;
     margin-top: 5rem;
-    color: #562f00;
+    color: #562f00 !important;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -914,7 +914,7 @@ html {
 .komik>h1 {
     padding-left: 5rem;
     font-weight: bold;
-    color: #00818e;
+    color: #00818e !important;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 2vw;
@@ -980,7 +980,7 @@ html {
 .isi-berita>.isi-berita-judul {
     margin-top: 5rem;
     height: 10rem;
-    color: #ea5f00;
+    color: #ea5f00 !important;
     align-items: center;
     display: flex;
     font-weight: bold;
@@ -1003,7 +1003,7 @@ html {
 .lanjut-berita>button>img {
     height: 4vw;
     width: auto;
-    background-color: white;
+    background-color: white !important;
 }
 
 .isi-berita>.isi-berita-desc {
@@ -1012,7 +1012,7 @@ html {
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: justify;
-    color: #562f00;
+    color: #562f00 !important;
     height: 43rem;
     font-size: 1vw;
     font-family: 'Montserrat', sans-serif;
@@ -1039,7 +1039,7 @@ html {
 .back-berita>button>img {
     height: 4vw;
     width: auto;
-    background-color: white;
+    background-color: white !important;
 }
 
 .isi-berita-lanjut {
@@ -1050,7 +1050,7 @@ html {
     padding: 2rem 2rem 2rem 2rem;
     column-count: 2;
     text-align: justify;
-    color: #562f00;
+    color: #562f00 !important;
     font-size: 1vw;
     font-family: 'Montserrat', sans-serif;
 }
@@ -1156,7 +1156,7 @@ html {
 .slide-konten-desc>.slide-judul-desc>h1 {
     text-transform: uppercase;
     font-weight: bold;
-    color: #fd7e14;
+    color: #fd7e14 !important;
     font-family: 'Montserrat-Bold';
     font-size: 1.5vw;
 }
@@ -1165,8 +1165,8 @@ html {
     /*border: 1px solid black;*/
     height: 21rem;
     /*border-radius: 0 0 40px 0;*/
-    background-color: #00818E;
-    color: white;
+    background-color: #00818E !important;
+    color: white !important;
     /*display: flex;*/
     /*align-items: center;*/
     padding: 2rem;
@@ -1174,19 +1174,19 @@ html {
 }
 
 .btn-selengkapnya {
-    background-color: #fd7e14;
-    color: white;
+    background-color: #fd7e14 !important;
+    color: white !important;
     width: 50%;
     height: 20%;
     font-size: 1vw;
 }
 
 .btn-selengkapnya:hover {
-    background-color: darkorange;
+    background-color: darkorange !important;
 }
 
 .slide-isi-desc>a:hover {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 .berita-isi-konten>.berita-kanan {
@@ -1216,12 +1216,12 @@ html {
 }
 
 .berita-kanan-isi-konten>.berita-kanan-tgl>.tgl {
-    color: #562f00;
+    color: #562f00 !important;
     font-weight: bold;
 }
 
 .berita-kanan-isi-konten>.berita-kanan-tgl>.judul {
-    color: #808080;
+    color: #808080 !important;
     font-weight: bold;
 }
 
@@ -1263,7 +1263,7 @@ div.desc {
     bottom: 0;
     left: 0;
     right: 0;
-    color: white;
+    color: white !important;
     opacity: 0;
     display: flex;
     align-items: center;
@@ -1300,7 +1300,7 @@ div.desc {
 
 .viewmore-komik>a {
     display: block;
-    color: #fff;
+    color: #fff !important;
     position: relative;
     height: 100%;
     /*border:1px solid red;*/
@@ -1332,7 +1332,7 @@ div.desc {
 
 .vertical-menu-informasi>ul {
     width: 40%;
-    background-color: #bdc3c7;
+    background-color: #bdc3c7 !important;
     border-top-left-radius: 3rem;
     border-bottom-right-radius: 3rem;
     z-index: 900 !important;
@@ -1344,7 +1344,7 @@ div.desc {
 
 .vertical-menu-informasi>ul>li>a {
     display: block;
-    color: #562f00;
+    color: #562f00 !important;
     padding: 2rem 2rem;
     text-decoration: none;
     font-size: 1vw;
@@ -1361,7 +1361,7 @@ div.desc {
 
 .vertical-menu-informasi>ul {
     width: 40%;
-    background-color: #bdc3c7;
+    background-color: #bdc3c7 !important;
     border-top-left-radius: 3rem;
     /* border-bottom-right-radius: 3rem; */
     z-index: 900 !important;
@@ -1378,7 +1378,7 @@ div.desc {
 
 .vertical-menu>ul {
     width: 40%;
-    background-color: #bdc3c7;
+    background-color: #bdc3c7 !important;
     border-top-left-radius: 3rem;
     border-bottom-right-radius: 3rem;
     z-index: 900 !important;
@@ -1390,7 +1390,7 @@ div.desc {
 
 .vertical-menu>ul>li>a {
     display: block;
-    color: #562f00;
+    color: #562f00 !important;
     padding: 2rem 2rem;
     text-decoration: none;
     font-size: 1vw;
@@ -1407,7 +1407,7 @@ div.desc {
 
 .vertical-menu>ul {
     width: 40%;
-    background-color: #bdc3c7;
+    background-color: #bdc3c7 !important;
     border-top-left-radius: 3rem;
     /* border-bottom-right-radius: 3rem; */
     z-index: 900 !important;
@@ -1424,7 +1424,7 @@ div.desc {
 
 .vertical-menu-pelayanan>ul {
     width: 40%;
-    background-color: #bdc3c7;
+    background-color: #bdc3c7 !important;
     border-top-left-radius: 3rem;
     border-bottom-right-radius: 3rem;
     z-index: 900 !important;
@@ -1436,7 +1436,7 @@ div.desc {
 
 .vertical-menu-pelayanan>ul>li>a {
     display: block;
-    color: #562f00;
+    color: #562f00 !important;
     padding: 2rem 2rem;
     text-decoration: none;
     font-size: 1vw;
@@ -1453,14 +1453,14 @@ div.desc {
 
 .vertical-menu-pelayanan>ul {
     width: 40%;
-    background-color: #bdc3c7;
+    background-color: #bdc3c7 !important;
     border-top-left-radius: 3rem;
     /* border-bottom-right-radius: 3rem; */
     z-index: 900 !important;
 }
 
 .submenu {
-    background-color: #fd7e14;
+    background-color: #fd7e14 !important;
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 }
@@ -1493,12 +1493,12 @@ div.desc {
 }
 
 .flyout-right ul>li>a {
-    color: #fff;
+    color: #fff !important;
     display: block;
     padding: 1vw;
     text-decoration: none;
-    background-color: #fd7e14;
-    border-bottom: 2px solid #fd7e14;
+    background-color: #fd7e14 !important;
+    border-bottom: 2px solid #fd7e14 !important;
     border-top-left-radius: 3rem;
     font-size: 1vw;
     font-family: 'Montserrat', sans-serif;
@@ -1542,7 +1542,7 @@ li.flyout-right a:hover+ul {
     font-family: 'Montserrat-Bold';
     font-size: 3vw;
     letter-spacing: .5rem;
-    color: #00818E;
+    color: #00818E !important;
 }
 
 .tentang-surabaya-konten {
@@ -1571,8 +1571,8 @@ li.flyout-right a:hover+ul {
 }
 
 .content {
-    background-color: #bdc3c7;
-    color: #562f00;
+    background-color: #bdc3c7 !important;
+    color: #562f00 !important;
     padding: 40px;
     border-radius: .6rem;
     font-size: 1.5rem;
@@ -1586,11 +1586,11 @@ li.flyout-right a:hover+ul {
 
 .content:hover {
     border: .5rem solid #00818e;
-    color: #00818e;
+    color: #00818e !important;
 }
 
 .col-centered>a {
-    color: #562f00;
+    color: #562f00 !important;
     text-decoration: none;
 }
 
@@ -1604,11 +1604,11 @@ li.flyout-right a:hover+ul {
 }
 
 .navDropdown a:hover {
-    background-color: white;
+    background-color: white !important;
 }
 
 .backgroundWhite {
-    background-color: white;
+    background-color: white !important;
 }
 
 .nav-item {
@@ -1638,7 +1638,7 @@ li.flyout-right a:hover+ul {
 .hal-search>.search-hasil>.search-konten>.col-md-12>.row>.col-md-12 {
     font-size: 1.6vw;
     font-weight: bold;
-    color: #ea5f00;
+    color: #ea5f00 !important;
     text-transform: uppercase;
     padding: 0;
     margin-bottom: 1rem;
@@ -1660,17 +1660,17 @@ li.flyout-right a:hover+ul {
 }
 
 .hal-search>.col-md-5>.row>.judul {
-    background-color: #00818E;
+    background-color: #00818E !important;
     font-size: 1.5vw;
     padding: .6rem 0 .6rem 3rem;
-    color: white;
+    color: white !important;
     font-family: 'Montserrat';
     font-weight: bold;
     letter-spacing: 1px;
 }
 
 .hal-search>.col-md-5>.row>.isi-konten {
-    background-color: lightgrey;
+    background-color: lightgrey !important;
 }
 
 .hal-search>.col-md-5>.row>.isi-konten>.row>.col-md-12 {
@@ -1680,14 +1680,14 @@ li.flyout-right a:hover+ul {
 
 .hal-search>.col-md-5>.row>.isi-konten>.row>.col-md-12>.tanggal {
     font-size: 1vw;
-    color: brown;
+    color: brown !important;
 }
 
 .hal-search>.col-md-5>.row>.isi-konten>.row>.col-md-12>.berita {
     font-size: 1.2vw;
     font-weight: bold;
     text-transform: uppercase;
-    color: #562f00;
+    color: #562f00 !important;
 }
 
 .posisi-page {
@@ -1700,7 +1700,7 @@ li.flyout-right a:hover+ul {
 }
 
 .page-number {
-    color: black;
+    color: black !important;
     float: left;
     padding: 1.6rem 2.6rem;
     text-decoration: none !important;
@@ -1710,13 +1710,13 @@ li.flyout-right a:hover+ul {
 }
 
 .page-number.active {
-    background-color: #ea5f00;
-    color: white;
+    background-color: #ea5f00 !important;
+    color: white !important;
 }
 
 .page-number:hover:not(.active) {
-    background-color: #ddd;
-    color: #ea5f00;
+    background-color: #ddd !important;
+    color: #ea5f00 !important;
 }
 
 .page-back {
@@ -1724,7 +1724,7 @@ li.flyout-right a:hover+ul {
     padding: 1.6rem 2rem;
     transition: background-color .3s;
     margin-right: 3rem;
-    background-color: #ea5f00;
+    background-color: #ea5f00 !important;
 }
 
 .page-next {
@@ -1732,7 +1732,7 @@ li.flyout-right a:hover+ul {
     padding: 1.6rem 2rem;
     transition: background-color .3s;
     margin-left: 3rem;
-    background-color: #ea5f00;
+    background-color: #ea5f00 !important;
 }
 
 @media (max-width: 1200px) {
@@ -1824,7 +1824,7 @@ li.flyout-right a:hover+ul {
         height: 100%;
         border-radius: .6rem;
         font-family: 'Montserrat', sans-serif;
-        background-color: #00818e !important;
+        background-color: #00818e !important !important;
         border: none;
         float: none;
         padding: 1rem;
@@ -2060,7 +2060,7 @@ li.flyout-right a:hover+ul {
         /* border: 0px solid green; */
         display: block;
         padding: 1.5rem 1rem 1.5rem 1rem;
-        background-color: white;
+        background-color: white !important;
     }
     .dropdown-item {
         display: block;
@@ -2097,7 +2097,7 @@ li.flyout-right a:hover+ul {
         color: #562f00;
     }
     .dropdown-menu>li>a:hover:after {
-        color: white;
+        color: white !important;
     }
     /* rotate caret on hover */
     .dropdown-menu>li>a:hover:after {
@@ -2119,7 +2119,7 @@ li.flyout-right a:hover+ul {
         align-items: center;
     }
     .menu-atas>ul>li>a {
-        color: #562f00;
+        color: #562f00 !important;
         font-family: Montserrat;
         text-transform: uppercase;
         font-size: 1.4rem;
@@ -2129,10 +2129,10 @@ li.flyout-right a:hover+ul {
     }
     .menu-atas>ul>li:hover>a,
     .menu-atas>ul>li:focus-within>a {
-        background-color: #00818e;
+        background-color: #00818e !important;
         border-top-left-radius: 1.3rem;
         border-bottom-right-radius: 1.3rem;
-        color: white;
+        color: white !important;
         /* border-bottom: 3px solid #00818e; */
     }
     .menu-atas>a>img.active {}
