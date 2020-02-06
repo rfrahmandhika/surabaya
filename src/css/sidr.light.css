@@ -27,11 +27,12 @@
 .sidr {
     /* Theme Settings */
     font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     background: #f8f8f8;
     color: #333;
     -webkit-box-shadow: 0 0 5px 5px #ebebeb inset;
             box-shadow: 0 0 5px 5px #ebebeb inset
+    
 }
 .sidr h1,
     .sidr h2,
