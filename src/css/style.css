@@ -1022,43 +1022,51 @@ html {
 
 /* lanjut isi berita */
 
+.judul-isi-berita>h1 {
+    padding: 15rem 15rem 1.3rem 15rem;
+    text-align: center;
+    font-family: 'Montserrat-Bold';
+    font-size: 2vw;
+}
+
+.judul-isi-berita>hr {
+    width: 30%;
+    border: .2rem solid #ea5f00;
+    align-items: center;
+}
+
 .img-isi-berita-lanjut {
-    padding: 23rem 4rem 10rem 6rem;
+    padding: 5rem 2rem 48rem 4.5rem;
+    text-align: center;
 }
 
 .img-isi-berita-lanjut>img {
-    max-width: 100%;
-    height: auto;
-    box-shadow: 8px 10px 10px grey;
+    width: 45vw;
+    height: 28vw;
+    object-fit: cover;
+    color: black;
+    box-shadow: 6px 7px 10px lightgrey;
 }
 
-.back-berita>button {
-    padding: 0;
-    border: 0;
+.img-isi-berita-lanjut>h1 {
+    padding-top: 3rem;
+    font-size: 1.2vw;
+    font-family: 'Montserrat';
 }
 
-.back-berita>button>img {
-    height: 4vw;
-    width: auto;
-    background-color: white;
-}
-
-.isi-berita-lanjut {
-    padding-top: 12rem;
+.img-isi-berita-lanjut>hr {
+    width: 15%;
+    border: .2rem solid #ea5f00;
+    align-items: center;
 }
 
 .decs-isi-berita-lanjut {
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 5rem 5rem 7rem 2rem;
     column-count: 2;
     text-align: justify;
     color: #562f00;
     font-size: 1vw;
     font-family: 'Montserrat', sans-serif;
-}
-
-.row-isi-berita-lanjut {
-    width: auto;
-    padding: 5rem 2rem 5rem 2rem;
 }
 
 
@@ -1071,22 +1079,16 @@ html {
     margin-top: 4rem;
 }
 
-
-/* .flex-center {
-    margin-top: 1rem;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-} */
+.logo-gedung {
+    width: 19vw;
+}
 
 .int-ic {
     margin-right: 4rem;
 }
 
 .fb-ic {
-    margin-right: 4rem;
+    margin-right: 3.6rem;
 }
 
 .tw-ic {
@@ -1750,50 +1752,99 @@ li.flyout-right a:hover+ul {
     .smartphone>.nav-sample {
         display: none;
     }
+    .judul-isi-berita>h1 {
+        padding: 2rem 11rem 1.3rem 11rem;
+        font-size: 2vw;
+    }
+    .img-isi-berita-lanjut {
+        padding: 4rem 2rem 48rem 5rem;
+    }
+    .img-isi-berita-lanjut>img {
+        width: 45vw;
+        height: 28vw;
+    }
+    .decs-isi-berita-lanjut {
+        padding: 4rem 5rem 1rem 2rem;
+        column-count: 1;
+        font-size: 1.3vw;
+    }
+    .logo-gedung {
+        width: 23vw;
+    }
 }
 
 @media (max-width: 991px) {
     .info>.row>.col-lg-6>button {
-        width: 30%;
+        width: 20%;
         height: 100%;
         float: none;
         margin-left: 5rem;
+        padding: 1rem;
     }
     .berita>.row>.col-lg-6>button {
-        width: 30%;
+        width: 20%;
         height: 100%;
         float: none;
         margin-left: 5rem;
+        padding: 1rem;
     }
     .berita>.row>.col-lg-6>button {
-        width: 30%;
+        width: 20%;
         height: 100%;
         float: none;
         margin-left: 5rem;
+        padding: 1rem;
     }
     .video>.row>.col-lg-6>button {
-        width: 30%;
+        width: 20%;
         height: 100%;
         float: none;
         margin-left: 5rem;
+        padding: 1rem;
     }
     .foto>.row>.col-lg-6>button {
-        width: 30%;
+        width: 20%;
         height: 100%;
         float: none;
         margin-left: 5rem;
+        padding: 1rem;
     }
     .audio>.row>.col-lg-6>button {
-        width: 30%;
+        width: 20%;
         height: 100%;
         float: none;
         margin-left: 5rem;
+        padding: 1rem;
     }
     .komik>.row>.col-lg-6>button {
-        width: 30%;
+        width: 20%;
         height: 100%;
         float: none;
         margin-left: 5rem;
+        padding: 1rem;
+    }
+    .judul-isi-berita>h1 {
+        padding: 2rem 5rem 1.3rem 6rem;
+        font-size: 3.5vw;
+    }
+    .img-isi-berita-lanjut {
+        padding: 2rem 2rem 2rem 2rem;
+        text-align: center;
+    }
+    .img-isi-berita-lanjut>h1 {
+        font-size: 1.7rem;
+    }
+    .img-isi-berita-lanjut>img {
+        width: 70vw;
+        height: 40vw;
+    }
+    .decs-isi-berita-lanjut {
+        padding: 2rem 7rem 2rem 7rem;
+        column-count: 1;
+        font-size: 2.3vw;
+    }
+    .logo-gedung {
+        width: 27vw;
     }
 }
 
@@ -1862,6 +1913,7 @@ li.flyout-right a:hover+ul {
         background-color: #00818e !important;
         border: none;
         float: none;
+        margin-left: 0;
         margin-right: 0;
         padding: 1rem;
     }
