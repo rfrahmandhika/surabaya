@@ -401,15 +401,13 @@ html {
 
 .info>.row>.col-lg-6>a {
     font-size: 1vw;
-    width: 40%;
-    padding: 1.5rem;
+	width:40%;
+	padding:1.5rem 2rem 1.5rem 2rem;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #00818e !important;
     border: none;
     float: right;
-    text-align: center;
-    align-items: center;
     margin-right: 3rem;
 }
 
@@ -431,7 +429,8 @@ html {
     transition: 450ms transform;
     transition: 450ms transform, 450ms -webkit-transform;
     font-size: 0;
-    margin: 70.3125px 0;
+    margin: 55px 0;
+    padding-left: 1.5vw;
     padding-bottom: 1rem;
     counter-increment: row__inner;
     white-space: nowrap;
@@ -442,13 +441,13 @@ html {
     display: inline-block;
     width: 33rem;
     height: 33rem;
-    margin-right: 1rem;
+    margin-right: 1.2rem;
     font-size: 2rem;
     cursor: pointer;
     transition: 450ms all;
     -webkit-transform-origin: center left;
     transform-origin: center left;
-    box-shadow: 5px 5px 5px 1px grey;
+    box-shadow: 7px 6px 6px 0px lightgrey;
 }
 
 .tile__img {
@@ -535,6 +534,7 @@ html {
     overflow: hidden;
     border-radius: 0;
     transition: transform .2s;
+    margin: .8rem 0 .8rem 0;
 }
 
 .img-each>img {
@@ -653,15 +653,13 @@ html {
 
 .video>.row>.col-lg-6>a {
     font-size: 1vw;
-    width: 40%;
-    padding: 1.5rem;
+    width:40%;
+	padding:1.5rem 2rem 1.5rem 2rem;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #00818e !important;
     border: none;
     float: right;
-    text-align: center;
-    align-items: center;
     margin-right: 3rem;
 }
 
@@ -714,15 +712,13 @@ html {
 
 .audio>.row>.col-lg-6>a {
     font-size: 1vw;
-    width: 40%;
-    padding: 1.5rem;
+	width:40%;
+	padding:1.5rem 2rem 1.5rem 2rem;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #00818e !important;
     border: none;
     float: right;
-    text-align: center;
-    align-items: center;
     margin-right: 3rem;
 }
 
@@ -775,15 +771,13 @@ html {
 
 .foto>.row>.col-lg-6>a {
     font-size: 1vw;
-    width: 40%;
-    padding: 1.5rem;
+	width:40%;
+	padding:1.5rem 2rem 1.5rem 2rem;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #00818e !important;
     border: none;
     float: right;
-    text-align: center;
-    align-items: center;
     margin-right: 3rem;
 }
 
@@ -920,6 +914,7 @@ html {
     font-weight: bold;
     color: #00818e;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     font-size: 2vw;
     letter-spacing: .5rem;
     text-shadow: 2px 0 #00818e;
@@ -948,16 +943,14 @@ html {
 }
 
 .komik>.row>.col-lg-6>a {
-    font-size: 1vw;
-    width: 40%;
-    padding: 1.5rem;
+    font-size: 1.1vw;
+    width:40%;
+	padding:1.5rem 2rem 1.5rem 2rem;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #00818e !important;
     border: none;
     float: right;
-    text-align: center;
-    align-items: center;
     margin-right: 3rem;
 }
 
@@ -1027,43 +1020,51 @@ html {
 
 /* lanjut isi berita */
 
+.judul-isi-berita>h1 {
+    padding: 15rem 15rem 1.3rem 15rem;
+    text-align: center;
+    font-family: 'Montserrat-Bold';
+    font-size: 2vw;
+}
+
+.judul-isi-berita>hr {
+    width: 30%;
+    border: .2rem solid #ea5f00;
+    align-items: center;
+}
+
 .img-isi-berita-lanjut {
-    padding: 23rem 4rem 10rem 6rem;
+    padding: 5rem 2rem 48rem 4.5rem;
+    text-align: center;
 }
 
 .img-isi-berita-lanjut>img {
-    max-width: 100%;
-    height: auto;
-    box-shadow: 8px 10px 10px grey;
+    width: 45vw;
+    height: 28vw;
+    object-fit: cover;
+    color: black;
+    box-shadow: 6px 7px 10px lightgrey;
 }
 
-.back-berita>button {
-    padding: 0;
-    border: 0;
+.img-isi-berita-lanjut>h1 {
+    padding-top: 3rem;
+    font-size: 1.2vw;
+    font-family: 'Montserrat';
 }
 
-.back-berita>button>img {
-    height: 4vw;
-    width: auto;
-    background-color: white;
-}
-
-.isi-berita-lanjut {
-    padding-top: 12rem;
+.img-isi-berita-lanjut>hr {
+    width: 15%;
+    border: .2rem solid #ea5f00;
+    align-items: center;
 }
 
 .decs-isi-berita-lanjut {
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 5rem 5rem 7rem 2rem;
     column-count: 2;
     text-align: justify;
     color: #562f00;
     font-size: 1vw;
     font-family: 'Montserrat', sans-serif;
-}
-
-.row-isi-berita-lanjut {
-    width: auto;
-    padding: 5rem 2rem 5rem 2rem;
 }
 
 
@@ -1076,22 +1077,16 @@ html {
     margin-top: 4rem;
 }
 
-
-/* .flex-center {
-    margin-top: 1rem;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-} */
+.logo-gedung {
+    width: 19vw;
+}
 
 .int-ic {
     margin-right: 4rem;
 }
 
 .fb-ic {
-    margin-right: 4rem;
+    margin-right: 3.6rem;
 }
 
 .tw-ic {
@@ -1112,7 +1107,7 @@ html {
 
 .berita-intro {
     /*border:1px solid #000000;*/
-    padding: 3.4rem;
+    /*padding: 3.4rem;*/	
 }
 
 .berita-intro>.berita-konten {
@@ -1163,6 +1158,8 @@ html {
     text-transform: uppercase;
     font-weight: bold;
     color: #fd7e14;
+    font-family: 'Montserrat-Bold';
+    font-size: 1.5vw;
 }
 
 .slide-konten-desc>.slide-isi-desc {
@@ -1202,7 +1199,7 @@ html {
 }
 
 .berita-kanan-konten {
-    /*border-bottom: 1px solid #000000;*/
+    border-bottom: 1px solid #ea5f00;
 }
 
 .berita-kanan-konten>.berita-kanan-isi-konten {
@@ -1215,7 +1212,7 @@ html {
     display: flex;
     align-items: center;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5vw;
     justify-content: center;
 }
 
@@ -1319,6 +1316,7 @@ div.desc {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Montserrat;
 }
 
 .vertical-menu-informasi {
@@ -1782,6 +1780,7 @@ li.flyout-right a:hover+ul {
 }
 
 @media (max-width: 1200px) {
+
     .intro>.header-menu{
         display: none;
     }
@@ -1789,8 +1788,15 @@ li.flyout-right a:hover+ul {
     .home-cari{
         margin-top: 0;
     }
-
-    .menu-atas {
+	
+    .jdl-head-search{
+        /* border: 1px solid black; */
+        text-shadow: 1px 0 #00818e;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+	
+	.menu-atas {
         display: none;
     }
     .smartphone {
@@ -1798,129 +1804,100 @@ li.flyout-right a:hover+ul {
         padding-top: 10px;
     }
     .smartphone>.menu-button {
-        margin-left: 87%;
+        margin-left: 85%;
     }
     .smartphone>.nav-sample {
         display: none;
     }
-    .jdl-head-search{
-        /* border: 1px solid black; */
-        text-shadow: 1px 0 #00818e;
-        margin-top: 1rem;
-        margin-bottom: 3rem;
+    .judul-isi-berita>h1 {
+        padding: 2rem 11rem 1.3rem 11rem;
+        font-size: 2vw;
+    }
+    .img-isi-berita-lanjut {
+        padding: 4rem 2rem 48rem 5rem;
+    }
+    .img-isi-berita-lanjut>img {
+        width: 45vw;
+        height: 28vw;
+    }
+    .decs-isi-berita-lanjut {
+        padding: 4rem 5rem 1rem 2rem;
+        column-count: 1;
+        font-size: 1.3vw;
+    }
+    .logo-gedung {
+        width: 23vw;
+    }
+}
+
+@media (max-width: 991px) {
+    .info>.row>.col-lg-6>a {
+		width:40%;
+        float: right;
+        margin-left: 5rem;
+        padding: 1rem;
+    }
+    .berita>.row>.col-lg-6>a {
+        width: 20%;
+        height: 100%;
+        float: none;
+        margin-left: 5rem;
+        padding: 1rem;
+    }
+    .video>.row>.col-lg-6>a {
+        width: 20%;
+        height: 100%;
+        float: none;
+        margin-left: 5rem;
+        padding: 1rem;
+    }
+    .foto>.row>.col-lg-6>a {
+        width: 20%;
+        height: 100%;
+        float: none;
+        margin-left: 5rem;
+        padding: 1rem;
+    }
+    .audio>.row>.col-lg-6>a {
+        width: 20%;
+        height: 100%;
+        float: none;
+        margin-left: 5rem;
+        padding: 1rem;
+    }
+    .komik>.row>.col-lg-6>a {
+        width: 20%;
+        height: 100%;
+        float: none;
+        margin-left: 5rem;
+        padding: 1rem;
+    }
+    .judul-isi-berita>h1 {
+        padding: 2rem 5rem 1.3rem 6rem;
+        font-size: 3.5vw;
+    }
+    .img-isi-berita-lanjut {
+        padding: 2rem 2rem 2rem 2rem;
+        text-align: center;
+    }
+    .img-isi-berita-lanjut>h1 {
+        font-size: 1.7rem;
+    }
+    .img-isi-berita-lanjut>img {
+        width: 70vw;
+        height: 40vw;
+    }
+    .decs-isi-berita-lanjut {
+        padding: 2rem 7rem 2rem 7rem;
+        column-count: 1;
+        font-size: 2.3vw;
+    }
+    .logo-gedung {
+        width: 27vw;
     }
 }
 
 @media (max-width: 767px) {
-
-    .hal-search>.search-hasil>.search-konten>.col-md-12 {
-        border-bottom:1px solid black; 
-        margin-bottom: 2rem;
-        padding-bottom: 2rem;
-    }
-
-    .hal-search>.col-md-5>.row{
-        margin-bottom: 3rem;
-    }
-
-    .hal-search>.col-md-5>.row>.judul {
-        background-color: #00818E;
-        font-size: 4vw;
-        padding: .6rem 0 .6rem 3rem;
-        color: white;
-        font-family: 'Montserrat';
-        font-weight: bold;
-        letter-spacing: 1px;
-        margin: 0 3rem 0 3rem;
-    }
-
-    .hal-search>.col-md-5>.row>.isi-konten {
-        background:rgb(231, 231, 231);
-        margin: 0 3rem 0 3rem;
-    }
-
-    .hal-search>.col-md-5>.row>.isi-konten>.row>.col-md-12>.tanggal {
-        font-size: 3vw;
-        color: brown;
-    }
-    
-    .hal-search>.col-md-5>.row>.isi-konten>.row>.col-md-12>.berita {
-        font-size: 3.5vw;
-        font-weight: bold;
-        text-transform: uppercase;
-        color: #562f00;
-    }
-
-    .hal-search>.search-hasil>.search-konten>.col-md-12>.row>.col-md-7>p>a {
-        background-color: #fd7e14;
-        color: white;
-        font-size: 3vw;
-        padding: .4rem 2rem .4rem 2rem;
-        border-radius:.3rem; 
-        text-transform: uppercase;
-        /* box-shadow: 0 3px 7px 0.11px lightslategray; */
-    }
-
-    .hal-search>.search-hasil>.search-konten>.col-md-12>.row>.col-md-7 {
-        font-size: 3vw;
-        /* border: 1px solid black; */
-        padding-left: 4rem;
-        padding-right: 5rem;
-        padding-top: 2rem;
-    }
-    
-
-    .hal-search>.search-hasil>.search-konten>.col-md-12>.row>.col-md-5>img {
-        width: 90%;
-        height: 40vh;
-    }
-
-    .hal-search>.search-hasil>.search-konten>.col-md-12>.row>.col-md-12 {
-        font-size: 4vw;
-        font-weight: bold;
-        color: #ea5f00;
-        text-transform: uppercase;
-        padding: 0;
-        margin-bottom: 1rem;
-        text-align: center;
-    }
-
-    .jdl-head-search > hr{
-        border: 3px solid #ea5f00;
-        float: none;
-        width: 30%;
-    }
-
-    .jdl-head-search{
-        font-weight: bold;
-        color: #00818e;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 4vw;
-        padding: 5rem 0 0 1rem;
-        letter-spacing: .2rem;
-        text-transform: uppercase;
-        /* border: 1px solid black; */
-        text-shadow: 1px 0 #00818e;
-        margin-top: 1rem;
-        margin-bottom: 3rem;
-        text-align: center;
-    }
-
-    .tile:hover~.tile {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
-
-    .row__inner:hover .tile {
-    opacity: 1;
-    }    
-
-    .row__inner:hover .tile:hover {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-    }
-    
     .carousel-cell {
         width: 80%;
     }
@@ -1944,8 +1921,8 @@ li.flyout-right a:hover+ul {
     }
     .info>.row>.col-lg-6>a {
         font-size: 2vw;
-        /* width: 36%;
-        height: 100%; */
+        width: 36%;
+        height: 100%;
         border-radius: .6rem;
         font-family: 'Montserrat', sans-serif;
         background-color: #00818e !important;
@@ -1978,13 +1955,14 @@ li.flyout-right a:hover+ul {
     }
     .berita>.row>.col-lg-6>a {
         font-size: 2vw;
-        /* width: 36%;
-        height: 100%; */
+        width: 36%;
+        height: 100%;
         border-radius: .6rem;
         font-family: 'Montserrat', sans-serif;
         background-color: #00818e !important;
         border: none;
         float: none;
+        margin-left: 0;
         margin-right: 0;
         padding: 1rem;
     }
@@ -2015,8 +1993,8 @@ li.flyout-right a:hover+ul {
     }
     .video>.row>.col-lg-6>a {
         font-size: 2vw;
-        /* width: 36%;
-        height: 100%; */
+        width: 36%;
+        height: 100%;
         border-radius: .6rem;
         font-family: 'Montserrat', sans-serif;
         background-color: #00818e !important;
@@ -2050,8 +2028,8 @@ li.flyout-right a:hover+ul {
     }
     .foto>.row>.col-lg-6>a {
         font-size: 2vw;
-        /* width: 36%;
-        height: 100%; */
+        width: 36%;
+        height: 100%;
         border-radius: .6rem;
         font-family: 'Montserrat', sans-serif;
         background-color: #00818e !important;
@@ -2086,8 +2064,8 @@ li.flyout-right a:hover+ul {
     }
     .audio>.row>.col-lg-6>a {
         font-size: 2vw;
-        /* width: 36%;
-        height: 100%; */
+        width: 36%;
+        height: 100%;
         border-radius: .6rem;
         font-family: 'Montserrat', sans-serif;
         background-color: #00818e !important;
@@ -2120,14 +2098,15 @@ li.flyout-right a:hover+ul {
     }
     .komik>.row>.col-lg-6>a {
         font-size: 2vw;
-        /* width: 36%;
-        height: 100%; */
+        width: 36%;
+        height: 100%;
         border-radius: .6rem;
         font-family: 'Montserrat', sans-serif;
         background-color: #00818e !important;
         border: none;
         float: none;
         margin-right: 0;
+        margin-left: 0;
         padding: 1rem;
     }
     .komik>.row>.col-lg-6>p {
@@ -2156,12 +2135,15 @@ li.flyout-right a:hover+ul {
         display: inline;
         text-align: center;
     }
+    .berita-kanan-konten {
+        border-bottom: 0px;
+    }
     .row__inner {
         transition: 450ms -webkit-transform;
         transition: 450ms transform;
         transition: 450ms transform, 450ms -webkit-transform;
         font-size: 0;
-        margin: 3rem 0;
+        margin: 4rem 0;
     }
     .dropdown-menu>li {
         list-style-type: none;
@@ -2280,6 +2262,102 @@ li.flyout-right a:hover+ul {
     }
     .btn-selengkapnya {
         font-size: 2vw;
+    }
+    .slide-konten-desc>.slide-judul-desc>h1 {
+        font-size: 3vw;
+    }
+	
+	    .hal-search>.search-hasil>.search-konten>.col-md-12 {
+        border-bottom:1px solid black; 
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .hal-search>.col-md-5>.row{
+        margin-bottom: 3rem;
+    }
+
+    .hal-search>.col-md-5>.row>.judul {
+        background-color: #00818E;
+        font-size: 4vw;
+        padding: .6rem 0 .6rem 3rem;
+        color: white;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin: 0 3rem 0 3rem;
+    }
+
+    .hal-search>.col-md-5>.row>.isi-konten {
+        background:rgb(231, 231, 231);
+        margin: 0 3rem 0 3rem;
+    }
+
+    .hal-search>.col-md-5>.row>.isi-konten>.row>.col-md-12>.tanggal {
+        font-size: 3vw;
+        color: brown;
+    }
+    
+    .hal-search>.col-md-5>.row>.isi-konten>.row>.col-md-12>.berita {
+        font-size: 3.5vw;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #562f00;
+    }
+
+    .hal-search>.search-hasil>.search-konten>.col-md-12>.row>.col-md-7>p>a {
+        background-color: #fd7e14;
+        color: white;
+        font-size: 2vw;
+        padding: .4rem 2rem .4rem 2rem;
+        border-radius:.3rem; 
+        text-transform: uppercase;
+        /* box-shadow: 0 3px 7px 0.11px lightslategray; */
+    }
+
+    .hal-search>.search-hasil>.search-konten>.col-md-12>.row>.col-md-7 {
+        font-size: 2vw;
+        /* border: 1px solid black; */
+        padding-left: 1.5rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+    }
+    
+
+    .hal-search>.search-hasil>.search-konten>.col-md-12>.row>.col-md-5>img {
+        width: 90%;
+        height: 25vh;
+    }
+
+    .hal-search>.search-hasil>.search-konten>.col-md-12>.row>.col-md-12 {
+        font-size: 4vw;
+        font-weight: bold;
+        color: #ea5f00;
+        text-transform: uppercase;
+        padding: 0;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .jdl-head-search > hr{
+        border: 3px solid #ea5f00;
+        float: none;
+        width: 30%;
+    }
+
+    .jdl-head-search{
+        font-weight: bold;
+        color: #00818e;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 4vw;
+        padding: 5rem 0 0 1rem;
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+        /* border: 1px solid black; */
+        text-shadow: 1px 0 #00818e;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        text-align: center;
     }
 }
 
