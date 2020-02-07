@@ -3,153 +3,268 @@
 
 <head>
     <title>Berita</title>
-    <link rel="stylesheet" type="text/css" href="src/css/sidr.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.sidr/2.2.1/stylesheets/jquery.sidr.light.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" type="text/css" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled-4.12.0.min.css">
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/sidr.light.css">
     <link rel="stylesheet" href="src/css/style.css">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
+    <script src="src/js/sidr.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+    <script src="src/js/popper.min.js"></script>
+    <script src="src/js/jquery.min.js"></script>
     <script src="src/js/main.js"></script>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="container menu-atas">
-            <a href="index.html"><img src="src/images/logo.jpg" class="mr-5 active" alt="" width="100%" height="100%"></a>
-            <ul class="nav">
-                <li class="nav-item dropdown" align="center">
-                    <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Profil</a>
-                    <ul class="dropdown-menu sub_menu_1" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="halaman_baru/tentang-surabaya.html">Tentang Surabaya</a></li>
-                        <li class="dropdown-submenu"><a class="dropdown-item" href="#">Instansi</a>
-                            <ul class="dropdown-menu sub_menu_2">
-                                <li><a class="dropdown-item" href="halaman_baru/opd.html">ORGANISASI PERANGKAT DAERAH
-                                            (OPD)</a></li>
-                                <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/8063/daftar-nama-pejabat">DAFTAR NAMA
-                                            PEJABAT</a></li>
-                                <li><a class="dropdown-item" href="halaman_baru/daftar-alamat-kecamatan-dan-kelurahan.html">DAFTAR ALAMAT
-                                            KECAMATAN DAN KELURAHAN</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown-submenu"><a class="dropdown-item" href="http://google.com">Organisasi</a>
-                            <ul class="dropdown-menu sub_menu_2">
-                                <li><a class="dropdown-item" href="http://dharmawanita.surabaya.go.id/">Darma Wanita</a>
-                                </li>
-                                <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/8232/korpri">Korps
-                                            Pagawai Republik<br> Indonesia (KORPRI)</a></li>
-                                <li><a class="dropdown-item" href="http://www.sby.uddpmikotasby.com/">Palang Merah
-                                            Indonesia (PMI)<br>Kota Surabaya</a></li>
-                                <li><a class="dropdown-item" href="http://pkk.surabaya.go.id/pkk/index.php">PEMBERDAYAAN
-                                            KESEJAHTERAAN<br>KELUARGA(PKK) KOTA SURABAYA</a></li>
-                            </ul>
-                        </li>
-                        <li><a class="dropdown-item" href="halaman_baru/link-site-otd.html">Link Site OPD</a></li>
-                        <li><a class="dropdown-item" href="halaman_baru/profil-kota-surabaya.html">Profil Kota
-                                    Surabaya</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown" align="center">
-                    <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#goPelayanan">Pelayanan</a>
-                    <ul class="dropdown-menu sub_menu_1" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="http://ppid.surabaya.go.id/">PPID</a></li>
-                        <li><a class="dropdown-item" href="https://surabaya.go.id/id/berita/10287/administrasi-kependudukan">Administrasi kependudukan</a></li>
-                        <li><a class="dropdown-item" href="http://ssw.surabaya.go.id/">Pelayanan perizinan</a></li>
-                        <li><a class="dropdown-item" href="https://surabaya.go.id/id/berita/10314/media-centre">Media center</a></li>
-                        <li><a class="dropdown-item" href="https://ehealth.surabaya.go.id/pendaftaran/">e-health</a></li>
-                        <li><a class="dropdown-item" href="https://twitter.com/Commandsurabaya?s=08">112</a></li>
-                        <li><a class="dropdown-item" href="https://lpse.surabaya.go.id/eproc/app">LPSE</a></li>
-                        <li><a class="dropdown-item" href="https://jdih.surabaya.go.id/">JDIH</a></li>
-                        <li><a class="dropdown-item" href="https://pelayanan.dispendik.surabaya.go.id/">Dispendik</a></li>
-                        <li><a class="dropdown-item" href="https://surabaya.go.id/id/berita/16303/rekomendasi-dan-perijinan-dinas-sosial">Perijinan dinas sosial</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown" align="center">
-                    <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#goInformasi">Informasi</a>
-                    <ul class="dropdown-menu sub_menu_1 " aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="https://surabaya.go.id/id/berita/49454/informasi-harga-kebutuhan-pokok">Informasi
-                                    harga pokok</a></li>
-                        <li><a class="dropdown-item" href="https://surabaya.go.id/page/0/8263/transportasi">Transportasi</a></li>
-                        <li><a class="dropdown-item" href="halaman_baru/statistik-surabaya.html">Statistik surabaya</a>
-                            <li><a class="dropdown-item" href="halaman_baru/taman-taman-di-kota-surabaya.html">Taman kota</a></li>
-                            <li class="dropdown-submenu"><a class="dropdown-item" href="#info-perdagangan">Informasi perdagangan</a>
-                                <ul class="dropdown-menu sub_menu_2">
-                                    <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/8177/sosial-ekonomi">KAWASAN BISNIS</a></li>
-                                    <li><a class="dropdown-item" href="http://dpm-ptsp.surabaya.go.id/v3/pages/data-investasi-kota-surabaya">DATA INVESTASI</a></li>
-                                    <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/11327/daftar-usaha-pariwisata--dup-">DAFTAR USAHA PARIWISATA (DUP)</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-submenu"><a class="dropdown-item" href="#about">tempat ibadah</a>
-                                <ul class="dropdown-menu sub_menu_2">
-                                    <li><a class="dropdown-item" href="https://surabaya.go.id/uploads/attachments/2018/10/40178/Data_Tempat_Ibadah_Masjid_2018.pdf?1540453611">MASJID</a></li>
-                                    <li><a class="dropdown-item" href="https://surabaya.go.id/uploads/attachments/2016/3/5337/data_ibadah_kristen_un_habitat.pdf">GEREJA</a></li>
-                                    <li><a class="dropdown-item" href="https://surabaya.go.id/uploads/attachments/2016/3/5338/data_ibadah_hindu_habitat.pdf">PURA</a></li>
-                                    <li><a class="dropdown-item" href="https://surabaya.go.id/uploads/attachments/2016/3/5339/data_ibadah_vihara_un_habitat.pdf">VIHARA</a></li>
-                                    <li><a class="dropdown-item" href="https://surabaya.go.id/uploads/attachments/2016/3/5340/data_ibadah_klenteng_un_habitat.pdf">KLENTENG</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-submenu"><a class="dropdown-item" href="#about">KIM</a>
-                                <ul class="dropdown-menu sub_menu_2">
-                                    <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/38005/rekap-kim-kota-surabaya-yang-sudah-ber-sk">REKAP KIM</a></li>
-                                    <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/38345/blogspot-kim-kota-surabaya">BLOG KIM</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="dropdown-item" href="halaman_baru/pariwisata-surabaya.html">Pariwisata Surabaya</a></li>
-                    </ul>
+    <div class="container menu-atas" id="menu" style="box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);">
+        <a href="#home"><img src="src/images/logo.jpg" class="mr-5 active" alt="" width="100%" height="100%"></a>
+        <ul class="nav">
+            <li class="nav-item dropdown" id="profil-header" align="center">
+                <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Profil</a>
+                <ul class="dropdown-menu sub_menu_1" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="halaman_baru/tentang-surabaya.html">Tentang Surabaya</a></li>
+                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">Instansi</a>
+                        <ul class="dropdown-menu sub_menu_2">
+                            <li><a class="dropdown-item" href="halaman_baru/opd.html">ORGANISASI PERANGKAT DAERAH
+                                        (OPD)</a></li>
+                            <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/8063/daftar-nama-pejabat">DAFTAR NAMA
+                                        PEJABAT</a></li>
+                            <li><a class="dropdown-item" href="halaman_baru/daftar-alamat-kecamatan-dan-kelurahan.html">DAFTAR ALAMAT
+                                        KECAMATAN DAN KELURAHAN</a></li>
+                        </ul>
                     </li>
-            </ul>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <img src="src/images/berita1.jpg" class="d-block w-100 h-100" alt="">
-            </div>
-            <div class="col-md-8 berita">
-                <div class="row isi-berita">
-                    <div class="col-md-12  isi-berita-judul">
-                        <h1>4 people dead as China confirms Wuhan coronavirus can be spread b 4 people dead as China confirms Wuhan coronavirus can be spread by humansy humans</h1>
-                    </div>
-                    <div class="col-md-12 isi-berita-desc">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply
-                        dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s.
-                    </div>
-                    <div class="col-md-12 lanjut-berita">
-                        <button onclick="window.location.href = 'lanjut-isi-berita.html'" type="button" class="mx-auto d-block " alt=" ">
-                            <img src="src/images/next.png " alt=" ">
-                        </button>
-                    </div>
-                </div>
-            </div>
+                    <li class="dropdown-submenu"><a class="dropdown-item" href="http://google.com">Organisasi</a>
+                        <ul class="dropdown-menu sub_menu_2">
+                            <li><a class="dropdown-item" href="http://dharmawanita.surabaya.go.id/">Darma Wanita</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/8232/korpri">Korps
+                                        Pagawai Republik<br> Indonesia (KORPRI)</a></li>
+                            <li><a class="dropdown-item" href="http://www.sby.uddpmikotasby.com/">Palang Merah
+                                        Indonesia (PMI)<br>Kota Surabaya</a></li>
+                            <li><a class="dropdown-item" href="http://pkk.surabaya.go.id/pkk/index.php">PEMBERDAYAAN
+                                        KESEJAHTERAAN<br>KELUARGA(PKK) KOTA SURABAYA</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="halaman_baru/link-site-otd.html">Link Site OPD</a></li>
+                    <li><a class="dropdown-item" href="halaman_baru/profil-kota-surabaya.html">Profil Kota
+                                Surabaya</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown" align="center">
+                <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#goPelayanan">Pelayanan</a>
+                <ul class="dropdown-menu sub_menu_1" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="http://ppid.surabaya.go.id/">PPID</a></li>
+                    <li><a class="dropdown-item" href="https://surabaya.go.id/id/berita/10287/administrasi-kependudukan">Administrasi kependudukan</a></li>
+                    <li><a class="dropdown-item" href="http://ssw.surabaya.go.id/">Pelayanan perizinan</a></li>
+                    <li><a class="dropdown-item" href="https://surabaya.go.id/id/berita/10314/media-centre">Media center</a></li>
+                    <li><a class="dropdown-item" href="https://ehealth.surabaya.go.id/pendaftaran/">e-health</a></li>
+                    <li><a class="dropdown-item" href="https://twitter.com/Commandsurabaya?s=08">112</a></li>
+                    <li><a class="dropdown-item" href="https://lpse.surabaya.go.id/eproc/app">LPSE</a></li>
+                    <li><a class="dropdown-item" href="https://jdih.surabaya.go.id/">JDIH</a></li>
+                    <li><a class="dropdown-item" href="https://pelayanan.dispendik.surabaya.go.id/">Dispendik</a></li>
+                    <li><a class="dropdown-item" href="https://surabaya.go.id/id/berita/16303/rekomendasi-dan-perijinan-dinas-sosial">Perijinan dinas sosial</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown" align="center">
+                <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#goInformasi">Informasi</a>
+                <ul class="dropdown-menu sub_menu_1 " aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="https://surabaya.go.id/id/berita/49454/informasi-harga-kebutuhan-pokok">Informasi
+                                harga pokok</a></li>
+                    <li><a class="dropdown-item" href="https://surabaya.go.id/page/0/8263/transportasi">Transportasi</a></li>
+                    <li><a class="dropdown-item" href="halaman_baru/statistik-surabaya.html">Statistik surabaya</a>
+                        <li><a class="dropdown-item" href="halaman_baru/taman-taman-di-kota-surabaya.html">Taman kota</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item" href="#info-perdagangan">Informasi perdagangan</a>
+                            <ul class="dropdown-menu sub_menu_2">
+                                <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/8177/sosial-ekonomi">KAWASAN BISNIS</a></li>
+                                <li><a class="dropdown-item" href="http://dpm-ptsp.surabaya.go.id/v3/pages/data-investasi-kota-surabaya">DATA INVESTASI</a></li>
+                                <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/11327/daftar-usaha-pariwisata--dup-">DAFTAR USAHA PARIWISATA (DUP)</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu"><a class="dropdown-item" href="#about">tempat ibadah</a>
+                            <ul class="dropdown-menu sub_menu_2">
+                                <li><a class="dropdown-item" href="https://surabaya.go.id/uploads/attachments/2018/10/40178/Data_Tempat_Ibadah_Masjid_2018.pdf?1540453611">MASJID</a></li>
+                                <li><a class="dropdown-item" href="https://surabaya.go.id/uploads/attachments/2016/3/5337/data_ibadah_kristen_un_habitat.pdf">GEREJA</a></li>
+                                <li><a class="dropdown-item" href="https://surabaya.go.id/uploads/attachments/2016/3/5338/data_ibadah_hindu_habitat.pdf">PURA</a></li>
+                                <li><a class="dropdown-item" href="https://surabaya.go.id/uploads/attachments/2016/3/5339/data_ibadah_vihara_un_habitat.pdf">VIHARA</a></li>
+                                <li><a class="dropdown-item" href="https://surabaya.go.id/uploads/attachments/2016/3/5340/data_ibadah_klenteng_un_habitat.pdf">KLENTENG</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu"><a class="dropdown-item" href="#about">KIM</a>
+                            <ul class="dropdown-menu sub_menu_2">
+                                <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/38005/rekap-kim-kota-surabaya-yang-sudah-ber-sk">REKAP KIM</a></li>
+                                <li><a class="dropdown-item" href="https://surabaya.go.id/id/page/0/38345/blogspot-kim-kota-surabaya">BLOG KIM</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="halaman_baru/pariwisata-surabaya.html">Pariwisata Surabaya</a></li>
+                </ul>
+                </li>
+        </ul>
+        <div class="search">
+            <form class="search-form" action="halaman_baru/search.html">
+                <input type="text" placeholder="Cari">
+                <button type="submit"><img src="src/images/cari.png"></button>
+            </form>
         </div>
     </div>
 
-    <footer class="page-footer font-small indigo ">
+    <div class="smartphone menu-atas-menu-mobile">
+        <img src="src/images/logo.jpg" alt="" class="mx-auto d-block">
+        <!-- <a id="sidr-left-top-button" class="menu-button" href="#sidr-left-top">
+                <img src="src/images/menu.gif">
+            </a> -->
+        <a id="sidr-left-top-button" class="menu-button" href="#sidr-left-top">
+            <img src="src/images/menu.gif">
+        </a>
+        <nav class="nav-sample">
+            <form class="search-form" action="halaman_baru/search.html">
+                <input type="text" placeholder="Cari">
+                <button type="submit"><img src="src/images/cari.png"></button>
+            </form>
+            <ul id="isSample" class="classSample">
+                <li><a href="halaman_baru/tentang-surabaya.html">Tentang Surabaya</a></li>
+                <li>
+                    <a href="#">Instansi</a>
+                    <ul>
+                        <li><a href="halaman_baru/opd.html">ORGANISASI PERANGKAT DAERAH
+                                                    (OPD)</a></li>
+                        <li><a href="https://surabaya.go.id/id/page/0/8063/daftar-nama-pejabat">DAFTAR NAMA
+                                                    PEJABAT</a></li>
+                        <li><a href="halaman_baru/daftar-alamat-kecamatan-dan-kelurahan.html">DAFTAR ALAMAT
+                                                    KECAMATAN DAN KELURAHAN</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="http://google.com">Organisasi</a>
+                    <ul>
+                        <li><a href="http://dharmawanita.surabaya.go.id/">Darma Wanita</a></li>
+                        <li><a href="https://surabaya.go.id/id/page/0/8232/korpri">Korps
+                                                Pagawai Republik<br> Indonesia (KORPRI)</a></li>
+                        <li><a href="http://www.sby.uddpmikotasby.com/">Palang Merah
+                                                Indonesia (PMI)<br>Kota Surabaya</a></li>
+                        <li><a href="http://pkk.surabaya.go.id/pkk/index.php">PEMBERDAYAAN
+                                                KESEJAHTERAAN<br>KELUARGA(PKK) KOTA SURABAYA</a></li>
+                    </ul>
+                </li>
+                <li><a href="halaman_baru/link-site-otd.html">Link Site OPD</a></li>
+                <li><a href="halaman_baru/profil-kota-surabaya.html">Profil Kota
+                                                Surabaya</a></li>
+                <li>
+                    <a href="#">Pelayanan</a>
+                    <ul>
+                        <li><a href="http://ppid.surabaya.go.id/">PPID</a></li>
+                        <li><a href="https://surabaya.go.id/id/berita/10287/administrasi-kependudukan">Administrasi kependudukan</a></li>
+                        <li><a href="http://ssw.surabaya.go.id/">Pelayanan perizinan</a></li>
+                        <li><a href="https://surabaya.go.id/id/berita/10314/media-centre">Media center</a></li>
+                        <li><a href="https://ehealth.surabaya.go.id/pendaftaran/">e-health</a></li>
+                        <li><a href="https://twitter.com/Commandsurabaya?s=08">112</a></li>
+                        <li><a href="https://lpse.surabaya.go.id/eproc/app">LPSE</a></li>
+                        <li><a href="https://jdih.surabaya.go.id/">JDIH</a></li>
+                        <li><a href="https://pelayanan.dispendik.surabaya.go.id/">Dispendik</a></li>
+                        <li><a href="https://surabaya.go.id/id/berita/16303/rekomendasi-dan-perijinan-dinas-sosial">Perijinan dinas sosial</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Informasi</a>
+                    <ul>
+                        <li><a href="https://surabaya.go.id/id/berita/49454/informasi-harga-kebutuhan-pokok">Informasi
+                                harga pokok</a></li>
+                        <li><a href="https://surabaya.go.id/page/0/8263/transportasi">Transportasi</a></li>
+                        <li><a href="halaman_baru/statistik-surabaya.html">Statistik surabaya</a>
+                            <li><a href="halaman_baru/taman-taman-di-kota-surabaya.html">Taman kota</a></li>
+                            <li><a href="#info-perdagangan">Informasi perdagangan</a>
+                                <ul>
+                                    <li><a href="https://surabaya.go.id/id/page/0/8177/sosial-ekonomi">KAWASAN BISNIS</a></li>
+                                    <li><a href="http://dpm-ptsp.surabaya.go.id/v3/pages/data-investasi-kota-surabaya">DATA INVESTASI</a></li>
+                                    <li><a href="https://surabaya.go.id/id/page/0/11327/daftar-usaha-pariwisata--dup-">DAFTAR USAHA PARIWISATA (DUP)</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#about">tempat ibadah</a>
+                                <ul>
+                                    <li><a href="https://surabaya.go.id/uploads/attachments/2018/10/40178/Data_Tempat_Ibadah_Masjid_2018.pdf?1540453611">MASJID</a></li>
+                                    <li><a href="https://surabaya.go.id/uploads/attachments/2016/3/5337/data_ibadah_kristen_un_habitat.pdf">GEREJA</a></li>
+                                    <li><a href="https://surabaya.go.id/uploads/attachments/2016/3/5338/data_ibadah_hindu_habitat.pdf">PURA</a></li>
+                                    <li><a href="https://surabaya.go.id/uploads/attachments/2016/3/5339/data_ibadah_vihara_un_habitat.pdf">VIHARA</a></li>
+                                    <li><a href="https://surabaya.go.id/uploads/attachments/2016/3/5340/data_ibadah_klenteng_un_habitat.pdf">KLENTENG</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#about">KIM</a>
+                                <ul>
+                                    <li><a href="https://surabaya.go.id/id/page/0/38005/rekap-kim-kota-surabaya-yang-sudah-ber-sk">REKAP KIM</a></li>
+                                    <li><a href="https://surabaya.go.id/id/page/0/38345/blogspot-kim-kota-surabaya">BLOG KIM</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="halaman_baru/pariwisata-surabaya.html">Pariwisata Surabaya</a></li>
+                    </ul>
+                    </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 judul-isi-berita">
+            <h1>Face Recognition dan Galakkan Patroli Cegah Gangster di Surabaya, Pemkot Pasang Face Recognition dan Galakkan Patroli</h1>
+            <hr>
+        </div>
+        <div class="col-lg-6 img-isi-berita-lanjut" id="fixedimg">
+            <img src="src/images/info8.jpg" alt="" width="100%" height="100%">
+            <h1>
+                Jumat, 23 Januari 2020<br> Surabaya
+            </h1>
+            <hr>
+        </div>
+        <div class="col-lg-6 decs-isi-berita-lanjut">
+            <p>Pemerintah Kota (Pemkot) Surabaya akan melakukan optimalisasi aset eks gedung Hi-Tech Mall yang ada di Jalan Kusuma Bangsa, Kelurahan Tambaksari, Kecamatan Tambaksari, Kota Surabaya. Optimalisasi itu dalam bentuk sewa. Kepala Dinas Pengelolaan
+                Bangunan dan Tanah Kota Surabaya Maria Theresia Ekawati Rahayu mengatakan bagi pihak ketiga atau calon penyewa yang berminat untuk mengelola gedung tersebut, dapat mengajukan permohonan kepada Pemerintah Kota Surabaya. Selanjutnya, pemohon
+                itu akan diproses sesuai ketentuan pengelolaan barang milik daerah. “Jadi, pemkot akan memanfaatkan gedung itu untuk dikelola oleh pihak ketiga dalam bentuk sewa. Sampai saat ini memang belum ada yang mengajukan sewa, apabila ada yang
+                berminat silahkan langsung datang ke kantor Dinas Pengelolaan Bangunan dan Tanah,” kata Yayuk-sapaan Maria Theresia Ekawati Rahayu di ruang kerjanya, Selasa (4/2/2020). Yayuk memastikan bahwa yang akan disewakan itu 75 persen dari gedung
+                eks Hi-Tech Mall yang luasnya 56.559 meter persegi. Sedangkan 25 persennya lagi akan digunakan oleh Pemkot Surabaya untuk menjadi pusat kesenian atau gedung kesenian. “25 persen yang akan digunakan itu letaknya di sisi kanan depan, mulai
+                dari lantai Menurut Yayuk, total luas tanah eks gedung Hi-Tech Mall itu 31.201 meter persegi. Sedangkan total luas bangunan gedungnya 75.412 meter persegi. Gedung itu terdiri dari 5 Lantai, yang terdiri dari lantai Basement seluas 14.511
+                meter persegi, lantai dasar seluas 12.841 meter persegi, lantai 1 seluas 17.891 meter persegi, lantai 2 seluas 15.176 meter persegi, dan lantai 3 seluas 14.990 meter persegi. “Nilai sewanya pada 2020 sebesar Rp 19.440.750.000 per tahun.
+                Nilai itu sudah dihitung oleh penilai independen. Jangka waktu sewanya sampai dengan 2023 tahun dan boleh diperpanjang lagi sesuai ketentuan yang berlaku,” kata dia. Melalui sistem dan konsep seperti ini, maka keinginan para pedagang untuk
+                tetap berjualan di tempat itu tetap terakomodir. Bahkan, saat ini para pedagang sudah berjualan kembali di tempat tersebut. “Berdasarkan data yang kami terima dari pengelola sebelumnya, ada sebanyak 354 pedagang yang tetap berjualan di
+                sana. Sekarang mereka hanya membayar pemakaian listrik dan air. Bayar langsung, tidak ke pemkot,” kata dia. Oleh karena itu, Yayuk berharap segera ada pihak ketiga yang tertarik untuk menyewa eks gedung Hi-Tech Mall tersebut, supaya gedung
+                itu ada pengelolanya dan cepat difungsikan sebagaimana mestinya. Yayuk mengakui bahwa sistem seperti ini sudah sesuai dengan saran pihak kejaksaan dan kepolisian yang mendampinginya selama ini. “Kami harap 2020 ini sudah ada yang menyewanya,
+                tetap berjualan di tempat itu tetap terakomodir. Bahkan, saat ini para pedagang sudah berjualan kembali di tempat tersebut. “Berdasarkan data yang kami terima dari pengelola sebelumnya, ada sebanyak 354 pedagang yang tetap berjualan di
+                sana. Sekarang mereka hanya membayar pemakaian listrik dan air. Bayar langsung, tidak ke pemkot,” kata dia. Oleh karena itu, Yayuk berharap segera ada pihak ketiga yang tertarik untuk menyewa eks gedung Hi-Tech Mall tersebut, supaya gedung
+                itu ada pengelolanya dan cepat difungsikan sebagaimana mestinya. Yayuk mengakui bahwa sistem seperti ini sudah sesuai dengan saran pihak kejaksaan dan kepolisian yang mendampinginya selama ini. “Kami harap 2020 ini sudah ada yang menyewanya,
+                supaya gedung kesenian itu juga segera dilaksanakan oleh Dinas Cipta Karya,” pungkasnya.
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small indigo">
+
         <!-- Footer Links -->
-        <div class="container ">
+        <div class="container">
 
             <!-- Grid row-->
-            <div class="row logo-center d-flex justify-content-center pt-5 mb-3 ">
-                <img src="src/images/footer.png " alt=" ">
+            <div class="row text-center flex-center justify-content-center pt-5 mb-3" style="padding-bottom: 1rem;">
+
+                <!-- Grid column -->
+                <div class="col-md-5 mb-6">
+                    <img class="logo-gedung" src="src/images/footer.png" width=100%>
+
+                </div>
+                <!-- Grid column -->
 
             </div>
             <!-- Grid row-->
-
+            <hr class="rgba-white-light" style="margin: 0 15%;">
 
             <!-- Grid row-->
-            <div class="row d-flex text-center justify-content-center mb-md-0 mb-4 ">
+            <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
 
+                <!-- Grid column -->
 
+                <!-- Grid column -->
 
             </div>
             <!-- Grid row-->
-            <hr style="border: 1px solid white; background-color: white; width: 60rem; "></hr>
-            <p style="line-height: 3rem "></p>
+            <!-- <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;"> -->
 
             <!-- Grid row-->
-            <div class="row pb-3 ">
+            <div class="row pb-3">
 
                 <!-- Grid column -->
                 <div class="col-md-12">
@@ -157,25 +272,30 @@
                     <div class="mb-5 flex-center">
 
                         <!-- Facebook -->
-                        <a class="fb-ic ">
-                            <i class="mr-4 "> </i>
-                            <img src="src/images/facebook.png " alt=" ">
-                        </a>
+                        <div class="fb-ic">
+                            <i class="mr-4">
+                                <a href="https://www.facebook.com/sapawargakotasurabaya/" alt="Facebook Sapawarga"><img  src="src/images/facebook.png"></a>
+                                </i>
+                        </div>
                         <!-- Twitter -->
-                        <a class="tw-ic ">
-                            <i class="mr-4 "> </i>
-                            <img src="src/images/twitter.png " alt=" ">
-                        </a>
-                        <!--Instagram-->
-                        <a class="int-ic ">
-                            <i class="mr-4 "> </i>
-                            <img src="src/images/instagram.png " alt=" ">
-                        </a>
-                        <!--Youtube-->
-                        <a class="ytb-ic ">
-                            <i class="mr-4 "> </i>
-                            <img src="src/images/youtube.png " alt=" ">
-                        </a>
+                        <div class="tw-ic">
+                            <i class="mr-4">
+                                <a href="https://twitter.com/sapawargasby" alt="Facebook Sapawarga"><img src="src/images/twitter.png"></a>
+                                </i>
+                        </div>
+                        <!-- Instagram-->
+                        <div class="int-ic">
+                            <i class="mr-4">
+                                <a href="https://www.instagram.com/sapawargasby" alt="Facebook Sapawarga"><img src="src/images/instagram.png"></a>
+                                </i>
+                        </div>
+                        <!--Youtube -->
+                        <div class="ytb-ic">
+                            <i class="mr-4">
+                                <a href="https://www.youtube.com/channel/UCUgW-p3N67FJ0vhmVE6UPjw" alt="Facebook Sapawarga"><img src="src/images/youtube.png"></a>
+                            </i>
+                        </div>
+
 
                     </div>
 
@@ -188,7 +308,29 @@
         </div>
         <!-- Footer Links -->
 
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3" style="font-family:Montserrat"> PEMERINTAH KOTA SURABAYA <br>
+            <a href="https://surabaya.go.id"> Surabaya.go.id</a>
         </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
 </body>
+<!-- <script type="text/javascript">
+    $(document).scroll(function() {
+        if ($(window).scrollTop() > 100) {
+
+            $("#fixedimg").css("padding", "1.5rem 2rem 50rem 5rem");
+
+
+        } else if ($(window).scrollTop() < 100) {
+
+            $("#fixedimg").css("padding", "17.5rem 2rem 50rem 5rem");
+
+
+        }
+    });
+</script> -->
 
 </html>
