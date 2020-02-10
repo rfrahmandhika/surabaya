@@ -448,14 +448,12 @@ html {
 .info>.row>.col-lg-6>a {
     font-size: 1vw;
     width: 40%;
-    padding: 1.5rem;
+    padding: 1.5rem 2rem 1.5rem 2rem;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #00818e !important;
     border: none;
     float: right;
-    text-align: center;
-    align-items: center;
     margin-right: 3rem;
 }
 
@@ -702,14 +700,12 @@ html {
 .video>.row>.col-lg-6>a {
     font-size: 1vw;
     width: 40%;
-    padding: 1.5rem;
+    padding: 1.5rem 2rem 1.5rem 2rem;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #00818e !important;
     border: none;
     float: right;
-    text-align: center;
-    align-items: center;
     margin-right: 3rem;
 }
 
@@ -763,14 +759,12 @@ html {
 .audio>.row>.col-lg-6>a {
     font-size: 1vw;
     width: 40%;
-    padding: 1.5rem;
+    padding: 1.5rem 2rem 1.5rem 2rem;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #00818e !important;
     border: none;
     float: right;
-    text-align: center;
-    align-items: center;
     margin-right: 3rem;
 }
 
@@ -824,14 +818,12 @@ html {
 .foto>.row>.col-lg-6>a {
     font-size: 1vw;
     width: 40%;
-    padding: 1.5rem;
+    padding: 1.5rem 2rem 1.5rem 2rem;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #00818e !important;
     border: none;
     float: right;
-    text-align: center;
-    align-items: center;
     margin-right: 3rem;
 }
 
@@ -1001,16 +993,14 @@ html {
 }
 
 .komik>.row>.col-lg-6>a {
-    font-size: 1vw;
+    font-size: 1.1vw;
     width: 40%;
-    padding: 1.5rem;
+    padding: 1.5rem 2rem 1.5rem 2rem;
     border-radius: .6rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #00818e !important;
     border: none;
     float: right;
-    text-align: center;
-    align-items: center;
     margin-right: 3rem;
 }
 
@@ -1588,7 +1578,12 @@ div.desc {
         padding-top: 10px;
     }
     .smartphone>.menu-button {
-        margin-left: 87%;
+        float: right;
+        margin-right: 1.5rem;
+        margin-top: -5rem;
+    }
+    .smartphone>.menu-button:hover {
+        cursor: pointer;
     }
     .smartphone>.nav-sample {
         display: none;
@@ -1889,8 +1884,8 @@ div.desc {
         width: 30%;
     }
     .jdl-head-search {
-        margin-top: 1rem;
-        margin-bottom: 3rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
         text-align: center;
         padding: 0;
     }
