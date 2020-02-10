@@ -53,6 +53,7 @@ $(document).ready(function () {
     var mouseperc = 100 * mouse_x / container_w;
     speed = mouseperc - 50;
   }).on('mouseleave', function () {
+  
     speed = 0;
   });
 

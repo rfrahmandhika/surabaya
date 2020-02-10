@@ -1780,7 +1780,6 @@ li.flyout-right a:hover+ul {
 }
 
 @media (max-width: 1200px) {
-
     .intro>.header-menu{
         display: none;
     }
@@ -1804,8 +1803,15 @@ li.flyout-right a:hover+ul {
         padding-top: 10px;
     }
     .smartphone>.menu-button {
-        margin-left: 85%;
+        float: right;
+        margin-right: 1.5rem;
+        margin-top: -5rem;
     }
+
+    .smartphone>.menu-button:hover{
+        cursor: pointer;
+    }
+
     .smartphone>.nav-sample {
         display: none;
     }

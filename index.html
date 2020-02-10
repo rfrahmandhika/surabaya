@@ -25,7 +25,8 @@
 </head>
 
 <body>
-    <div class="container menu-atas" id="menu" style="box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);">
+    <div id="home">
+         <div class="container menu-atas" id="menu" style="box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);">
         <a href="#home"><img src="src/images/logo.jpg" class="mr-5 active" alt="" width="100%" height="100%"></a>
         <ul class="nav">
             <li class="nav-item dropdown" id="profil-header" align="center">
@@ -122,17 +123,17 @@
                 <img src="src/images/menu.gif">
             </a> -->
         <a id="sidr-left-top-button" class="menu-button" href="#sidr-left-top">
-            <img src="src/images/menu.gif">
+            <img src="src/images/menu1.png">
         </a>
-        <nav class="nav-sample">
-            <form class="search-form" action="halaman_baru/search.html">
-                <input type="text" placeholder="Cari">
+        <nav class="nav-sample sidr-mobile">
+            <form method=""  class="search-form" action="halaman_baru/search.html">
+                <input type="search" placeholder="Cari">
                 <button type="submit"><img src="src/images/cari.png"></button>
             </form>
             <ul id="isSample" class="classSample">
                 <li><a href="halaman_baru/tentang-surabaya.html">Tentang Surabaya</a></li>
                 <li>
-                    <a href="#">Instansi</a>
+                    <span>instansi</span>
                     <ul>
                         <li><a href="halaman_baru/opd.html">ORGANISASI PERANGKAT DAERAH
                                                     (OPD)</a></li>
@@ -158,7 +159,7 @@
                 <li><a href="halaman_baru/profil-kota-surabaya.html">Profil Kota
                                                 Surabaya</a></li>
                 <li>
-                    <a href="#">Pelayanan</a>
+                    <span>Pelayanan</span>
                     <ul>
                         <li><a href="http://ppid.surabaya.go.id/">PPID</a></li>
                         <li><a href="https://surabaya.go.id/id/berita/10287/administrasi-kependudukan">Administrasi kependudukan</a></li>
@@ -173,38 +174,41 @@
                     </ul>
                 </li>
                 <li>
-                    <a>Informasi</a>
+                    <span>Informasi</span>
                     <ul>
                         <li><a href="https://surabaya.go.id/id/berita/49454/informasi-harga-kebutuhan-pokok">Informasi
                                 harga pokok</a></li>
                         <li><a href="https://surabaya.go.id/page/0/8263/transportasi">Transportasi</a></li>
                         <li><a href="halaman_baru/statistik-surabaya.html">Statistik surabaya</a>
-                            <li><a href="halaman_baru/taman-taman-di-kota-surabaya.html">Taman kota</a></li>
-                            <li><a href="#info-perdagangan">Informasi perdagangan</a>
-                                <ul>
-                                    <li><a href="https://surabaya.go.id/id/page/0/8177/sosial-ekonomi">KAWASAN BISNIS</a></li>
-                                    <li><a href="http://dpm-ptsp.surabaya.go.id/v3/pages/data-investasi-kota-surabaya">DATA INVESTASI</a></li>
-                                    <li><a href="https://surabaya.go.id/id/page/0/11327/daftar-usaha-pariwisata--dup-">DAFTAR USAHA PARIWISATA (DUP)</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#about">tempat ibadah</a>
-                                <ul>
-                                    <li><a href="https://surabaya.go.id/uploads/attachments/2018/10/40178/Data_Tempat_Ibadah_Masjid_2018.pdf?1540453611">MASJID</a></li>
-                                    <li><a href="https://surabaya.go.id/uploads/attachments/2016/3/5337/data_ibadah_kristen_un_habitat.pdf">GEREJA</a></li>
-                                    <li><a href="https://surabaya.go.id/uploads/attachments/2016/3/5338/data_ibadah_hindu_habitat.pdf">PURA</a></li>
-                                    <li><a href="https://surabaya.go.id/uploads/attachments/2016/3/5339/data_ibadah_vihara_un_habitat.pdf">VIHARA</a></li>
-                                    <li><a href="https://surabaya.go.id/uploads/attachments/2016/3/5340/data_ibadah_klenteng_un_habitat.pdf">KLENTENG</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#about">KIM</a>
-                                <ul>
-                                    <li><a href="https://surabaya.go.id/id/page/0/38005/rekap-kim-kota-surabaya-yang-sudah-ber-sk">REKAP KIM</a></li>
-                                    <li><a href="https://surabaya.go.id/id/page/0/38345/blogspot-kim-kota-surabaya">BLOG KIM</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="halaman_baru/pariwisata-surabaya.html">Pariwisata Surabaya</a></li>
+                        <li><a href="halaman_baru/taman-taman-di-kota-surabaya.html">Taman kota</a></li>
                     </ul>
-                    </li>
+                </li>
+                <li>
+                    <span>Informasi perdagangan</span>
+                    <ul>
+                        <li><a href="https://surabaya.go.id/id/page/0/8177/sosial-ekonomi">KAWASAN BISNIS</a></li>
+                        <li><a href="http://dpm-ptsp.surabaya.go.id/v3/pages/data-investasi-kota-surabaya">DATA INVESTASI</a></li>
+                        <li><a href="https://surabaya.go.id/id/page/0/11327/daftar-usaha-pariwisata--dup-">DAFTAR USAHA PARIWISATA (DUP)</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span>tempat ibadah</span>
+                    <ul>
+                        <li><a href="https://surabaya.go.id/uploads/attachments/2018/10/40178/Data_Tempat_Ibadah_Masjid_2018.pdf?1540453611">MASJID</a></li>
+                        <li><a href="https://surabaya.go.id/uploads/attachments/2016/3/5337/data_ibadah_kristen_un_habitat.pdf">GEREJA</a></li>
+                        <li><a href="https://surabaya.go.id/uploads/attachments/2016/3/5338/data_ibadah_hindu_habitat.pdf">PURA</a></li>
+                        <li><a href="https://surabaya.go.id/uploads/attachments/2016/3/5339/data_ibadah_vihara_un_habitat.pdf">VIHARA</a></li>
+                        <li><a href="https://surabaya.go.id/uploads/attachments/2016/3/5340/data_ibadah_klenteng_un_habitat.pdf">KLENTENG</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span>KIM</span>
+                    <ul>
+                        <li><a href="https://surabaya.go.id/id/page/0/38005/rekap-kim-kota-surabaya-yang-sudah-ber-sk">REKAP KIM</a></li>
+                        <li><a href="https://surabaya.go.id/id/page/0/38345/blogspot-kim-kota-surabaya">BLOG KIM</a></li>
+                    </ul>
+                </li>
+                <li><a href="halaman_baru/pariwisata-surabaya.html">Pariwisata Surabaya</a></li>
             </ul>
         </nav>
     </div>
@@ -233,7 +237,7 @@
         </div>
     </div>
     </div>
-
+    </div>
     <div class="container info">
         <h1>INFO<br>PENTING</h1>
         <hr>
