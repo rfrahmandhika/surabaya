@@ -1785,7 +1785,17 @@ li.flyout-right a:hover+ul {
     }
 
     .home-cari{
-        margin-top: 0;
+        /* margin-top: 0; */
+    }
+
+    .menu-atas-menu-mobile{
+        /* border:1px solid black; */
+        position: fixed;
+        z-index: 9999;
+        width: 100%;
+        background-color: white;
+        margin-top:-2px;
+
     }
 	
     .jdl-head-search{
@@ -1800,7 +1810,8 @@ li.flyout-right a:hover+ul {
     }
     .smartphone {
         display: block !important;
-        padding-top: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
     .smartphone>.menu-button {
         float: right;
@@ -2364,6 +2375,9 @@ li.flyout-right a:hover+ul {
         margin-top: 1rem;
         margin-bottom: 3rem;
         text-align: center;
+    
+        
+
     }
 }
 

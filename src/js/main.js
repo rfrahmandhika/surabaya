@@ -48,6 +48,7 @@ $(document).ready(function () {
   var container_w = container.width();
   var max_scroll = container[0].scrollWidth - container.outerWidth();
 
+  
   container.on('mousemove', function (e) {
     var mouse_x = e.pageX - container.offset().left;
     var mouseperc = 100 * mouse_x / container_w;
