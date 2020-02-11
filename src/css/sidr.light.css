@@ -5,9 +5,9 @@
     top: 0;
     height: 100%;
     z-index: 999999;
-    width: 260px;
+    width: 300px;
     overflow-x: hidden;
-    overflow-y: auto
+    overflow-y: auto;
 }
 .sidr .sidr-inner {
     padding: 0 0 15px
@@ -18,18 +18,19 @@
 }
 .sidr.sidr-right {
     left: auto;
-    right: -260px;
+    right: -300px;
 }
 .sidr.sidr-left {
-    left: -260px;
+    left: -300px;
     right: auto;
 }
 .sidr {
     /* Theme Settings */
-    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
-    font-size: 12px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 11px;
     background: #f8f8f8;
-    color: #333;
+    /* color:#562f00 !important; */
     -webkit-box-shadow: 0 0 5px 5px #ebebeb inset;
             box-shadow: 0 0 5px 5px #ebebeb inset
     
@@ -62,7 +63,7 @@
 }
 .sidr ul {
     display: block;
-    margin: 0 0 15px;
+    margin: 15px 0 0 0;
     padding: 0;
     border-top: 1px solid darken(#f8f8f8, 10%);
     border-bottom: 1px solid lighten(#f8f8f8, 10%)
@@ -72,8 +73,10 @@
     margin: 0;
     line-height: 48px;
     border-top: 1px solid lighten(#f8f8f8, 10%);
-    border-bottom: 1px solid darken(#f8f8f8, 10%)
+    border-bottom: 1px solid darken(#f8f8f8, 10%);
 }
+
+
 .sidr ul li:hover,
             .sidr ul li.active,
             .sidr ul li.sidr-class-active {
@@ -86,16 +89,24 @@
                 .sidr ul li.active > span,
                 .sidr ul li.sidr-class-active > a,
                 .sidr ul li.sidr-class-active > span {
-    -webkit-box-shadow: 0 0 15px 3px #ebebeb inset;
-            box-shadow: 0 0 15px 3px #ebebeb inset;
+    -webkit-background: rgba(249,171,17, 1);
+    background: rgba(249,171,17, 1);
+    color: white;
+    font-weight: bold;
 }
 .sidr ul li a,
-            .sidr ul li span {
+    .sidr ul li span {
     padding: 0 15px;
     display: block;
     text-decoration: none;
-    color: #333;
+    color:#562f00;
 }
+
+/* .sidr ul li a,
+.sidr ul li span{
+    border: 1px solid black;
+} */
+
 .sidr ul li ul {
     border-bottom: 0;
     margin: 0
@@ -119,14 +130,21 @@
                         .sidr ul li ul li.active > span,
                         .sidr ul li ul li.sidr-class-active > a,
                         .sidr ul li ul li.sidr-class-active > span {
-    -webkit-box-shadow: 0 0 15px 3px #ebebeb inset;
-            box-shadow: 0 0 15px 3px #ebebeb inset;
+    -webkit-background: rgba(151, 190,240, 1);
+    background: rgba(151,190,240, 1);
+    color: white;
+    font-weight: bold;
 }
 .sidr ul li ul li a,
                     .sidr ul li ul li span {
     color: rgba(#333, .8);
     padding-left: 30px;
+    line-height: 150%;
+    height: 4rem;
+    align-items: center;
+    display: flex;
 }
+
 .sidr form {
     margin: 0 15px;
 }
@@ -145,19 +163,31 @@
     .sidr input[type="url"],
     .sidr textarea,
     .sidr select {
-    width: 100%;
-    font-size: 15px - 2;
-    padding: 5px;
+    width: 80%;
+    font-size: 12px;
+    padding: 11px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    margin: 0 0 10px;
+    margin: 15px 0 0 0px;
     border-radius: 2px;
     border: 0;
+    box-shadow: 0 0 4px 0 blue;
     background: rgba(#000, .1);
     color: rgba(#333, .6);
     display: block;
     clear: both;
 }
+
+.sidr button[type=submit]{
+    background-color: #CF5C3F;
+    border: 0;
+    padding: 1rem;
+    float: right;
+    /* border-radius: 0 1rem 1rem 0;  */
+    margin-top: -4rem;
+    height: 4rem;
+}
+
 .sidr input[type=checkbox] {
     width: auto;
     display: inline;
@@ -166,8 +196,5 @@
 .sidr input[type=button],
     .sidr input[type=submit] {
     color: #f8f8f8;
-    background: #333
-}
-.sidr input[type=button]:hover, .sidr input[type=submit]:hover {
     background: rgba(#333, .9);
 }
