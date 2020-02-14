@@ -50,6 +50,7 @@
     font-style: normal;
 }
 
+body,
 html {
     font-size: 10px;
     overflow-x: hidden;
@@ -657,6 +658,8 @@ html {
 }
 
 .viewmore>a {
+    font-family: 'Montserrat';
+    font-size: 20%;
     display: block;
     color: #fff;
     padding: 50px;
@@ -665,8 +668,9 @@ html {
 }
 
 .viewmore>a>.dinas-text {
+    text-align: center;
     position: absolute;
-    font-size: 10px;
+    font-size: .9rem;
     top: 80%;
     left: 50%;
     transform: translateX(-50%);
@@ -674,12 +678,21 @@ html {
 }
 
 .viewmore>a>.kota-sby-text {
+    text-align: center;
     position: absolute;
-    font-size: 10px;
+    font-size: .9rem;
     top: 85%;
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
+}
+
+.viewmore>a>h1 {
+    font-size: 550%;
+}
+
+.viewmore>a>h5 {
+    font-size: 300%;
 }
 
 
@@ -1828,6 +1841,13 @@ div.desc {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
     }
+    .row__inner {
+        overflow-x: scroll;
+    }
+    .row__inner:hover {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
     .row__inner:hover .tile {
         opacity: 1;
     }
@@ -1849,6 +1869,9 @@ div.desc {
         width: 60%;
         font-size: 1vw;
         padding-top: 1rem;
+    }
+    .viewmore>a>.dinas-text {
+        top: 76%;
     }
 }
 
@@ -2342,5 +2365,17 @@ div.desc {
     }
     .slide-konten-desc>.slide-judul-desc>h1 {
         font-size: 3vw;
+    }
+    .viewmore>a {
+        padding: 3rem;
+    }
+    .viewmore>a>h1 {
+        font-size: 400%;
+    }
+    .viewmore>a>h5 {
+        font-size: 230%;
+    }
+    .viewmore>a>.dinas-text {
+        top: 73%
     }
 }
