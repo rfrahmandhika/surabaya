@@ -20,7 +20,6 @@ $(document).ready(function () {
 
 });
 
-
 /*Scroll Delay*/
 
 $(document).ready(function () {
