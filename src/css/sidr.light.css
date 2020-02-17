@@ -9,21 +9,26 @@
     overflow-x: hidden;
     overflow-y: auto;
 }
+
 .sidr .sidr-inner {
     padding: 0 0 15px
 }
-.sidr .sidr-inner > p {
+
+.sidr .sidr-inner>p {
     margin-left: 15px;
     margin-right: 15px;
 }
+
 .sidr.sidr-right {
     left: auto;
     right: -300px;
 }
+
 .sidr.sidr-left {
     left: -300px;
     right: auto;
 }
+
 .sidr {
     /* Theme Settings */
     font-family: 'Montserrat';
@@ -32,15 +37,15 @@
     background: #f8f8f8;
     /* color:#562f00 !important; */
     -webkit-box-shadow: 0 0 5px 5px #ebebeb inset;
-            box-shadow: 0 0 5px 5px #ebebeb inset
-    
+    box-shadow: 0 0 5px 5px #ebebeb inset
 }
+
 .sidr h1,
-    .sidr h2,
-    .sidr h3,
-    .sidr h4,
-    .sidr h5,
-    .sidr h6 {
+.sidr h2,
+.sidr h3,
+.sidr h4,
+.sidr h5,
+.sidr h6 {
     font-size: 15px - 4;
     font-weight: normal;
     padding: 0 15px;
@@ -48,19 +53,23 @@
     color: #333;
     line-height: 24px;
     -webkit-box-shadow: 0 5px 5px 3px rgba(#000, .2);
-            box-shadow: 0 5px 5px 3px rgba(#000, .2);
+    box-shadow: 0 5px 5px 3px rgba(#000, .2);
 }
+
 .sidr p {
     font-size: 15px - 2;
     margin: 0 0 12px
 }
+
 .sidr p a {
     color: rgba(#333, .9);
 }
-.sidr > p {
+
+.sidr>p {
     margin-left: 15px;
     margin-right: 15px;
 }
+
 .sidr ul {
     display: block;
     margin: 15px 0 0 0;
@@ -68,6 +77,7 @@
     border-top: 1px solid darken(#f8f8f8, 10%);
     border-bottom: 1px solid lighten(#f8f8f8, 10%)
 }
+
 .sidr ul li {
     display: block;
     margin: 0;
@@ -76,31 +86,33 @@
     border-bottom: 1px solid darken(#f8f8f8, 10%);
 }
 
-
 .sidr ul li:hover,
-            .sidr ul li.active,
-            .sidr ul li.sidr-class-active {
+.sidr ul li.active,
+.sidr ul li.sidr-class-active {
     border-top: 0;
     line-height: 49px
 }
-.sidr ul li:hover > a,
-                .sidr ul li:hover > span,
-                .sidr ul li.active > a,
-                .sidr ul li.active > span,
-                .sidr ul li.sidr-class-active > a,
-                .sidr ul li.sidr-class-active > span {
-    -webkit-background: rgba(249,171,17, 1);
-    background: rgba(249,171,17, 1);
+
+.sidr ul li:hover>a,
+.sidr ul li:hover>span,
+.sidr ul li.active>a,
+.sidr ul li.active>span,
+.sidr ul li.sidr-class-active>a,
+.sidr ul li.sidr-class-active>span {
+    -webkit-background: rgba(249, 171, 17, 1);
+    background: rgba(249, 171, 17, 1);
     color: white;
     font-weight: bold;
 }
+
 .sidr ul li a,
-    .sidr ul li span {
+.sidr ul li span {
     padding: 0 15px;
     display: block;
     text-decoration: none;
-    color:#562f00;
+    color: #562f00;
 }
+
 
 /* .sidr ul li a,
 .sidr ul li span{
@@ -111,36 +123,40 @@
     border-bottom: 0;
     margin: 0
 }
+
 .sidr ul li ul li {
     line-height: 40px;
     font-size: 15px - 2
 }
+
 .sidr ul li ul li:last-child {
     border-bottom: 0;
 }
+
 .sidr ul li ul li:hover,
-                    .sidr ul li ul li.active,
-                    .sidr ul li ul li.sidr-class-active {
+.sidr ul li ul li.active,
+.sidr ul li ul li.sidr-class-active {
     border-top: 0;
     line-height: 41px
 }
-.sidr ul li ul li:hover > a,
-                        .sidr ul li ul li:hover > span,
-                        .sidr ul li ul li.active > a,
-                        .sidr ul li ul li.active > span,
-                        .sidr ul li ul li.sidr-class-active > a,
-                        .sidr ul li ul li.sidr-class-active > span {
-    -webkit-background: rgba(151, 190,240, 1);
-    background: rgba(151,190,240, 1);
+
+.sidr ul li ul li:hover>a,
+.sidr ul li ul li:hover>span,
+.sidr ul li ul li.active>a,
+.sidr ul li ul li.active>span,
+.sidr ul li ul li.sidr-class-active>a,
+.sidr ul li ul li.sidr-class-active>span {
+    -webkit-background: rgba(151, 190, 240, 1);
+    background: rgba(151, 190, 240, 1);
     color: white;
     font-weight: bold;
 }
+
 .sidr ul li ul li a,
-                    .sidr ul li ul li span {
+.sidr ul li ul li span {
     color: rgba(#333, .8);
     padding-left: 30px;
     line-height: 150%;
-    height: 4rem;
     align-items: center;
     display: flex;
 }
@@ -148,26 +164,28 @@
 .sidr form {
     margin: 0 15px;
 }
+
 .sidr label {
     font-size: 15px - 2;
 }
+
 .sidr input[type="text"],
-    .sidr input[type="password"],
-    .sidr input[type="date"],
-    .sidr input[type="datetime"],
-    .sidr input[type="email"],
-    .sidr input[type="number"],
-    .sidr input[type="search"],
-    .sidr input[type="tel"],
-    .sidr input[type="time"],
-    .sidr input[type="url"],
-    .sidr textarea,
-    .sidr select {
+.sidr input[type="password"],
+.sidr input[type="date"],
+.sidr input[type="datetime"],
+.sidr input[type="email"],
+.sidr input[type="number"],
+.sidr input[type="search"],
+.sidr input[type="tel"],
+.sidr input[type="time"],
+.sidr input[type="url"],
+.sidr textarea,
+.sidr select {
     width: 80%;
     font-size: 12px;
     padding: 11px;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     margin: 15px 0 0 0px;
     border-radius: 2px;
     border: 0;
@@ -178,7 +196,7 @@
     clear: both;
 }
 
-.sidr button[type=submit]{
+.sidr button[type=submit] {
     background-color: #CF5C3F;
     border: 0;
     padding: 1rem;
@@ -193,8 +211,24 @@
     display: inline;
     clear: none;
 }
+
 .sidr input[type=button],
-    .sidr input[type=submit] {
+.sidr input[type=submit] {
     color: #f8f8f8;
     background: rgba(#333, .9);
+}
+
+.sidr-class-menu-sidr>span,
+li>.sidr-class-menu-sidr {
+    font-family: 'Montserrat-Bold';
+    font-size: 12px;
+    background-color: rgb(248, 208, 198);
+}
+
+.sidr-class-menu-sidr>ul>li>a {
+    /* border:1px solid red; */
+    letter-spacing: 1px;
+    padding: 10px;
+    height: auto;
+    background-color: rgb(228, 237, 248);
 }
