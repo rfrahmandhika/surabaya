@@ -2399,7 +2399,7 @@ div.desc {
 
 .nav-bar>ul {
     overflow-y: scroll;
-    height: 25rem;
+    height: 38vw;
 }
 
 .nav-bar__label::after,
@@ -2494,5 +2494,15 @@ div.desc {
     .nav-bar__list-item .nav-bar__list-item .nav-bar__link,
     .nav-bar__list-item .nav-bar__list-item .nav-bar__sub-label {
         padding: 10px 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav-bar>ul {
+        overflow-y: scroll;
+        height: 80vw;
+    }
+    .nav-bar__list {
+        font-size: 3vw;
     }
 }
