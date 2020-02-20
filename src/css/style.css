@@ -1621,7 +1621,7 @@ div.desc {
     .smartphone {
         display: block !important;
         padding-top: .8rem;
-        padding-bottom: .8rem;
+        padding-bottom: 0;
     }
     .smartphone>.menu-button {
         float: right;
@@ -2377,5 +2377,122 @@ div.desc {
     }
     .viewmore>a>.dinas-text {
         top: 73%
+    }
+}
+
+.nav-bar {
+    background: white;
+    width: 100%;
+    font-family: 'Montserrat-Bold';
+}
+
+.nav-bar__label {
+    color: black;
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: inherit;
+    margin-bottom: 0;
+    font-family: 'Montserrat-Bold';
+}
+
+.nav-bar>ul {
+    overflow-y: scroll;
+    height: 25rem;
+}
+
+.nav-bar__label::after,
+.nav-bar__sub-label::after {
+    content: " +";
+}
+
+.nav-bar__label,
+.nav-bar__sub-label {
+    cursor: pointer;
+}
+
+.nav-bar__list {
+    background: #fd7e14;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Montserrat-Bold';
+    font-size: 2.3vw;
+}
+
+.nav-bar__list .nav-bar__list {
+    background: #fa9440;
+    color: white !important;
+    font-family: 'Montserrat';
+}
+
+.nav-bar__list .nav-bar__list .nav-bar__list {
+    background: #ffae6d;
+    color: white !important;
+    font-family: 'Montserrat';
+}
+
+.nav-bar__sub-label {
+    font-family: 'Montserrat-Bold';
+}
+
+.nav-bar__list,
+[id^="toggle"] {
+    display: none;
+}
+
+[id^="toggle"]:checked+.nav-bar__list {
+    display: block;
+}
+
+.nav-bar__list-item {
+    display: block;
+}
+
+.nav-bar__link,
+.nav-bar__sub-label {
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.nav-bar__list-item .nav-bar__list-item .nav-bar__link,
+.nav-bar__list-item .nav-bar__list-item .nav-bar__sub-label {
+    padding: 10px 10px 10px 30px;
+}
+
+.nav-bar__list-item .nav-bar__list-item .nav-bar__list-item .nav-bar__link {
+    padding: 10px 10px 10px 40px;
+}
+
+.nav-bar__link:hover,
+.nav-bar__link:active,
+.nav-bar__sub-label:hover {
+    background: rgba(0, 0, 0, 0.082);
+    color: white;
+    text-decoration: none;
+}
+
+@media all and (min-width: 1200px) {
+    .nav-bar>.nav-bar__label {
+        display: none;
+    }
+    .nav-bar>.nav-bar__list {
+        display: block;
+    }
+    .nav-bar>.nav-bar__list>.nav-bar__list-item {
+        display: inline-block;
+        position: relative;
+    }
+    .nav-bar__list-item .nav-bar__list {
+        position: absolute;
+    }
+    .nav-bar__list-item .nav-bar__list-item .nav-bar__link,
+    .nav-bar__list-item .nav-bar__list-item .nav-bar__sub-label {
+        padding: 10px 20px;
     }
 }
